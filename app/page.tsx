@@ -1,5 +1,6 @@
 
-export default function Home() {
+
+  export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white font-sans">
       {/* HERO */}
@@ -48,36 +49,10 @@ export default function Home() {
           {[
             {name: "Tunde A.", result: "Made my first $320 in 2 weeks"},
             {name: "Sarah K.", result: "Quit my 9-5 after month 3"},
-            {name: "David P.", result: "Easiest money I've ever made online"}
-          ].map((t) => (
-            <div key={t.name} className="bg-gray-900 p-6 rounded-lg border-gray-800">
-              <p className="text-yellow-400 mb-2">★★★</p>
-              <p>"{t.result}"</p>
-              <p className="text-gray-400 text-sm mt-3">- {t.name}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section className="px-6 py-16 max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-10">FAQ</h2>
-        <div className="space-y-4">
-          <details className="bg-gray-900 p-4 rounded-lg">
-            <summary className="font-bold cursor-pointer">Is this really free?</summary>
-            <p className="mt-2 text-gray-300">Yes. You just complete 1 sponsor offer in the locker to unlock. That’s how I pay for the training.</p>
-          </details>
-          <details className="bg-gray-900 p-4 rounded-lg">
-            <summary className="font-bold cursor-pointer">Do I need experience?</summary>
-            <p className="mt-2 text-gray-300">Nope. I show you everything step by step even if you’ve never done affiliate before.</p>
-          </details>
-          <details className="bg-gray-900 p-4 rounded-lg">
-            <summary className="font-bold cursor-pointer">How fast can I see results?</summary>
-            <p className="mt-2 text-gray-300">Most people get their first lead in 24-48 hours if they follow the steps.</p>
-          </details>
+            {name: "David P.", result: "Easiest money I've ever 
           <details className="bg-gray-900 p-4 rounded-lg">
             <summary className="font-bold cursor-pointer">Is this legal?</summary>
-            <p className="mt-2 text-gray-300">100%. We only promote legit CPA offers from OGAds and other networks.</p>
+            <p className="mt-2 text-gray-3promote legit CPA offers from OGAds and other networks.</p>
           </details>
         </div>
       </section>
@@ -96,4 +71,3 @@ export default function Home() {
         <p className="text-xs text-gray-500 mt-6">© 2026 LeadVaultsHub. This is not financial advice.</p>
       </section>
     </main>
-  )
