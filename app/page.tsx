@@ -5,7 +5,7 @@ export default function Home() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [clickid, setClickid] = useState("");
-  const LOCKER_URL = "https://appsave.site/cl/v/j7nqqp"; // Your OGAds locker
+  const LOCKER_URL = "https://saveapp.store/cl/i/j7nqqp"; // my real ogads locker
 
   // Grab clickid from URL for tracking
   useEffect(() => {
