@@ -1,137 +1,99 @@
-import { OptInForm } from "@/components/opt-in-form"
-import { TrendingUp, ShieldCheck, Zap, PlayCircle, Star, CheckCircle2 } from "lucide-react"
-
-const benefits = [
-  {
-    icon: Zap,
-    title: "Beginner-friendly",
-    description: "No experience needed. Follow the step-by-step blueprint from day one.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Built to scale",
-    description: "The exact system beginners use to grow consistent daily income.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Proven framework",
-    description: "A repeatable process, not guesswork or one-off luck.",
-  },
-]
-
-export default function Page() {
+export default function Home() {
   return (
-    <main className="relative min-h-screen overflow-hidden bg-background">
-      {/* Ambient glow */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[520px] bg-[radial-gradient(60%_100%_at_50%_0%,oklch(0.76_0.16_158/0.18),transparent_70%)]"
-      />
-
-      {/* Nav */}
-      <header className="mx-auto flex w-full max-w-5xl items-center justify-between px-4 py-6">
-        <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-            <TrendingUp className="h-5 w-5" aria-hidden="true" />
-          </div>
-          <span className="text-lg font-bold tracking-tight text-foreground">LeadVaultsHub</span>
-        </div>
-        <div className="hidden items-center gap-1.5 rounded-full border border-border bg-card/60 px-3 py-1.5 text-xs font-medium text-muted-foreground backdrop-blur sm:flex">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/70" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
-          </span>
-          Free access — limited time
-        </div>
-      </header>
-
-      <div className="mx-auto flex w-full max-w-3xl flex-col items-center px-4 pb-20 pt-6 sm:pt-10">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-sm text-muted-foreground backdrop-blur">
-          <PlayCircle className="h-4 w-4 text-primary" aria-hidden="true" />
-          Free affiliate training
-        </div>
-
-        {/* Headline */}
-        <h1 className="mt-6 text-balance text-center text-3xl font-extrabold leading-[1.1] tracking-tight text-foreground sm:text-5xl">
-          New to online money-making? Discover the exact{" "}
-          <span className="text-primary">affiliate blueprint</span> beginners use to earn daily.
+    <main className="min-h-screen bg-black text-white font-sans">
+      {/* HERO */}
+      <section className="px-6 py-20 text-center bg-gradient-to-b from-green-900 to-black">
+        <p className="text-red-500 font-bold animate-pulse mb-4">⚠️ Only 37 Spots Left Today</p>
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
+          Get My FREE CPA Training That Made Me $1,247/Month
         </h1>
-
-        <p className="mt-5 max-w-xl text-pretty text-center text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Watch the short training below, then grab instant free access to the full course — no experience or upfront
-          budget required.
+        <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
+          Step-by-step system to start getting paid affiliate leads in 48 hours. 
+          No experience. No ads. No BS.
         </p>
+        
+        <a 
+          href="https://appsave.site/cl/v/j7nqqp" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-black px-10 py-5 rounded-xl text-xl font-bold inline-block shadow-lg shadow-green-500/50"
+        >
+          🔓 Unlock Free Training Now
+        </a>
+        <p className="text-sm text-gray-400 mt-3">Complete 1 quick step to get instant access</p>
+      </section>
 
-        {/* Video */}
-        <div className="mt-10 w-full">
-          <div className="relative rounded-2xl border border-border bg-card p-2 shadow-2xl shadow-black/40">
-            <div className="overflow-hidden rounded-xl bg-black">
-              <video
-                controls
-                playsInline
-                preload="metadata"
-                className="aspect-video w-full"
-                src="https://d1yei2z3i6k35z.cloudfront.net/14614305/68de444c1d111_01.mp4"
-              >
-                {"Your browser does not support the video tag."}
-              </video>
-            </div>
-          </div>
-        </div>
-
-        {/* Benefits */}
-        <div className="mt-10 grid w-full gap-4 sm:grid-cols-3">
-          {benefits.map((benefit) => (
-            <div
-              key={benefit.title}
-              className="rounded-xl border border-border bg-card/60 p-5 backdrop-blur transition-colors hover:border-primary/40"
-            >
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/15 text-primary">
-                <benefit.icon className="h-5 w-5" aria-hidden="true" />
-              </div>
-              <h3 className="mt-4 text-sm font-semibold text-foreground">{benefit.title}</h3>
-              <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{benefit.description}</p>
+      {/* BENEFITS */}
+      <section className="px-6 py-16 max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-10">What You Get Inside:</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {[
+            "The exact CPA networks that approve beginners",
+            "3 landing pages that convert at 42%+",
+            "Traffic sources that cost $0 to start",
+            "My personal copy templates for emails & ads"
+          ].map((benefit) => (
+            <div key={benefit} className="bg-gray-900 p-5 rounded-lg border-gray-800">
+              ✅ {benefit}
             </div>
           ))}
         </div>
+      </section>
 
-        {/* Opt-in card */}
-        <div
-          id="get-access"
-          className="mt-12 w-full scroll-mt-8 rounded-2xl border border-border bg-card p-6 shadow-2xl shadow-black/40 sm:p-8"
+      {/* TESTIMONIALS */}
+      <section className="px-6 py-16 bg-gray-950">
+        <h2 className="text-3xl font-bold text-center mb-10">Real Students. Real Results.</h2>
+        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {[
+            {name: "Tunde A.", result: "Made my first $320 in 2 weeks"},
+            {name: "Sarah K.", result: "Quit my 9-5 after month 3"},
+            {name: "David P.", result: "Easiest money I've ever made online"}
+          ].map((t) => (
+            <div key={t.name} className="bg-gray-900 p-6 rounded-lg border-gray-800">
+              <p className="text-yellow-400 mb-2">★★★</p>
+              <p>"{t.result}"</p>
+              <p className="text-gray-400 text-sm mt-3">- {t.name}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="px-6 py-16 max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-10">FAQ</h2>
+        <div className="space-y-4">
+          <details className="bg-gray-900 p-4 rounded-lg">
+            <summary className="font-bold cursor-pointer">Is this really free?</summary>
+            <p className="mt-2 text-gray-300">Yes. You just complete 1 sponsor offer in the locker to unlock. That’s how I pay for the training.</p>
+          </details>
+          <details className="bg-gray-900 p-4 rounded-lg">
+            <summary className="font-bold cursor-pointer">Do I need experience?</summary>
+            <p className="mt-2 text-gray-300">Nope. I show you everything step by step even if you’ve never done affiliate before.</p>
+          </details>
+          <details className="bg-gray-900 p-4 rounded-lg">
+            <summary className="font-bold cursor-pointer">How fast can I see results?</summary>
+            <p className="mt-2 text-gray-300">Most people get their first lead in 24-48 hours if they follow the steps.</p>
+          </details>
+          <details className="bg-gray-900 p-4 rounded-lg">
+            <summary className="font-bold cursor-pointer">Is this legal?</summary>
+            <p className="mt-2 text-gray-300">100%. We only promote legit CPA offers from OGAds and other networks.</p>
+          </details>
+        </div>
+      </section>
+
+      {/* FOOTER CTA */}
+      <section className="px-6 py-20 text-center">
+        <h2 className="text-3xl font-bold mb-4">Ready to Unlock It?</h2>
+        <a 
+          href="https://appsave.site/cl/v/j7nqqp" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-black px-10 py-5 rounded-xl text-xl font-bold inline-block"
         >
-          <h2 className="text-center text-xl font-bold tracking-tight text-foreground text-balance sm:text-2xl">
-            Get instant access to the course
-          </h2>
-          <p className="mt-2 text-center text-sm text-muted-foreground text-pretty">
-            Enter your details below and we&apos;ll send the full blueprint straight to your inbox.
-          </p>
-          <OptInForm />
-          <div className="mt-5 flex items-center justify-center gap-2 text-xs text-muted-foreground">
-            <CheckCircle2 className="h-4 w-4 text-primary" aria-hidden="true" />
-            100% free. Unsubscribe anytime. Your info stays private.
-          </div>
-        </div>
-
-        {/* Social proof */}
-        <div className="mt-10 flex flex-col items-center gap-3">
-          <div className="flex items-center gap-1" aria-hidden="true">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Star key={i} className="h-5 w-5 fill-primary text-primary" />
-            ))}
-          </div>
-          <p className="max-w-md text-center text-sm text-muted-foreground text-pretty">
-            Trusted by thousands of beginners taking their first step toward online income.
-          </p>
-        </div>
-      </div>
-
-      <footer className="border-t border-border">
-        <div className="mx-auto w-full max-w-5xl px-4 py-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} LeadVaultsHub. All rights reserved.
-        </div>
-      </footer>
+          Get Instant Access
+        </a>
+        <p className="text-xs text-gray-500 mt-6">© 2026 LeadVaultsHub. This is not financial advice.</p>
+      </section>
     </main>
   )
 }
