@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   title: 'LeadVaultsHub',
   description:
     'New to online money-making? Discover the exact affiliate blueprint beginners are using to earn daily.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
