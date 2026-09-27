@@ -5,7 +5,8 @@ export default function Home() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [clickid, setClickid] = useState("");
-  const LOCKER_URL = "https://saveapp.store/cl/i/j7nqqp"; // Your OGAds locker
+  const LOCKER_URL = "https://saveapp.store/cl/i/j7nqqp";
+  const COURSE_URL = "https://systeme.io/dashboard/share?hash=4982907d029bed56d52b9e364e3b46c0c3426f&type=course";
 
   // Grab clickid from URL so we can pass it to locker for tracking
   useEffect(() => {
@@ -21,8 +22,13 @@ export default function Home() {
     // 1. Log lead - you can connect this to email tool later
     console.log("New Lead:", name, email, "ClickID:", clickid);
     
-    // 2. Redirect to locker with name, email, clickid attached
-    window.location.href = `${LOCKER_URL}?clickid=${clickid}&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}`;
+    // Send the course URL as the locker completion destination.
+    const lockerUrl = new URL(LOCKER_URL);
+    lockerUrl.searchParams.set("clickid", clickid);
+    lockerUrl.searchParams.set("name", name);
+    lockerUrl.searchParams.set("email", email);
+    lockerUrl.searchParams.set("redirect", COURSE_URL);
+    window.location.href = lockerUrl.toString();
   };
 
   return (
