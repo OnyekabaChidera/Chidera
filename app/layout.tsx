@@ -21,8 +21,7 @@ export const metadata: Metadata = {
   description:
     'New to online money-making? Discover the exact affiliate blueprint beginners are using to earn daily.',
   
-
-  },
+ }
 
 
 export const viewport: Viewport = {
