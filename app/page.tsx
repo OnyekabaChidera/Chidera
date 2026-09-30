@@ -43,8 +43,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white font-sans">
           {/* HEADER - Logo */}
     <header className="px-6 py-4 flex items-center bg-black border-b border-white/10">
-      <img src="/logo.png" alt="LeadVaultsHub" className="h-8 w-auto" />
-    </header>
+       <img src="/IMG_9606.jpeg" alt="LeadVaultsHub
 
       {/* HERO */}
       <section className="px-6 py-20 text-center bg-gradient-to-b from-green-900 to-black">
