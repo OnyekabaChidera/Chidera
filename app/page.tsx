@@ -13,22 +13,7 @@ export default function Home() {
     const cid = params.get("clickid") || params.get("subid") || "";
     setClickid(cid);
   }, []);
-  // Google Analytics G-PGQCVCLYNC
-  useEffect(() => {
-    const s = document.createElement("script");
-    s.src = "https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC";
-    s.async = true;
-    document.head.appendChild(s);
-    // @ts-ignore
-    window.dataLayer = window.dataLayer || [];
-    // @ts-ignore
-    function gtag(){dataLayer.push(arguments);}
-    // @ts-ignore
-    gtag('js', new Date());
-    // @ts-ignore
-    gtag('config', 'G-PGQCVCLYNC');
-  }, []);
-  const handleSubmit = (e: React.FormEvent) => {
+  handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!name || !email) return alert("Please enter your name and email");
     
