@@ -39,7 +39,12 @@ export default function RootLayout({
     <html lang="en" className={`dark bg-background ${robotoSlab.variable} ${roboto.variable}`}>
       <body className="antialiased">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC" />
+              <body className="antialiased">
+        {children}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC"
+        />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -48,7 +53,8 @@ export default function RootLayout({
             gtag('config', 'G-PGQCVCLYNC');
           `}
         </Script>
-        <Analytics />
+        {process.env.NODE_ENV === 'production' && <Analytics />}
+      </body>
       </body>
     </html>
   )
