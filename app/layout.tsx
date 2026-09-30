@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Roboto_Slab, Roboto } from 'next/font/google'
+import Script from "next/script";
 import './globals.css'
 
 const robotoSlab = Roboto_Slab({
@@ -38,7 +39,16 @@ export default function RootLayout({
     <html lang="en" className={`dark bg-background ${robotoSlab.variable} ${roboto.variable}`}>
       <body className="antialiased">
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        {process.env.NODE_ENV === 'production' && <Analytics />}        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC" />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PGQCVCLYNC');
+          `}
+        </Script>
+        <Analytics />
       </body>
     </html>
   )
