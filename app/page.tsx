@@ -153,6 +153,7 @@ export default function Home() {
             <button type="submit" disabled={loading} className="w-full bg-gradient-to-r from-green-400 to-green-500 text-[#030a05] font-bold text-[15px] py-4 rounded-xl hover:shadow-lg hover:shadow-green-500/30 transition-all hover:-translate-y-0.5 disabled:opacity-60 disabled:cursor-not-allowed">
               {loading? "Unlocking..." : "Get Instant Access →"}
             </button>
+            <p className="text-center text-[11px] leading-snug text-slate-400 mt-2">You'll be asked to complete a quick offer to gain access. Takes 30 seconds.</p>
           </form>
           <p className="text-center text-xs text-slate-500 mt-4">Takes less than 30 seconds. Instant unlock after.</p>
         </div>
