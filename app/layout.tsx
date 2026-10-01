@@ -18,6 +18,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://leadvaultshub.com'),
   title: "How I Made $1,247 with Affiliate Marketing (Beginner Guide)",
   description: "Learn the exact affiliate marketing system I used to make $1,247 in my first month using free traffic and high-converting landing pages. Beginner-friendly.",
   robots: "index, follow",
@@ -29,7 +30,21 @@ export const metadata: Metadata = {
     description: "The exact system, pages, and free traffic method that generated $1,247 in the first month.",
     url: "https://leadvaultshub.com/",
     siteName: "LeadVaultsHub",
-    type: "article",
+    type: "website",
+    images: [
+      {
+        url: "/IMG_9606.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "LeadVaultsHub - Affiliate Marketing Vault",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How I Made $1,247 with Affiliate Marketing",
+    description: "The exact system, pages, and free traffic method that generated $1,247 in the first month.",
+    images: ["/IMG_9606.jpeg"],
   },
 };
 
