@@ -139,6 +139,7 @@ export default function Home() {
           <p>Affiliate marketing still works in 2026, but only if you treat it like a real skill. Random link sharing and hoping for the best is no longer enough.</p>
           <p>The system I used is simple on the surface, but powerful when executed correctly: better offers, better pages, and a consistent free traffic method.</p>
           <p>If you want the full breakdown (including the exact page structures and traffic approach I used), enter your details below to unlock the private training vault.</p>
+<p>New here? Read my step-by-step guide on <a href="/blog/affiliate-marketing-for-beginners-with-no-money.html" className="text-green-400 underline hover:text-green-300">how to start affiliate marketing with no money as a complete beginner</a>.</p>
 
           <h2 className="font-serif text-2xl font-bold text-white mt-12 mb-4">Frequently Asked Questions</h2>
           <div className="space-y-6">
