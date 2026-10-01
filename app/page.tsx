@@ -42,13 +42,17 @@ export default function Home() {
     <main className="min-h-screen bg-[#030a05] text-white">
       <div className="fixed top-[-15%] left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[radial-gradient(ellipse,rgba(34,197,94,0.1)_0%,transparent_70%)] pointer-events-none z-0" />
       <nav className="sticky top-0 z-50 bg-[#030a05]/90 backdrop-blur-xl border-b border-white/5">
-        <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2.5 font-bold text-lg text-white no-underline">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center text-[#030a05] font-extrabold text-sm">L</div>
-            LeadVaultsHub
-          </a>
-        </div>
-      </nav>
+  <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
+    <a href="/" className="flex items-center gap-2.5 font-bold text-lg text-white no-underline">
+      <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center text-[#030a05] font-extrabold text-sm">L</div>
+      LeadVaultsHub
+    </a>
+    <div className="flex items-center gap-6">
+      <a href="/blog/affiliate-marketing-for-beginners-with-no-money.html" className="text-sm font-medium text-slate-300 hover:text-white transition">Blog</a>
+      <a href="/" className="text-sm font-medium text-slate-300 hover:text-white transition">Home</a>
+    </div>
+  </div>
+</nav>
 
       <article className="relative z-10 max-w-[780px] mx-auto px-6 pt-14 pb-20">
         <div className="text-green-400 text-xs font-semibold tracking-widest uppercase mb-4">Affiliate Marketing Guide</div>
