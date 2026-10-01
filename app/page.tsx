@@ -18,7 +18,32 @@ export default function Home() {
       window.location.href = "https://saveapp.store/cl/i/j7nqqp";
     }, 600);
   };
-
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How I Made $1,247 with Affiliate Marketing as a Complete Beginner",
+      "description": "Learn the exact affiliate marketing system I used to make $1,247 in my first month using free traffic and high-converting landing pages.",
+      "author": {
+        "@type": "Person",
+        "name": "LeadVaultsHub"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LeadVaultsHub",
+        "url": "https://leadvaultshub.com"
+      },
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://leadvaultshub.com/"
+      }
+    }),
+  }}
+/>
   return (
     <main className="min-h-screen bg-[#030a05] text-white">
       <div className="fixed top-[-15%] left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[radial-gradient(ellipse,rgba(34,197,94,0.1)_0%,transparent_70%)] pointer-events-none z-0" />
