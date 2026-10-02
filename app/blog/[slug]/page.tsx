@@ -1,5 +1,6 @@
 import { getAllPosts, getPostBySlug } from "@/lib/blog";
 import { notFound } from "next/navigation";
+import ReactMarkdown from "react-markdown";
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -7,13 +8,12 @@ export async function generateStaticParams() {
 }
 
 export default async function PostPage({
-  params
+  params,
 }: {
-  params: Promise<{ slug: string }>
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-
   if (!post) return notFound();
 
   return (
@@ -25,18 +25,38 @@ export default async function PostPage({
             LeadVaultsHub
           </a>
           <div className="flex items-center gap-6">
-            <a href="/blog" className="text-sm font-medium text-white">Blog</a>
             <a href="/" className="text-sm font-medium text-slate-300 hover:text-white">Home</a>
+            <a href="/blog" className="text-sm font-medium text-white">Blog</a>
           </div>
         </div>
       </nav>
+
       <div className="max-w-[780px] mx-auto px-6 pt-14 pb-20">
         <div className="text-green-400 text-xs font-semibold tracking-widest uppercase mb-3">{post.date}</div>
         <h1 className="font-serif text-3xl font-bold mb-4 leading-tight">{post.title}</h1>
         <p className="text-slate-400 mb-8">{post.description}</p>
-        <div className="prose prose-invert max-w-none text-slate-200 whitespace-pre-wrap leading-relaxed">
-          {post.content}
-        </div>
+
+        <article className="prose prose-invert max-w-none prose-p:text-slate-200 prose-headings:text-white prose-headings:font-serif prose-a:text-green-400 prose-strong:text-white">
+          <ReactMarkdown
+            components={{
+              // This makes > Want the templates? become the green card from your screenshot
+              blockquote: ({ children }) => (
+                <div className="my-8 rounded-xl border-l-4 border-green-400 bg-white/[0.04] p-6">
+                  <div className="text-white [&>p]:text-white [&>strong]:text-white [&_a]:text-green-400 [&_a]:font-bold [&_a]:no-underline">
+                    {children}
+                  </div>
+                </div>
+              ),
+              h2: ({ children }) => <h2 className="text-2xl font-bold mt-10 mb-4">{children}</h2>,
+            }}
+          >
+            {post.content}
+          </ReactMarkdown>
+        </article>
+
+        <p className="mt-10 text-sm text-slate-500 leading-relaxed">
+          <strong className="text-slate-400">Disclosure:</strong> LeadVaultsHub contains free resources that are unlocked after completing a sponsor offer. I may earn a commission when you complete an offer. This does not affect your ability to access the content and is at no extra cost to you.
+        </p>
       </div>
     </main>
   );
