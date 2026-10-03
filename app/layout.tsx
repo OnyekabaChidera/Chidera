@@ -60,6 +60,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${robotoSlab.variable} ${roboto.variable} dark bg-[#12161c]`}>
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1879277088078387" crossOrigin="anonymous"></script>
+      </head>
       <body className="antialiased">
         {children}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC" />
@@ -71,12 +74,6 @@ export default function RootLayout({
             gtag('config', 'G-PGQCVCLYNC');
           `}
         </Script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1879277088078387"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
