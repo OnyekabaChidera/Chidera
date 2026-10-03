@@ -71,6 +71,12 @@ export default function RootLayout({
             gtag('config', 'G-PGQCVCLYNC');
           `}
         </Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1879277088078387"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
