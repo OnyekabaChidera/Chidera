@@ -1,44 +1,61 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
+import fs from "fs"
+import path from "path"
+import matter from "gray-matter"
 
-const contentDir = path.join(process.cwd(), "content/blog");
+const contentDirectory = path.join(process.cwd(), "content/blog")
 
-export type Post = {
-  slug: string;
-  title: string;
-  date: string;
-  description: string;
-  content: string;
-};
-
-export function getAllPosts(): Post[] {
-  if (!fs.existsSync(contentDir)) return [];
-  const files = fs.readdirSync(contentDir).filter(f => f.endsWith(".md"));
-  const posts: Post[] = [];
-  for (const file of files) {
-    try {
-      const raw = fs.readFileSync(path.join(contentDir, file), "utf-8");
-      const { data, content } = matter(raw);
-      if (!data.title) continue;
-      posts.push({
-        slug: file.replace(/\.md$/, ""),
-        title: String(data.title),
-        date: data.date ? String(data.date) : "2026-05-13",
-        description: data.description ? String(data.description) : "",
-        content,
-      });
-    } catch { continue; }
-  }
-  return posts.sort((a,b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+export interface BlogPost {
+  slug: string
+  title: string
+  date: string
+  description: string
+  content: string
 }
 
-export function getPostBySlug(slug: string) {
+export function getAllPosts(): BlogPost[] {
+  if (!fs.existsSync(contentDirectory)) return []
+  const fileNames = fs.readdirSync(contentDirectory)
+  
+  const posts = fileNames
+    .filter((name) => name.endsWith(".md") || name.endsWith(".mdx"))
+    .map((fileName) => {
+      try {
+        const fullPath = path.join(contentDirectory, fileName)
+        const fileContents = fs.readFileSync(fullPath, "utf8")
+        const { data, content } = matter(fileContents)
+        
+        return {
+          slug: fileName.replace(/\.mdx?$/, ""),
+          title: data.title || fileName,
+          date: data.date ? String(data.date) : "2026-05-13",
+          description: data.description || "",
+          content: content,
+        }
+      } catch (e) {
+        return null
+      }
+    })
+    .filter(Boolean) as BlogPost[]
+
+  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+}
+
+export function getPostBySlug(slug: string): BlogPost | null {
   try {
-    const fullPath = path.join(contentDir, `${slug}.md`);
-    if (!fs.existsSync(fullPath)) return null;
-    const raw = fs.readFileSync(fullPath, "utf-8");
-    const { data, content } = matter(raw);
-    return { slug, title: String(data.title), date: String(data.date), description: String(data.description), content };
-  } catch { return null; }
+    const fullPath = path.join(contentDirectory, `${slug}.md`)
+    const altPath = path.join(contentDirectory, `${slug}.mdx`)
+    const filePath = fs.existsSync(fullPath) ? fullPath : altPath
+    if (!fs.existsSync(filePath)) return null
+    const fileContents = fs.readFileSync(filePath, "utf8")
+    const { data, content } = matter(fileContents)
+    return {
+      slug,
+      title: data.title || slug,
+      date: data.date ? String(data.date) : "2026-05-13",
+      description: data.description || "",
+      content,
+    }
+  } catch {
+    return null
+  }
 }
