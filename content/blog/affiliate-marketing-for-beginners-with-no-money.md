@@ -69,4 +69,4 @@ Affiliate marketing for beginners with no money is possible, but the "no money" 
 
 > **Want the templates I mentioned?** I put all my free traffic sources + exact copy-paste templates inside LeadVaultsHub. [Unlock LeadVaultsHub →](/)
 
-> **Disclosure:** LeadVaultsHub contains free resources that are unlocked after completing a sponsor offer. I may earn a commission when you complete an offer. This does not affect your ability to access the content and is at no extra cost to you.
+
