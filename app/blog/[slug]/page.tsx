@@ -55,7 +55,7 @@ export default async function PostPage({
         </article>
 
         <p className="mt-10 text-sm text-slate-500 leading-relaxed">
-          <strong className="text-slate-400">Disclosure:</strong> LeadVaultsHub contains free resources that are unlocked after completing a sponsor offer. I may earn a commission when you complete an offer. This does not affect your ability to access the content and is at no extra cost to you.
+          <strong className="text-slate-400">Disclosure:</strong> LeadVaultsHub is free to use. To keep it free, some resources are supported by sponsors. I may earn a commission if you complete a sponsor offer. No extra cost to you.
         </p>
       </div>
     </main>
