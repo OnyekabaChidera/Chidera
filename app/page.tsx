@@ -44,7 +44,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-[#030a05]/90 backdrop-blur-xl border-b border-white/5">
   <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
     <a href="/" className="flex items-center gap-2.5 font-bold text-lg text-white no-underline">
-      <img src="/logo.png" alt="LeadVaultsHub" className="w-8 h-8 rounded-lg object-cover" />
+      <img src="/logo.png.jpg" alt="LeadVaultsHub" className="w-8 h-8 rounded-lg object-cover" />
       LeadVaultsHub
     </a>
     <div className="flex items-center gap-6">
