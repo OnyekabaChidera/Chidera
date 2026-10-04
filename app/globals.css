@@ -156,10 +156,45 @@
 }
 
 @layer base {
-  * {
+    * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Blog post links - fix underline and spacing */
+.prose a,
+.prose-invert a {
+  color: oklch(0.76 0.16 158) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 4px !important;
+  text-decoration-thickness: 1.5px !important;
+  font-weight: 600 !important;
+}
+.prose a:hover,
+.prose-invert a:hover {
+  color: oklch(0.85 0.16 158) !important;
+}
+.prose ul {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  padding-left: 1.25rem !important;
+  list-style-type: disc !important;
+}
+.prose li {
+  margin-bottom: 0.9rem !important;
+  line-height: 1.7 !important;
+}
+.prose li::marker {
+  color: oklch(0.76 0.16 158) !important;
+}
+.prose h2 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+}
+.prose p {
+  margin-bottom: 1.1rem !important;
+  line-height: 1.8 !important;
 }
