@@ -8,7 +8,7 @@ export default function BlogPage() {
       <nav className="sticky top-0 z-50 bg-[#030a05]/90 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
           <a href="/" className="flex items-center gap-2.5 font-bold text-lg text-white no-underline">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center text-[#030a05] font-extrabold text-sm">L</div>
+            <img src="/logo.png.jpg" alt="LeadVaultsHub" className="w-8 h-8 rounded-lg object-cover" />
             LeadVaultsHub
           </a>
           <div className="flex items-center gap-6">
