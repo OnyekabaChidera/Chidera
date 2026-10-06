@@ -30,9 +30,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.5,
     },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/disclaimer`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
   ];
 
-  // 2. NEW: reads from content/blog (your new system)
   const blogDir = path.join(process.cwd(), "content", "blog");
   let blogPages: MetadataRoute.Sitemap = [];
 
