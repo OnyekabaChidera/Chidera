@@ -25,9 +25,6 @@ export const metadata: Metadata = {
   },
   description: "Affiliate marketing tutorials, free traffic strategies, and landing page vault for beginners.",
   robots: "index, follow",
-  alternates: {
-    canonical: "./",
-  },
   openGraph: {
     siteName: "LeadVaultsHub",
     type: "website",
