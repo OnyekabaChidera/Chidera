@@ -18,7 +18,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.leadvaultshub.com'),
+  metadataBase: new URL('https://leadvaultshub.com'),
   title: {
     default: "LeadVaultsHub - Affiliate Marketing Tools & Guides",
     template: "%s | LeadVaultsHub",
