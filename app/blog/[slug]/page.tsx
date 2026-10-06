@@ -77,6 +77,13 @@ export default async function PostPage({
         <p className="mt-10 text-sm text-slate-500 leading-relaxed">
           <strong className="text-slate-400">Disclosure:</strong> LeadVaultsHub is free to use. To keep it free, some resources are supported by sponsors. I may earn a commission if you complete a sponsor offer. No extra cost to you.
         </p>
+
+        <div className="mt-12 pt-8 border-t border-white/10 flex gap-6 text-sm text-slate-500">
+          <a href="/about" className="hover:text-white">About</a>
+          <a href="/privacy" className="hover:text-white">Privacy</a>
+          <a href="/contact" className="hover:text-white">Contact</a>
+          <a href="/disclaimer" className="hover:text-white">Disclaimer</a>
+        </div>
       </div>
     </main>
   );
