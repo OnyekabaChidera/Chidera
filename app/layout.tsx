@@ -17,16 +17,18 @@ const roboto = Roboto({
   display: 'swap',
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL('https://www.leadvaultshub.com'),
+  title: {
+    default: "LeadVaultsHub - Affiliate Marketing Tools & Guides",
+    template: "%s | LeadVaultsHub",
+  },
+  description: "Affiliate marketing tutorials, free traffic strategies, and landing page vault for beginners.",
+  robots: "index, follow",
   alternates: {
-    canonical: './', // relative, lets each page be itself
-  }
-}
+    canonical: "./",
+  },
   openGraph: {
-    title: "How I Made $1,247 with Affiliate Marketing",
-    description: "The exact system, pages, and free traffic method that generated $1,247 in the first month.",
-    url: "https://leadvaultshub.com/",
     siteName: "LeadVaultsHub",
     type: "website",
     images: [
@@ -40,8 +42,6 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "How I Made $1,247 with Affiliate Marketing",
-    description: "The exact system, pages, and free traffic method that generated $1,247 in the first month.",
     images: ["/IMG_9606.jpeg"],
   },
 };
