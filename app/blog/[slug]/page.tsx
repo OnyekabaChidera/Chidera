@@ -7,6 +7,27 @@ export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
 }
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
+  if (!post) return {};
+  return {
+    title: post.title,
+    description: post.description,
+    alternates: {
+      canonical: `/blog/${post.slug}`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+    },
+  };
+}
+
 export default async function PostPage({
   params,
 }: {
@@ -39,7 +60,6 @@ export default async function PostPage({
         <article className="prose prose-invert max-w-none prose-p:text-slate-200 prose-headings:text-white prose-headings:font-serif prose-a:text-green-400 prose-strong:text-white">
           <ReactMarkdown
             components={{
-              // This makes > Want the templates? become the green card from your screenshot
               blockquote: ({ children }) => (
                 <div className="my-8 rounded-xl border-l-4 border-green-400 bg-white/[0.04] p-6">
                   <div className="text-white [&>p]:text-white [&>strong]:text-white [&_a]:text-green-400 [&_a]:font-bold [&_a]:no-underline">
