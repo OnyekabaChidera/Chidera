@@ -130,4 +130,5 @@ If you picked your niche from the list above, the next step is starting for free
 
 I already wrote the exact free tools stack I would use to start from $0 with no paid website or ads.
 
-https://leadvaultshub.com/blog/how-to-start-affiliate-marketing-with-0
+- [How to Start Affiliate Marketing With $0](/blog/how-to-start-affiliate-marketing-with-0)
+
