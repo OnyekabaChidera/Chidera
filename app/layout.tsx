@@ -17,14 +17,12 @@ const roboto = Roboto({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://leadvaultshub.com'),
-  title: "How I Made $1,247 with Affiliate Marketing (Beginner Guide)",
-  description: "Learn the exact affiliate marketing system I used to make $1,247 in my first month using free traffic and high-converting landing pages. Beginner-friendly.",
-  robots: "index, follow",
+export const metadata = {
+  metadataBase: new URL('https://www.leadvaultshub.com'),
   alternates: {
-    canonical: "https://leadvaultshub.com/",
-  },
+    canonical: './', // relative, lets each page be itself
+  }
+}
   openGraph: {
     title: "How I Made $1,247 with Affiliate Marketing",
     description: "The exact system, pages, and free traffic method that generated $1,247 in the first month.",
