@@ -78,7 +78,7 @@ export default async function PostPage({
         </article>
 
         <p className="mt-10 text-sm text-slate-500 leading-relaxed">
-          <strong className="text-slate-400">Disclosure:</strong> LeadVaultsHub participates in advertising and affiliate programs. This page may show Google AdSense ads and affiliate links. If you click and purchase, we may earn a commission at no extra cost to you.
+          <strong className="text-slate-400">Disclosure:</strong> LeadVaultsHub participates in advertising and affiliate programs. We may earn a commission if you purchase through links on this page, at no extra cost to you.
         </p>
 
         <div className="mt-12 pt-8 border-t border-white/10 flex gap-6 text-sm text-slate-500">
