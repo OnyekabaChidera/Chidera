@@ -12,7 +12,7 @@ export default function DisclaimerPage() {
       <div className="space-y-4 text-gray-300 leading-relaxed">
         <p><strong>Last updated: October 6, 2026</strong></p>
         <p>
-          LeadVaultsHub (leadvaultshub.com) participates in affiliate programs. If you click a link and purchase, we may earn a commission at no extra cost to you.
+          LeadVaultsHub (leadvaultshub.com) participates in advertising programs, and may patticpate in affiliate programs. If you click a link and purchase, we may earn a commission at no extra cost to you.
         </p>
         <p>
           <strong>Earnings Disclaimer:</strong> Any income examples or strategies shared on this site are based on our own experience and testing. We do not guarantee you will make money. Your results depend on your effort, skills, and market conditions.
