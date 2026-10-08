@@ -60,6 +60,18 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        
+        {/* Fazier Verification Badge - required for free launch */}
+        <div style={{ display: 'flex', justifyContent: 'center', padding: '20px 0' }}>
+          <a href="https://fazier.com/launches/leadvaultshub.com" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="https://fazier.com/api/v1/public/badges/launch_badges.svg?badge_type=launched&theme=light" 
+              width={120} 
+              alt="Fazier badge" 
+            />
+          </a>
+        </div>
+
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC" />
         <Script id="google-analytics">
           {`
