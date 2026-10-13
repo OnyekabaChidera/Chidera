@@ -1,5 +1,6 @@
 ---
 title: "AI Affiliate Marketing in 2026: How Beginners Use AI With $0"
+image: "/images/ai-affiliate-marketing-2026-leadvaultshub.webp.jpg"
 date: "2026-10-11"
 description: "AI affiliate marketing 2026 for beginners: use free AI tools with $0 to research, plan, and write content. No hype, just a simple workflow."
 badge: "AFFILIATE TIPS"
