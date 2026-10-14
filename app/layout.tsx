@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/IMG_9606.jpeg",
+        url: "/IMG_9629.jpeg",
         width: 1200,
         height: 630,
         alt: "LeadVaultsHub - Affiliate Marketing Vault",
