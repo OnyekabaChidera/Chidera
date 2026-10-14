@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/IMG_9606.jpeg"],
+    images: ["/IMG_9629.jpeg"],
   },
 };
 
