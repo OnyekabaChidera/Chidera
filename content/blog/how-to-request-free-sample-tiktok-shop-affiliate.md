@@ -2,7 +2,7 @@
 title: "How to Request Your First Free Sample on TikTok Shop Affiliate: Step-by-Step ($0 Budget)"
 description: "Learn how to request your first free sample on TikTok Shop Affiliate with $0. Step-by-step guide with 2 message templates for beginners."
 slug: "how-to-request-free-sample-tiktok-shop-affiliate"
-date: 2026-10-15
+date: “2026-10-15”
 author: "LeadVaultsHub Team"
 tags: ["tiktok shop affiliate", "free sample", "affiliate marketing beginners", "tiktok shop tutorial", "zero budget marketing"]
 
