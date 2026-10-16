@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/IMG_9629.jpeg",
+        url: "/IMG_9606.jpeg",
         width: 1200,
         height: 630,
         alt: "LeadVaultsHub - Affiliate Marketing Vault",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/IMG_9629.jpeg"],
+    images: ["/IMG_9606.jpeg"],
   },
 };
 
