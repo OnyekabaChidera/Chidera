@@ -18,7 +18,7 @@ export default function HomeClient() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Zero-Budget Affiliate Marketing Hub for Beginners | LeadVaultsHub",
+    "headline": "Zero-Budget Affiliate Marketing Hub for Beginners | LeadVaultsHub"
     "description": "Learn the exact affiliate marketing system I used to make $1,247 in my first month using free traffic and high-converting landing pages.",
     "author": { "@type": "Person", "name": "LeadVaultsHub" },
     "publisher": { "@type": "Organization", "name": "LeadVaultsHub", "url": "https://leadvaultshub.com", "logo": { "@type": "ImageObject", "url": "https://leadvaultshub.com/IMG_9606.jpeg" } },
