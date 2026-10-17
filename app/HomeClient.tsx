@@ -55,11 +55,11 @@ export default function HomeClient() {
       <article className="relative z-10 max-w-[780px] mx-auto px-6 pt-14 pb-20">
         <div className="text-green-400 text-xs font-semibold tracking-widest uppercase mb-4">A PRACTICAL HUB FOR BEGINNERS</div>
         <h1 className="font-serif text-3xl md:text-[38px] font-bold leading-[1.15] tracking-tight mb-5">Zero-Budget Affiliate Marketing Hub for Beginners</h1>
-        <div className="text-slate-400 text-sm mb-10 pb-8 border-b border-white/5">Updated October 2026 · Built from real testing, not theory</div>
+        <div className="text-slate-400 text-sm mb-10 pb-8 border-b border-white/5">Updated October 2026</div>
 
         <div className="space-y-6 text-[17px] leading-[1.8] text-slate-300">
           <p className="text-[18px] leading-[1.7] text-slate-200">
-            When I started, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
+            When I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
           </p>
           <p>
             Most beginners don’t fail because affiliate marketing is too competitive. They fail because they focus on the wrong three things: they promote offers that were never designed for beginners, they send traffic directly to a raw affiliate link, and they try to scale before they have a single consistent traffic source.
