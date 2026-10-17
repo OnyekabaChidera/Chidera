@@ -18,7 +18,7 @@ export default function HomeClient() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Zero-Budget Affiliate Marketing Hub for Beginners | LeadVaultsHub"
+    "headline": "Zero-Budget Affiliate Marketing Hub for Beginners”,
     "description": "Learn the exact affiliate marketing system I used to make $1,247 in my first month using free traffic and high-converting landing pages.",
     "author": { "@type": "Person", "name": "LeadVaultsHub" },
     "publisher": { "@type": "Organization", "name": "LeadVaultsHub", "url": "https://leadvaultshub.com", "logo": { "@type": "ImageObject", "url": "https://leadvaultshub.com/IMG_9606.jpeg" } },
@@ -31,7 +31,7 @@ export default function HomeClient() {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Can beginners really make money with affiliate marketing in 2026?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, but only if you focus on 3 fundamentals: choosing better offers, using landing pages that convert, and driving consistent free traffic. Random link sharing no longer works." } },
+      { "@type": "Question", "name": "Can beginners really make money with affiliate marketing today?", "acceptedAnswer": { "@type": "Answer", "text": "Totally Yes, but only if you focus on 3 fundamentals: choosing better offers, using landing pages that convert, and driving consistent free traffic. Random link sharing no longer works." } },
       { "@type": "Question", "name": "Do I need paid ads to start?", "acceptedAnswer": { "@type": "Answer", "text": "No. I started with free traffic using short-form content and a simple curiosity-driven strategy to drive people to my landing pages. Paid ads are optional after you have proof of concept." } },
       { "@type": "Question", "name": "What kind of offers should beginners avoid?", "acceptedAnswer": { "@type": "Answer", "text": "Avoid offers with high refund rates, oversaturated verticals, and offers that require complex sales calls. Focus on simple lead gen or low-ticket offers that pay $1.50 to $20 per action." } }
     ]
@@ -55,7 +55,7 @@ export default function HomeClient() {
 
       <article className="relative z-10 max-w-[780px] mx-auto px-6 pt-14 pb-20">
         <div className="text-green-400 text-xs font-semibold tracking-widest uppercase mb-4">Affiliate Marketing Guide</div>
-        <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight tracking-tight mb-5">How I Made $1,247 with Affiliate Marketing as a Complete Beginner</h1>
+        <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight tracking-tight mb-5">Zero-Budget Affiliate Marketing Hub for Beginners</h1>
         <div className="text-slate-400 text-sm mb-10 pb-8 border-b border-white/5">Updated September 2026 · 8 min read</div>
 
         <div className="space-y-5 text-[17px] leading-relaxed text-slate-300">
