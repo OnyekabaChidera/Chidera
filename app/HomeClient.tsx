@@ -59,7 +59,7 @@ export default function HomeClient() {
 
         <div className="space-y-6 text-[17px] leading-[1.8] text-slate-300">
           <p className="text-[18px] leading-[1.7] text-slate-200">
-           Are you looking to start affiliate marketing? when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
+           ARE you looking to start affiliate marketing? when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
           </p>
           <p>
             Most beginners don’t fail because affiliate marketing is too competitive. They fail because they focus on the wrong three things: they promote offers that were never designed for beginners, they send traffic directly to a raw affiliate link, and they try to scale before they have a single consistent traffic source.
