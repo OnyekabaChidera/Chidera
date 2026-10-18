@@ -41,6 +41,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: ["/IMG_9606.jpeg"],
   },
+  verification: {
+    other: {
+      "msvalidate.01": "AC3E38497B3DA50DCE3EC80AD067B77F",
+    },
+  },
 };
 
 export const viewport: Viewport = {
