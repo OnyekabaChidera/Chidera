@@ -59,10 +59,10 @@ export default function HomeClient() {
 
         <div className="space-y-6 text-[17px] leading-[1.8] text-slate-300">
           <p className="text-[18px] leading-[1.7] text-slate-200">
-           ARE you looking to start affiliate marketing? when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
+           ARE you looking to make money online or start affiliate marketing? That's why affiliate marketing is the easist way.  when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
           </p>
           <p>
-            Most beginners don’t fail because affiliate marketing is too competitive. They fail because they focus on the wrong three things: they promote offers that were never designed for beginners, they send traffic directly to a raw affiliate link, and they try to scale before they have a single consistent traffic source.
+            Most beginners who had started affiliate marketing, don’t fail because affiliate marketing is too competitive. They fail because they focus on the wrong three things: they promote offers that were never designed for beginners, they send traffic directly to a raw affiliate link, and they try to scale before they have a single consistent traffic source.
           </p>
           <p>
             Here, this hub is different. It’s not about quick wins. It’s a practical system for building your first consistent campaigns without paid ads
@@ -74,7 +74,7 @@ export default function HomeClient() {
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Why Most Beginners Stay Stuck</h2>
           <p>
-            After reviewing dozens of beginner campaigns, the pattern is clear. It’s rarely a lack of effort. It’s a lack of focus.
+            After reviewing dozens of beginner campaigns, the pattern is clear. It’s rarely a lack of effort. It’s a lack of focus and commitment.
           </p>
           <ul className="list-disc pl-6 space-y-3 marker:text-green-500">
             <li><strong className="text-white">Offer selection is treated as an afterthought.</strong> Many beginners pick what looks profitable on a dashboard, not what converts for someone with no list and no authority. The best beginner offers solve a simple, specific problem and require low friction to complete.</li>
@@ -98,7 +98,7 @@ export default function HomeClient() {
             I learned early that my job isn’t to sell the product. My job is to connect the right person to the right solution with enough context to make a decision.
           </p>
           <p>
-            That’s why I use a curiosity-driven landing page. Not hype. Not fake scarcity. Just a clean headline, a clear explanation of what they’ll find on the next page, and one call to action. The page you’re reading now is built on that same framework — value first, ask second.
+            That’s why it best to use a curiosity-driven landing page. Not hype. Not fake scarcity. Just a clean headline, a clear explanation of what they’ll find on the next page, and one call to action. The page you’re reading now is built on that same framework — value first, ask second.
           </p>
           <p>
             When you remove pressure and focus on clarity, people stay longer, trust more, and convert better. It’s a slower way to build, but it’s the way that lasts.
