@@ -5,7 +5,7 @@ description: "Learn affiliate marketing for beginners with no money. How to star
 ---
 ![no money? no problem.](/blog/no-money-no-problem.jpg.jpg)
 
-You don't need a big advertising budget to start affiliate marketing. But "free" doesn't mean effortless.
+You don't need a big advertising budget to start affiliate marketing. But "free" often, doesn't mean effortless.
 
 If you have no money to spend on ads, your real investment becomes time: researching what people want, creating useful content, testing different offers, and learning which traffic sources actually produce clicks and sales.
 
@@ -15,7 +15,7 @@ Here's how to do it.
 
 ## 1. Choose the Offer Before You Chase Traffic
 
-Beginners often start with the wrong question: "Which affiliate product pays the highest commission?" A better question is: "What problem does my audience already want to solve?"
+Beginners often start with the wrong question: "Which affiliate product pays the highest commission?" A better question is: "What problem does my audience already want to solve?!"
 
 A 50% commission is worthless if nobody wants the product. Look for an offer that: solves a specific problem; has an audience you can reach organically; has benefits you can explain honestly; has clear affiliate terms and reliable tracking; is relevant enough that recommending it won't feel forced.
 
