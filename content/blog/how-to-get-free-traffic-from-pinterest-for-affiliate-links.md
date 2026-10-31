@@ -5,7 +5,7 @@ description: "Want free traffic for your affiliate links? Learn how I use Pinter
 badge: "TRAFFIC TIPS"
 ---
 
-I wasted money on fb ads when I started affiliate marketing Zero clicks. I lost the $5 and felt stupid. Then I found Pinterest. Someone in a Telegram group had said "try Pinterest" and I thought it was just for recipes. I tried it anyway.
+I wasted money on fb ads when I started affiliate marketing. Got zero clicks,  I lost had $5 and felt stupid. Then I found Pinterest. Someone in a Telegram group had said "try Pinterest" and I thought it was just for recipes. But I tried it anyway.
 
 Keypoint; most people think Pinterest is just for recipes and home decor. But it's actually a visual search engine. People go there to find ideas and they are ready to buy something.
 
@@ -21,7 +21,7 @@ When someone clicks and buys, you earn a commission.
 
 But here is what most beginners get wrong. They just drop their affiliate link directly on Pinterest like this: "Buy this tool, link in pin!"
 
-That does not work anymore! People don't trust it and some affiliate programs don't even allow direct linking.
+That is stark, and does not work anymore! People don't trust it and some affiliate programs don't even allow direct linking.
 
 The smarter way is:
 **Pinterest Pin -> Helpful Blog Post -> Affiliate Link**
@@ -30,7 +30,7 @@ Your pin sends people to your blog post. Your blog post helps them solve a probl
 
 ## Here is Step 1: Set Up Your Pinterest Business Account
 
-If you are still using a personal account, switch now. It is free.
+If you are still using a personal account, switch it now. It is free.
 
 Go to Settings > Account Management > Convert to Business. It takes 30 seconds.
 
