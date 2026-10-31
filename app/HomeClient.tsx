@@ -117,7 +117,7 @@ export default function HomeClient() {
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Putting It Together</h2>
           <p>
-            This system — better offer selection, a clean pre-sell page, and consistent free traffic — is the foundation I wish someone had given me on day one.
+            This system, better offers selection, a clean pre-sell page, and consistent free traffic — is the foundation I wish someone had given me on day one.
           </p>
           <p>
             It won’t make you an expert overnight. But it will give you a clear path to start, test, and improve without needing a big budget or a large following.
