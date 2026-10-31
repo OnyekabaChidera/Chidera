@@ -10,7 +10,8 @@ export default function AboutPage() {
           I started this site in 2025 because I was tired of paid courses that don't work. I share free tools, strategies, and tutorials I personally test. 
         </p>
         <p className="text-slate-400 text-sm leading-relaxed">
-          The site is supported by advertising and affiliate programs to keep it free. Contact: support@leadvaultshub.com
+          The site is supported by advertising and affiliate programs to keep it free. 
+          Contact: support@leadvaultshub.com
         </p>
       </div>
     </main>
