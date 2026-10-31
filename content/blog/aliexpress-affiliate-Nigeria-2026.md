@@ -126,7 +126,6 @@ If you want more ideas beyond AliExpress, see my list of [Shopify Affiliate Nich
 
 And if you don't have traffic yet, start here: [How I Get Free Traffic from Pinterest for Affiliate Links With $0](/blog/free-traffic-pinterest-affiliate) — same phone-only method I recommend in this post.
 
-**Disclosure:** This post contains affiliate links. If you buy through them I may earn a small commission at no extra cost to you. I am not affiliated with AliExpress, Payoneer, or Opay. Commissions vary by product and campaign. For education only.
 
 ### FAQ
 
