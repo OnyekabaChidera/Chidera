@@ -7,7 +7,7 @@ export default function AboutPage() {
           LeadVaultsHub is a free resource hub helping beginners learn affiliate marketing and how to start an online business from $0.
         </p>
         <p className="text-slate-300 leading-relaxed mb-4">
-          I started this site in 2025 because I was tired of paid courses that don't work. I share free tools, strategies, and tutorials I personally test. 
+          I started this site in 2025 because I was tired of paid courses that don't work. I share free tools, strategies, and tutorials I personally tested. 
         </p>
         <p className="text-slate-400 text-sm leading-relaxed">
           The site is supported by advertising and affiliate programs to keep it free. 
