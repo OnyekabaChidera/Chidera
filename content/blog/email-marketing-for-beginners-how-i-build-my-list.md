@@ -6,11 +6,11 @@ badge: "EMAIL TIPS"
 author: "Sandy"
 ---
 
-I ignored email list for 2 months when I started LeadVaultHub. Everyone said "the money is in the list" and I thought it was guru talk.
+I ignored email list for 2 months when I started affiliate marketing. Everyone said "the money is in the list" and I thought it was guru talk.
 
-Then my Pinterest got shadowbanned for 2 weeks. Traffic dropped to zero overnight. That was the day I understood - Pinterest, TikTok, Google can take your traffic anytime. Your email list is the only traffic you own.
+Then my Pinterest got shadowbanned for 2 weeks. Traffic dropped to zero overnight. That was the day I understood Pinterest, TikTok, Google can take your traffic anytime. Your email list is the only traffic you own.
 
-You don't need 10,000 people. I started with 4 subscribers. 2 were my friends in Magodo.
+You don't need 10,000 people. I started with 4 subscribers. 2 were my friends living nearby.
 
 Here is how I build it now with $0, from my little resource.
 
@@ -32,7 +32,7 @@ You don't need a course to start.
 
 Don't pay $29/month when you have 0 subscribers.
 
-I use these 3, all work in Nigeria:
+I use these 3, all works in Nigeria and everywhere else:
 
 - **Systeme.io** - Free up to 2,000 contacts, landing page + email in one place. This is what I use now.
 - **MailerLite** - Free up to 1,000 subscribers, very simple
@@ -60,7 +60,7 @@ I hid my first form at the bottom of my blog. Zero signups for 2 weeks.
 
 Now I put it in 3 places:
 
-1. **Inside every blog post** - Right after first helpful tip. This brings 60% of my signups. Text: "Want the exact tools list I use with $0? Enter email, I will send the Google Sheet."
+1. **Inside every blog post** Right after first helpful tip. This brings 60% of my signups. Text: "Want the exact tools list I use with $0? Enter email, I will send the Google Sheet."
 
 2. **WhatsApp Status / Facebook Groups** - I answer a question properly, then say "I made a checklist for this, want it?"
 
@@ -88,7 +88,7 @@ Body: "What's one thing stopping you from starting?" Hit reply. This email got 6
 
 After that, email once a week. My rule: 80% help, 20% recommend.
 
-## My 30-Minute Monday Routine
+## My 30-Minute new week Routine
 
 1. Check new subscribers and open rate (30% open is normal at start)
 2. Write one email about last week's post
@@ -115,7 +115,7 @@ That Pinterest post shows you how to get traffic you turn into subscribers.
 
 ## Final Thought
 
-You don't need a big list. You need a small list that trusts you.
+You don't need a big list. You need a small list that trusts you first.
 
 This week: Create free account on Systeme.io, make 1-page checklist in Google Docs, add signup form at end of your next post.
 
