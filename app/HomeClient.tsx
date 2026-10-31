@@ -59,7 +59,7 @@ export default function HomeClient() {
 
         <div className="space-y-6 text-[17px] leading-[1.8] text-slate-300">
           <p className="text-[18px] leading-[1.7] text-slate-200">
-           ARE you looking to make money online or start affiliate marketing? That's why affiliate marketing is the easist way.  when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
+           ARE you looking to make money online or start affiliate marketing? That's why affiliate marketing is the best easist way.  when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
           </p>
           <p>
             Most beginners who had started affiliate marketing, don’t fail because affiliate marketing is too competitive. They fail because they focus on the wrong three things: they promote offers that were never designed for beginners, they send traffic directly to a raw affiliate link, and they try to scale before they have a single consistent traffic source.
@@ -69,7 +69,7 @@ export default function HomeClient() {
           </p>
 
           <div className="bg-[#0c1610] border border-green-500/20 border-l-4 border-l-green-500 rounded-xl p-6 my-10">
-            <p className="text-slate-200 m-0 text-[16px]"><strong className="text-white">Inside this hub:</strong> How I evaluate offers before promoting, the landing page framework I use to improve conversion, and the free traffic method I leaned on when starting out.</p>
+            <p className="text-slate-200 m-0 text-[16px]"><strong className="text-white">Inside this hub:</strong> You'd get how I evaluate offers before promoting, the landing page framework I use to improve conversion, and the free traffic method I leaned on when starting out.</p>
           </div>
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Why Most Beginners Stay Stuck</h2>
