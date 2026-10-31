@@ -10,7 +10,7 @@ author: "LeadVaultsHub Team"
 
 AliExpress affiliate program is currently a Breakout search in Nigeria — +1,800% in the last 30 days, with Kwara, Enugu and Kaduna searching the most.
 
-If you have been looking for how to start affiliate marketing with $0 and just your phone, this is why everyone is talking about AliExpress. It ships to Nigeria, you don't need to buy stock, and commission is listed as up to 9%.
+If you have been looking for how to start affiliate marketing with $0 and just your phone, you’re at the right place, and this is why everyone is talking about AliExpress. It ships to Nigeria, you don't need to buy stock, and commission is listed as up to 9%.
 
 I went through the official portal, the affiliate agreement, and what Nigerian affiliates are reporting about payments. This is a simple breakdown of what works and what doesn't.
 
