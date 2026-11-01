@@ -5,7 +5,7 @@ description: "No email list? No problem. Learn how I build my email list for fre
 badge: "EMAIL TIPS"
 author: "Sandy"
 ---
-![Email Marketing for Beginners 2026 LeadVaultsHub](/blog/email-marketing-2026-leadvaulthub.jpg.webp)
+![Email Marketing for Beginners 2026 LeadVaultsHub](/blog/email-marketing-2026..webp)
 
 I ignored email list for 2 months when I started affiliate marketing. Everyone said "the money is in the list" and I thought it was guru talk.
 
