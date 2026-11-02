@@ -10,6 +10,7 @@ adsense_safe: true
 
 # Selar Interest is Quietly Growing in Nigeria - And Smart Affiliates Are Cashing In
 
+
 ![Selar Interest is Quietly Growing in Nigeria](/blog/selar-interest-growing-Nigeria.jpg)
 
 If you open Google Trends, and set it to Nigeria, and type "Selar", you'll see something interesting.
@@ -33,7 +34,7 @@ Think of it as an online store for digital products. You don't need to create an
 Unlike ClickBank or Digistore24, you don't need Payoneer or PayPal. Selar pays directly to OPay, Kuda, First Bank. The buyer also pays in Naira. That removes the biggest barrier for Nigerian customers.
 
 **2. Products People Can Actually Afford.**
-Not $100 courses. Most products are ₦2,500 - ₦10,000 - WhatsApp marketing, mini importation, CAC registration, CV writing. It's an easy yes for buyers.
+Not $100 courses. Most products are ₦2,500 - ₦10,000. WhatsApp marketing, mini importation, CAC registration, CV writing. It's an easy yes for buyers.
 
 **3. Better Commission Than Jumia.**
 Selar's own guidelines say affiliates must get at least 30% for most products (20% for products ₦50k and above). Some creators give 40-70%. Compare that to 3% on Jumia.
@@ -42,7 +43,7 @@ This is why interest is growing quietly. It's actually profitable for beginners.
 
 ## A Quick Reality Check
 
-Growth does not mean guaranteed money. Data shows 6 in 10 African creators still earn less than $100 a month. Treat this as a skill you build, not a shortcut. I explained the common traps in [5 Affiliate Mistakes Beginners Make](/blog/5-affiliate-mistakes-beginners-make).
+Growth does not mean guaranteed money. Data shows 6 in 10 African creators still earn less than $100 a month. Treat this as a skill you build, not a shortcut. I explained the common traps here in [5 Affiliate Mistakes Beginners Make](/blog/5-affiliate-mistakes-beginners-make).
 
 ## How to Start With Just Your Phone - A laydown Method
 
@@ -57,7 +58,7 @@ So it's "almost $0", not exactly $0. I prefer to be honest with you.
 
 ### Step 2: Pick ONE Product You Can Explain
 
-Don't chase "hot" products. Go to Marketplace, filter ₦3,000 - ₦7,500, pick your best interest, and ask:
+Don't chase "hot" products. Go to Marketplace, filter ₦3,000 - ₦7,500. Pick your best interest, and ask:
 
 - Can I explain who needs this?
 - Does the sales page have video and clear description?
