@@ -6,6 +6,7 @@ badge: "TRAFFIC TIPS"
 author: "Sandy"
 tags: ["pinterest affiliate marketing for beginners", "how to get free traffic from pinterest", "pinterest traffic for affiliate links", "free traffic from pinterest without ads", "pinterest seo for affiliate marketing"]
 ---
+![How to Get Free Traffic from Pinterest for Affiliate Links](/blog/pinterest-free-traffic-affiliate.jpg)
 
 I wasted money on fb ads when I started affiliate marketing. Got zero clicks,  I lost had $5 and felt stupid. Then I found Pinterest. Someone in a Telegram group had said "try Pinterest" and I thought it was just for recipes. But I tried it anyway.
 
