@@ -4,6 +4,8 @@ date: "2026-10-05"
 description: "No email list? No problem. Learn how I build my email list for free as a beginner in Nigeria. Simple steps, free tools, and what to send without being spammy."
 badge: "EMAIL TIPS"
 author: "Sandy"
+tags: ["email marketing for beginners", "how to build an email list for free", "email list building for beginners", "free email marketing tools for beginners", "how to build email list with no money"]
+adsense_safe: true
 ---
 ![Email Marketing for Beginners 2026 LeadVaultsHub](/blog/email-marketing-for-beginners-2026..webp)
 
