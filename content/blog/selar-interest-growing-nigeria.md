@@ -2,7 +2,7 @@
 title: "Selar Interest is Quietly Growing in Nigeria - How to Profit"
 description: "Selar interest is rising in Nigeria. With ₦18bn paid to creators in 2025, here's why it's growing and how to start Selar affiliate marketing with just your phone (almost $0)."
 slug: "selar-interest-growing-nigeria"
-date: 2026-05-13
+date: 2026-11-01
 author: "LeadVaultsHub"
 tags: ["selar affiliate", "selar Nigeria", "affiliate marketing Nigeria", "selar interest growing", "make money with Selar"]
 adsense_safe: true
