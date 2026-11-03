@@ -7,7 +7,7 @@ author: "LeadVaultsHub Team"
 tags: ["tiktok shop affiliate", "free sample", "affiliate marketing beginners", "tiktok shop tutorial", "zero budget marketing"]
 ---
 
-![Hands unboxing free sample from TikTok Shop Affiliate](/blog/tiktok-shop-free-sample.jpg)
+![Hands unboxing free sample from TikTok Shop Affiliate](/blog/tiktok-shop-free-sample.jpg.jpg)
 
 You want to start TikTok Shop Affiliate but you have no money to buy products? I get it. That's how most of us start.
 
