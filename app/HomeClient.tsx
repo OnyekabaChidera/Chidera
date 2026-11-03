@@ -11,17 +11,10 @@ export default function HomeClient() {
     e.preventDefault();
     if (!name.trim() || !email.trim()) return;
     setLoading(true);
-    
-    // === ADSENSE REVIEW MODE (SAFE) - USE THIS NOW ===
     setTimeout(() => {
       setLoading(false);
       setSuccess(true);
     }, 600);
-
-    // === MONEY MODE - UNCOMMENT AFTER ADSENSE APPROVAL ===
-    // setTimeout(() => {
-    //   window.location.href = "https://saveapp.store/cl/i/j7nqqp";
-    // }, 600);
   };
 
   const articleSchema = {
@@ -41,13 +34,16 @@ export default function HomeClient() {
       <div className="fixed top-[-15%] left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[radial-gradient(ellipse,rgba(34,197,94,0.1)_0%,transparent_70%)] pointer-events-none z-0" />
       <nav className="sticky top-0 z-50 bg-[#030a05]/90 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
-          <a href="/" className="relative flex items-center gap-2.5 no-underline">
+          
+          {/* PREMIUM LOGO - YOUR CHOSEN ONE */}
+          <a href="/" className="relative inline-flex items-center gap-2.5 group">
             <img src="/logo.png.jpg" alt="LeadVaultsHub" className="w-8 h-8 rounded-lg object-cover relative z-10" />
-            <span className="relative z-10 text-lg font-bold tracking-tight text-white">
+            <span className="relative z-10 text-[26px] font-extrabold tracking-[-0.5px] text-white">
               LeadVaults<span className="text-[#7BF1A8]">Hub</span>
             </span>
-            <span className="pointer-events-none absolute left-[68%] top-[55%] z-0 h-[50px] w-[90px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(123,241,168,0.5)_0%,_rgba(16,185,129,0.2)_40%,_transparent_70%)] blur-[14px]" />
+            <span className="pointer-events-none absolute left-[74%] top-[55%] z-0 h-[70px] w-[120px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(123,241,168,0.4)_0%,_rgba(16,185,129,0.18)_40%,_transparent_70%)] blur-[18px]" />
           </a>
+
           <div className="flex items-center gap-6">
             <a href="/blog" className="text-sm font-medium text-slate-300 hover:text-white transition">Blog</a>
             <a href="/" className="text-sm font-medium text-slate-300 hover:text-white transition">Home</a>
