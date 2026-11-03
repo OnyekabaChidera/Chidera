@@ -5,7 +5,7 @@ export default function AboutPage() {
         <h1 className="text-3xl font-bold mb-6">About LeadVaultsHub</h1>
         
         <p className="text-slate-300 leading-relaxed mb-4">
-          Welcome to LeadVaultsHub. I’m the founder — a Nigerian affiliate and educator, who started from zero, with just a phone and no budget.
+          Welcome to LeadVaultsHub. I’m the founder, a Nigerian affiliate and educator, who started from zero, with just a phone and no budget.
         </p>
         
         <p className="text-slate-300 leading-relaxed mb-4">
@@ -25,7 +25,7 @@ export default function AboutPage() {
         <div className="mt-10 p-4 border border-slate-800 rounded-lg bg-[#0a1a0e]">
           <p className="text-slate-400 text-sm leading-relaxed">
             <strong className="text-slate-200">Contact:</strong> support@leadvaultshub.com<br/>
-            <strong className="text-slate-200">Location:</strong> Nigeria — writing for Nigerians worldwide<br/>
+            <strong className="text-slate-200">Location:</strong> FCT• Abuja • Nigeria<br/>
             <strong className="text-slate-200">Last Updated:</strong> November 2026<br/>
             <strong className="text-slate-200">Disclosure:</strong> LeadVaultsHub is supported by ads and affiliate commissions.
           </p>
