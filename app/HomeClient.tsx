@@ -64,13 +64,13 @@ export default function HomeClient() {
 
         <div className="space-y-6 text-[17px] leading-[1.8] text-slate-300">
           <p className="text-[18px] leading-[1.7] text-slate-200">
-           ARE you looking to make money online or start affiliate marketing? That's why affiliate marketing is the best easiest way.  when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
+           ARE you looking to make money online or start affiliate marketing? Affiliate marketing has always been the easiest way, and thats why this hub is here.  when I started affiliate marketing, I had no audience, no ad budget, and no blueprint. What I did have was time to test what actually works when you're starting from zero.
           </p>
           <p>
             Most beginners who had started affiliate marketing, don’t fail because affiliate marketing is too competitive. They fail because they focus on the wrong three things: they promote offers that were never designed for beginners, they send traffic directly to a raw affiliate link, and they try to scale before they have a single consistent traffic source.
           </p>
           <p>
-            Here, this hub is different. It’s not about quick wins. It’s a practical system for building your first consistent campaigns without paid ads
+            Here, in this hub, It’s not about quick wins. It’s a practical system for building your first consistent campaigns without paid ads
           </p>
 
           <div className="bg-[#0c1610] border border-green-500/20 border-l-4 border-l-green-500 rounded-xl p-6 my-10">
@@ -87,7 +87,7 @@ export default function HomeClient() {
             <li><strong className="text-white">Inconsistent traffic.</strong> Paid ads can work, but they punish inconsistency. When you’re on a zero budget, you need a traffic method you can show up for daily without spending. Consistency beats intensity at this stage.</li>
           </ul>
 
-          <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Step 1: How I Evaluate Offers</h2>
+          <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Step 1: How To Evaluate Offers</h2>
           <p>
             Before I create anything, I run every offer through a simple filter. This saves weeks of wasted effort.
           </p>
@@ -95,7 +95,7 @@ export default function HomeClient() {
             First, I look at clarity. Can I explain what the user gets in one sentence? If I can’t, cold traffic won’t understand it either. Second, I look at friction. Does it require a credit card, a long form, or a sales call? Lower friction offers are more forgiving when you’re still learning traffic.
           </p>
           <p>
-            Third, I check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
+            Third, Check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
           </p>
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Step 2: The Landing Page That Does The Heavy Lifting</h2>
@@ -122,7 +122,7 @@ export default function HomeClient() {
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Putting It Together</h2>
           <p>
-            This system, better offers selection, a clean pre-sell page, and consistent free traffic — is the foundation I wish someone had given me on day one.
+            This system, better offers selection, a clean pre-sell page, and consistent free traffic, is the foundation I wish someone had given me on day one.
           </p>
           <p>
             It won’t make you an expert overnight. But it will give you a clear path to start, test, and improve without needing a big budget or a large following.
