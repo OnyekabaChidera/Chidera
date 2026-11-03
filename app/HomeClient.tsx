@@ -29,7 +29,7 @@ export default function HomeClient() {
     "@type": "Article",
     "headline": "Zero-Budget Affiliate Marketing Hub for Beginners",
     "description": "Free guides, templates and tools for beginners to start affiliate marketing with zero budget — no paid ads needed.",
-    "author": { "@type": "Person", "name": "Sandy", "url": "https://leadvaultshub.com/about" }
+    "author": { "@type": "Person", "name": "Sandy", "url": "https://leadvaultshub.com/about" },
     "publisher": { "@type": "Organization", "name": "LeadVaultsHub", "url": "https://leadvaultshub.com", "logo": { "@type": "ImageObject", "url": "https://leadvaultshub.com/IMG_9606.jpeg" } },
     "datePublished": "2026-09-30",
     "dateModified": "2026-10-17",
