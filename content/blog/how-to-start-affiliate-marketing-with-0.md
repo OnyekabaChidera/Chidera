@@ -6,7 +6,7 @@ tags: ["affiliate marketing", "affiliate marketing for beginners", "how to start
 badge: "AFFILIATE TIPS"
 ---
 
-![Learn how to Start Affiliate Marketing With $0: My Exact Free Tools Stack LeadVaultsHub](/blog/how-to-start-affillate-marketing-with-$0.jpg)
+![Learn how to Start Affiliate Marketing With $0](/blog/how-to-start-affiliate-marketing-with-$0)
 
 You don't need a paid website, paid ads, or premium tools to start affiliate marketing.
 
