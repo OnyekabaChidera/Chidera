@@ -18,7 +18,7 @@ export default function CookieBanner() {
   if (!show) return null;
 
   return (
-   <div className="fixed bottom-4 left-4 right-4 z-50 bg-[#141a22] border border-white/10 rounded-2xl p-5 shadow-[0_20px_40px_rgba(0,0,0,0.6)]">
+   <div className="fixed bottom-4 left-4 right-4 z-50 bg-black border border-white/10 rounded-2xl p-5 shadow-[0_20px_40px_rgba(0,0,0,0.6)]">
       <p className="font-serif text-[17px] font-bold text-white mb-1.5">
         🍪 We value your privacy
       </p>
