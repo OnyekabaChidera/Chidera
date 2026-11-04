@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { Roboto_Slab, Roboto } from "next/font/google";
 import Script from "next/script";
 import './globals.css';
+import CookieBanner from "./components/CookieBanner";
 
 const robotoSlab = Roboto_Slab({
   subsets: ['latin'],
@@ -65,6 +66,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <CookieBanner />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC" />
         <Script id="google-analytics">
           {`
