@@ -18,15 +18,29 @@ export default function CookieBanner() {
   if (!show) return null;
 
   return (
-    <div style={{ position: "fixed", bottom: "16px", left: "16px", right: "16px", zIndex: 50, background: "#141a22", border: "1px solid #22c55e33", borderTop: "3px solid #22c55e", borderRadius: "16px", padding: "20px", boxShadow: "0 20px 40px rgba(0,0,0,0.6)", fontFamily: "'Roboto Slab', Georgia, serif" }}>
-      <p style={{ margin: "0 0 6px", fontSize: "16px", fontWeight: 700, color: "#fff" }}>🍪 We value your privacy</p>
-      <p style={{ margin: "0 0 16px", fontSize: "14.5px", lineHeight: "1.6", color: "#d1d5db", fontFamily: "system-ui, -apple-system, sans-serif" }}>
-        LeadVaultsHub uses essential cookies to run the site, plus analytics cookies to measure traffic and improve your experience.{" "}
-        <a href="/privacy-policy" style={{ color: "#4ade80", textDecoration: "underline", fontWeight: 700 }}>Privacy & cookies</a>
+    <div className="fixed bottom-4 left-4 right-4 z-50 bg-[#141a22] border border-green-500/20 border-t-[3px] border-t-green-500 rounded-2xl p-5 shadow-[0_20px_40px_rgba(0,0,0,0.6)]">
+      <p className="font-serif text-[17px] font-bold text-white mb-1.5">
+        🍪 We value your privacy
       </p>
-      <div style={{ display: "flex", gap: "10px", justifyContent: "flex-end" }}>
-        <button onClick={() => choose("declined")} style={{ background: "transparent", color: "#e5e7eb", border: "1px solid #4b5563", borderRadius: "999px", padding: "10px 22px", fontWeight: 600, cursor: "pointer", fontFamily: "inherit" }}>Decline</button>
-        <button onClick={() => choose("accepted")} style={{ background: "#16a34a", color: "#fff", border: "none", borderRadius: "999px", padding: "10px 24px", fontWeight: 700, cursor: "pointer", fontFamily: "inherit", boxShadow: "0 4px 14px rgba(22,163,74,0.4)" }}>Accept all</button>
+      <p className="text-[14.5px] leading-[1.65] text-slate-300 mb-4">
+        LeadVaultsHub uses essential cookies to run the site, plus analytics cookies to measure traffic and improve your experience.{" "}
+        <a href="/privacy" className="text-green-400 underline font-bold hover:text-green-300">
+          Privacy & cookies
+        </a>
+      </p>
+      <div className="flex gap-2.5 justify-end">
+        <button
+          onClick={() => choose("declined")}
+          className="bg-transparent text-slate-200 border border-slate-600 rounded-full px-5 py-2.5 text-sm font-semibold cursor-pointer hover:bg-white/5"
+        >
+          Decline
+        </button>
+        <button
+          onClick={() => choose("accepted")}
+          className="bg-green-600 text-white rounded-full px-6 py-2.5 text-sm font-bold cursor-pointer shadow-[0_4px_14px_rgba(22,163,74,0.4)] hover:bg-green-500"
+        >
+          Accept all
+        </button>
       </div>
     </div>
   );
