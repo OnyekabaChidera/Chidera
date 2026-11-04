@@ -95,7 +95,7 @@ export default function HomeClient() {
             First, Look at clarity. Can I explain what the user gets in one sentence? If I can’t, cold traffic won’t understand it either. Second, I look at friction. Does it require a credit card, a long form, or a sales call? Lower friction offers are more forgiving when you’re still learning traffic.
           </p>
           <p>
-            Third, I check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
+            Third, check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
           </p>
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Step 2: The Landing Page That Does The Heavy Lifting</h2>
