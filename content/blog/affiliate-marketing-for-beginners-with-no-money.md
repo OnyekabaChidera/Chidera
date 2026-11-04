@@ -11,9 +11,9 @@ author: "LeadVaultsHub Team"
 
 You don't need a big advertising budget to start affiliate marketing. But "free" often, doesn't mean effortless.
 
-If you have no money to spend on ads, your real investment becomes time: researching what people want, creating useful content, testing different offers, and learning which traffic sources actually produce clicks and sales.
+If you have no money to spend on ads, your real investment hence becomes time: researching what people want, creating useful content, testing different offers, and learning which traffic sources actually produce clicks and sales.
 
-That changes the strategy. Instead of trying to promote dozens of products across every social platform, build a small system around one audience, one relevant offer, and one primary traffic channel.
+And that changes the strategy. Instead of trying to promote dozens of products across every social platform, build a small system around one audience, one relevant offer, and one primary traffic channel.
 
 Here's how to do it.
 
