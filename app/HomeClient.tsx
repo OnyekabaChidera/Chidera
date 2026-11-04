@@ -92,10 +92,10 @@ export default function HomeClient() {
             Before I create anything, I run every offer through a simple filter. This saves weeks of wasted effort.
           </p>
           <p>
-            First, I look at clarity. Can I explain what the user gets in one sentence? If I can’t, cold traffic won’t understand it either. Second, I look at friction. Does it require a credit card, a long form, or a sales call? Lower friction offers are more forgiving when you’re still learning traffic.
+            First, Look at clarity. Can I explain what the user gets in one sentence? If I can’t, cold traffic won’t understand it either. Second, I look at friction. Does it require a credit card, a long form, or a sales call? Lower friction offers are more forgiving when you’re still learning traffic.
           </p>
           <p>
-            Third, Check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
+            Third, I check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
           </p>
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Step 2: The Landing Page That Does The Heavy Lifting</h2>
@@ -111,7 +111,7 @@ export default function HomeClient() {
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Step 3: Free Traffic Without The Noise</h2>
           <p>
-            When I had no budget, I focused on short-form content. Not because it’s trendy, but because it’s the only free traffic source that can give you feedback in 24 hours.
+            When I had no budget, I focused on short-form content. It best, not because it’s trendy, but because it’s the only free traffic source that can give you feedback in 24 hours.
           </p>
           <p>
             The process was simple: one idea, one short video, one clear comment strategy that drives people back to my hub. I didn’t try to be everywhere. I picked one platform and showed up daily for 60 days. The compound effect of that consistency taught me more than any course.
