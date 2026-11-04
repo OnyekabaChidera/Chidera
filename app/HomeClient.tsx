@@ -74,7 +74,7 @@ export default function HomeClient() {
           </p>
 
           <div className="bg-[#0c1610] border border-green-500/20 border-l-4 border-l-green-500 rounded-xl p-6 my-10">
-            <p className="text-slate-200 m-0 text-[16px]"><strong className="text-white">Inside this hub:</strong> You'd get how to evaluate offers before promoting, the landing page framework I use to improve conversion, and the free traffic method I leaned on when starting out.</p>
+            <p className="text-slate-200 m-0 text-[16px]"><strong className="text-white">Inside this hub:</strong> You'd get how to evaluate offers before promoting, the landing page framework used to improve conversion, and the free traffic method you can lean on when starting out.</p>
           </div>
 
           <h2 className="font-serif text-2xl font-bold text-white mt-14 mb-4">Why Most Beginners Stay Stuck</h2>
