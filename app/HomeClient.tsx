@@ -128,7 +128,7 @@ export default function HomeClient() {
             It won’t make you an expert overnight. But it will give you a clear path to start, test, and improve without needing a big budget or a large following.
           </p>
           <p>
-            If you’re new here, start with my full breakdown on <a href="/blog/affiliate-marketing-for-beginners-with-no-money" className="text-green-400 underline decoration-green-500/30 underline-offset-4 hover:text-green-300">how to start affiliate marketing with no money as a complete beginner</a>. I lay out the exact setup there.
+            If you’re new here, start with the full breakdown on <a href="/blog/affiliate-marketing-for-beginners-with-no-money" className="text-green-400 underline decoration-green-500/30 underline-offset-4 hover:text-green-300">how to start affiliate marketing with no money as a complete beginner</a>. I lay out the exact setup there.
           </p>
         </div>
 
