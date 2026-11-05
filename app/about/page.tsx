@@ -14,7 +14,7 @@ export default function AboutPage() {
 
         <h2 className="text-xl font-semibold mt-8 mb-3">What You’ll Find Here</h2>
         <p className="text-slate-300 leading-relaxed mb-4">
-          No hype. Every guide on this site is tested first: how to get affiliate links without paying, how to write reviews that rank on Google, how to use free AI to create content, and how to get paid directly to OPay/Payoneer. If it doesn’t work with 0, I won’t post it.
+          No hype. Every guide on this site is tested first: how to get affiliate links without paying, how to write reviews that rank on Google, how to create free landing pages, how to use free AI to create content, and how to get paid directly to OPay/Payoneer. If it doesn’t work with $0, I won’t post it.
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-3">Why Trust This Site?</h2>
