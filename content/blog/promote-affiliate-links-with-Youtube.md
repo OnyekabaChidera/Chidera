@@ -11,7 +11,7 @@ tags: ["YouTube Affiliate Marketing", "Promote Affiliate Links", "Affiliate Mark
 
 Recently, the social media environment is crowded, with lots of guess on what to follow when it comes to marketing and traffic.
 
-YouTube is the best place to start, because it works like two platforms. It identified as a social media app,and also a search engine. People type a problem into the search bar, they watch a video that solves it, they click your link, and when they buy, you get paid.
+YouTube is the best place to start, (best for physical products)  because it works like two platforms. It identified as a social media app,and also a search engine. People type a problem into the search bar, they watch a video that solves it, they click your link, and when they buy, you get paid.
 
 You don't need a big following account. You just need a video, a link, and time.
 
@@ -25,9 +25,10 @@ Three reasons:
 - **Videos build trust fast.** A viewer watches you use the product, hears your voice, and sees the good and the bad.
 - **Videos last.** YouTube videos can also show up in Google results, so one good video can send people to your link for months or years.
 
-The trade-off is time. Many beginner guides say the first commission can take a few months, so plan for patience, not magic.
+The trade-off is time. Many beginner guides say the first commission can take a few months, so plan for patience, not magic. The truth is this, physical product networks pay way lower commissions unlike digital products networks. Prior to reason why most affiliate commonly prefers the latter but preference defers. 
+ 
 
-## The Simple Plan: One Product, One Problem
+## Here Is The Simple Plan: One Product, One Problem
 
 ### 1. Always pick ONE product
 
