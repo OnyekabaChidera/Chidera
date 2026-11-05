@@ -29,12 +29,10 @@ Important: Not every product pays. If the seller is not in the affiliate program
 
 There is no fixed 9% for everything. Rates depend on category and campaign.
 
-| Type | What to expect |
-|---|---|
-| Normal products | 3% to 9% depending on category |
+| Type | What to expect | Normal products | 3% to 9% depending on category |
 | Super / Hot Products | Extra bonus on selected items, changes weekly |
 | Sale events (11.11, Black Friday) | Rates may go up temporarily |
-| Non-participating items | 0% — seller not in program |
+| Non-participating items | 0%  seller not in program |
 
 Example: A $20 product at 7% commission = $1.40. At 5% = $1.00. To reach the $15 minimum, you need about $200-$300 in qualifying sales at average rates. These are examples, not promises. Your results depend on product, rate, and completed orders.
 
@@ -98,7 +96,7 @@ Never pay anyone who promises to "unlock" your earnings.
 
 **Temu:** Sometimes higher rates, but delivery to Nigeria is inconsistent and affiliate terms change quickly.
 
-**ClickBank / Digistore24:** Higher commissions (up to 70%) but many offers restrict Nigeria traffic and payouts to Nigeria can be harder.
+**ClickBank / Digistore24:** Higher commissions (up to 70%) but many offers restrict Nigeria traffic and payouts to Nigeria may be harder.
 
 For beginners in Nigeria starting with $0 and a phone, AliExpress is often the easiest to learn the basics of tracking links and commissions.
 
@@ -122,7 +120,7 @@ The AliExpress Affiliate Program for Nigerians is a free way to learn affiliate 
 
 If you want to try it, go to portal.aliexpress.com, review the official agreement, and apply if you qualify.
 
-If you want more ideas beyond AliExpress, see my list of [Shopify Affiliate Niches for August 2026 That Pay Well](/blog/shopify-august-2026-top-affiliate-niches) — I break down which niches pay better for Nigerians.
+If you want more ideas beyond AliExpress, see my list of [Shopify Affiliate Niches for August 2026 That Pay Well](/blog/shopify-august-2026-top-affiliate-niches)  I break down which niches pay better for Nigerians.
 
 And if you don't have traffic yet, start here: [How I Get Free Traffic from Pinterest for Affiliate Links With $0](/blog/how-to-get-free-traffic-from-pinterest-for-affiliate-links) — same phone-only method I recommend in this post.
 
