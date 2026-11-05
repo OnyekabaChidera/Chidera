@@ -10,7 +10,7 @@ tags: ["YouTube Affiliate Marketing", "Promote Affiliate Links", "Affiliate Mark
 
 Recently, the social media environment is crowded, with lots of guess on what to follow when it comes to marketing and traffic.
 
-YouTube is the best place to start, because it works like two platforms. It is a social media app,and also a search engine. People type a problem into the search bar, they watch a video that solves it, they click your link, and when they buy, you get paid.
+YouTube is the best place to start, because it works like two platforms. It identified as a social media app,and also a search engine. People type a problem into the search bar, they watch a video that solves it, they click your link, and when they buy, you get paid.
 
 You don't need a big following account. You just need a video, a link, and time.
 
