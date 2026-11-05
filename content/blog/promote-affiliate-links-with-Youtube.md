@@ -32,7 +32,7 @@ The trade-off is time. Many beginner guides say the first commission can take a 
 
 Don't promote 10 products at once. It confuses you and confuses your viewers.
 
-Pick one product from one network you trust. it could be Amazon, ClickBank, Digistore24, WarriorPlus or AliExpress. Choose a product you have used, tested properly or at least have knowledge about. If you can't say who it is for and who should skip it, don't promote it yet.
+Pick one product from one network you trust. it could be Amazon, ClickBank, Digistore24, WarriorPlus or AliExpress. Choose a product you have used, or tested properly or have knowledge about. If you can't say who it is for and who should skip it, don't promote it yet.
 
 ### 2. Make videos about what people already search for
 
@@ -56,7 +56,7 @@ YouTube watches how many people click your thumbnail when they see it. This is c
 
 ### 1. Long videos
 
-Reviews, tutorials, comparisons. Review a product, explain it well, put the link in the description. This format usually pays the well but ain’t the best at the moment, because most viewers really don’t have that much time to stay on a particular video. because
+Reviews, tutorials, comparisons. Review a product, explain it well, put the link in the description. This format usually pays  well but ain’t for me, because most viewers really don’t have that much time to stay on a particular video. 
 
 ### 2. Shorts
 
@@ -103,7 +103,7 @@ The pattern: the best openers break an expectation, promise a solution, or call 
 
 ## How Often Should You Post?
 
-Consistency is important, but really do not post multiple times in starting otherwise yt algorithm will set your channel as a bot and don’t make lazy posting.
+Consistency is important, but really do not post multiple times in starting otherwise yt algorithm will set your channel as a bot and equally don’t make lazy posting.
 
 My advice for beginners: post 2 to 3 good videos a week instead of 2 rushed videos a day. Make each one different, with your own voice, pain point or point of view. Quality first, then speed.
 
