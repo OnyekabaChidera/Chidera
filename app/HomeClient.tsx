@@ -103,7 +103,7 @@ export default function HomeClient() {
             I learned early that my job isn’t to sell the product. My job is to connect the right person to the right solution with enough context to make a decision.
           </p>
           <p>
-            That’s why it best to use a curiosity-driven landing page. Not hype. Not fake scarcity. Just a clean headline, a clear explanation of what they’ll find on the next page, and one call to action. The page you’re reading now is built on that same framework — value first, ask second.
+            That’s why it best to use a curiosity-driven landing page. Not hype. Not fake scarcity. Just a clean headline, a clear explanation of what they’ll find on the next page, and one call to action. The page you’re reading now is built on that same framework... value first, ask second.
           </p>
           <p>
             When you remove pressure and focus on clarity, people stay longer, trust more, and convert better. It’s a slower way to build, but it’s the way that lasts.
