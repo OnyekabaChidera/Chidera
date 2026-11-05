@@ -16,7 +16,7 @@ You don't need a big following account. You just need a video, a link, and time.
 
 In this post I will show you how to promote affiliate links on YouTube, how to get the right kind of viewers, not just any viewers, how monetization really works, and what can get your channel banned.
 
-## Why YouTube Works So Well For Affiliate Links
+## Here Are Why YouTube Works So Well For Affiliate Links
 
 Three reasons:
 
