@@ -36,7 +36,7 @@ There is no fixed 9% for everything. Rates depend on category and campaign.
 
 Example: A $20 product at 7% commission = $1.40. At 5% = $1.00. To reach the $15 minimum, you need about $200-$300 in qualifying sales at average rates. These are examples, not promises. Your results depend on product, rate, and completed orders.
 
-You may see "50% commission" claims online. That is rare and tied to short campaigns. Don't plan around it.
+You may see "50% commission" claims online. That is rare in Physical Products and tied to short campaigns. Don't plan around it.
 
 ## Can Nigerians Join With $0?
 
