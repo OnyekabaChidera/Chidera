@@ -8,7 +8,7 @@ tags: ["pinterest affiliate marketing for beginners", "how to get free traffic f
 ---
 ![How to Get Free Traffic from Pinterest for Affiliate Links](/blog/pinterest-free-traffic-affiliate.jpg)
 
-I wasted money on fb ads when I started affiliate marketing. Got zero clicks,  I lost had $5 and felt stupid. Then I found Pinterest. Someone in a Telegram group had said "try Pinterest" and I thought it was just for recipes. But I tried it anyway.
+I wasted money on fb ads when I started affiliate marketing. Got zero clicks,  I lost had $5 and felt stupid. Then I found Pinterest. Someone in a social group had said "try Pinterest" and I thought it was just for recipes. But I tried it anyway.
 
 Keypoint; most people think Pinterest is just for recipes and home decor. But it's actually a visual search engine. People go there to find ideas and they are ready to buy something.
 
