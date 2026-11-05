@@ -42,7 +42,7 @@ You may see "50% commission" claims online. That is rare in Physical Products an
 
 Yes, you can explore it without paying for inventory or a shop. Registration is free.
 
-You still need a phone, internet, and a way to create useful content. A separate website is not always required — many beginners start with social profiles, but your chosen channel must meet the portal's requirements.
+You still need a phone, internet, and a way to create useful content. A separate website is not always required. Many beginners start with social profiles, but your chosen channel must meet the portal's requirements.
 
 What helps with approval (based on accepted applications):
 
@@ -122,7 +122,11 @@ If you want to try it, go to portal.aliexpress.com, review the official agreemen
 
 If you want more ideas beyond AliExpress, see my list of [Shopify Affiliate Niches for August 2026 That Pay Well](/blog/shopify-august-2026-top-affiliate-niches)  I break down which niches pay better for Nigerians.
 
-And if you don't have traffic yet, start here: [How I Get Free Traffic from Pinterest for Affiliate Links With $0](/blog/how-to-get-free-traffic-from-pinterest-for-affiliate-links) — same phone-only method I recommend in this post.
+And if you don't have traffic yet, start here: [How I Get Free Traffic from Pinterest for Affiliate Links With $0](/blog/how-to-get-free-traffic-from-pinterest-for-affiliate-links)  same phone-only method I recommend in this post.
+
+
+You have a question?, reach us out at [Contact Page](https://leadvaultshub.com/contact) we reply as soon as we can.
+
 
 ### FAQ
 
@@ -136,5 +140,5 @@ Commission rates depend on product and campaign. Some promotions list up to 9%, 
 The published agreement says monthly payments when balance exceeds $15 to a designated bank account. Most Nigerians use Payoneer linked in the portal, then withdraw to a supported Nigerian bank, Opay or Palmpay. Confirm available payment options in your account and account for fees.
 
 
-You have a question?, reach us out at [Contact Page](https://leadvaultshub.com/contact)  we reply as soon as we can.
+
 
