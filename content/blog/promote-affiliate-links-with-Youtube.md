@@ -32,7 +32,7 @@ The trade-off is time. Many beginner guides say the first commission can take a 
 
 Don't promote 10 products at once. It confuses you and confuses your viewers.
 
-Pick one product from one network you trust. it could be Amazon, ClickBank, Digistore24, WarriorPlus or AliExpress. Choose a product you have used, or tested properly or have knowledge about. If you can't say who it is for and who should skip it, don't promote it yet.
+Pick one product from one network you trust. it could be Amazon, ClickBank, Digistore24, WarriorPlus or AliExpress. Choose a product you’ve used before, or at least tested properly. If you can't say who it is for and who should skip it, don't promote it yet.
 
 ### 2. Make videos about what people already search for
 
