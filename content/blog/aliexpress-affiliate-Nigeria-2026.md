@@ -96,7 +96,7 @@ Never pay anyone who promises to "unlock" your earnings.
 
 **Temu:** Sometimes higher rates, but delivery to Nigeria is inconsistent and affiliate terms change quickly.
 
-**ClickBank / Digistore24:** Higher commissions (up to 70%) but many offers restrict Nigeria traffic and payouts to Nigeria may be harder.
+**ClickBank / Digistore24:** Digital product network. Higher commissions (up to 70%) but many offers may restrict Nigeria traffic and payouts to Nigeria may be harder.
 
 For beginners in Nigeria starting with $0 and a phone, AliExpress is often the easiest to learn the basics of tracking links and commissions.
 
@@ -134,3 +134,7 @@ Commission rates depend on product and campaign. Some promotions list up to 9%, 
 
 **How do Nigerians get paid?**
 The published agreement says monthly payments when balance exceeds $15 to a designated bank account. Most Nigerians use Payoneer linked in the portal, then withdraw to a supported Nigerian bank, Opay or Palmpay. Confirm available payment options in your account and account for fees.
+
+
+You have a question?, reach us out at [LeadVaultsHub Contact Page](https://leadvaultshub.com/contact)  we reply as soon as we can.
+
