@@ -136,5 +136,5 @@ Commission rates depend on product and campaign. Some promotions list up to 9%, 
 The published agreement says monthly payments when balance exceeds $15 to a designated bank account. Most Nigerians use Payoneer linked in the portal, then withdraw to a supported Nigerian bank, Opay or Palmpay. Confirm available payment options in your account and account for fees.
 
 
-You have a question?, reach us out at [LeadVaultsHub Contact Page](https://leadvaultshub.com/contact)  we reply as soon as we can.
+You have a question?, reach us out at [Contact Page](https://leadvaultshub.com/contact)  we reply as soon as we can.
 
