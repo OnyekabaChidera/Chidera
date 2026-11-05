@@ -110,7 +110,7 @@ Based on your Trends screenshots (custom aprons, anime keychains) and what sells
 4.  **Anime Keychains:** Small, cheap, impulse buy for young buyers.
 5.  **Satin Hair Bonnet:** Simple daily-use item for hair care.
 6.  **Phone Holder for Car / Desk:** Useful for drivers, riders, students.
-7.  **Custom Aprons / Kitchen Aprons:** Breakout keyword from your screenshot — trending for small food businesses.
+7.  **Custom Aprons / Kitchen Aprons:** Breakout keyword from your screenshot, trending for small food businesses.
 
 Pick one product. Make one good post or video. Check clicks. Learn from result.
 
