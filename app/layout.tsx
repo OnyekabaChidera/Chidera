@@ -66,6 +66,12 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         {children}
+        <footer className="text-center text-sm text-gray-400 py-6 border-t border-white/10">
+          <p>© {new Date().getFullYear()} LeadVaultsHub. All Rights Reserved.</p>
+          <p className="mt-1 text-xs">
+            All content on this site, including articles, images, and guides, is the property of LeadVaultsHub and may not be copied without written permission.
+          </p>
+        </footer>
         <CookieBanner />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-PGQCVCLYNC" />
         <Script id="google-analytics">
