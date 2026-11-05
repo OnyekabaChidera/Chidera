@@ -15,7 +15,7 @@ YouTube is the best place to start, (best for physical products)  because it wor
 
 You don't need a big following account. You just need a video, a link, and time.
 
-In this post I will show you how to promote affiliate links on YouTube, how to get the right kind of viewers, not just any viewers, how monetization really works, and what can get your channel banned.
+In this post I will explain to you how to promote affiliate links on YouTube, how to get the right kind of viewers, not just any viewers, how monetization really works, and what can get your channel banned.
 
 ## Here Are Why YouTube Works So Well For Affiliate Links
 
@@ -25,10 +25,10 @@ Three reasons:
 - **Videos build trust fast.** A viewer watches you use the product, hears your voice, and sees the good and the bad.
 - **Videos last.** YouTube videos can also show up in Google results, so one good video can send people to your link for months or years.
 
-The trade-off is time. Many beginner guides say the first commission can take a few months, so plan for patience, not magic. The truth is this, physical product networks pay way lower commissions unlike digital products networks. Prior to reason why most affiliate commonly prefers the latter but preference defers. 
+The trade-off is time. Many beginner guides say the first commission can take a few months, so plan for patience, not magic. The truth is this, physical product networks pay way lower commissions unlike digital products networks. But digital products are not rightly advised to promote without a clear landing page. But preference and approaches defers. 
  
 
-## Here Is The Simple Plan: One Product, One Problem
+## The Simple Plan: One Product, One Problem
 
 ### 1. Always pick ONE product
 
@@ -74,7 +74,7 @@ You don't even have to show your face. Record your screen or phone, show the web
 A lot of old advice says "link in the description" for everything. That is not fully true anymore.
 
 - **Long videos:** Links in the description are clickable once your channel has YouTube's advanced features turned on. You unlock these by verifying your account. Put your link near the top of the description and also in a pinned comment.
-- **Shorts:** YouTube says links in Shorts descriptions and Shorts comments are not clickable, to reduce spam and scams. So "link in the description" does not work for Shorts. (I mostly advise shorts. It stress free and often reliable)Instead, use the channel profile links, or use the Related Video option to send viewers to a long video where your link is clickable.
+- **Shorts:** YouTube says links in Shorts descriptions and Shorts comments are not clickable, to reduce spam and scams. So "link in the description" does not work for Shorts. (I mostly advise shorts. It stress free and often reliable)Instead, use the channel profile links, or use the Related Video option to send viewers to a long video where the link is clickable.
 - **YouTube Shopping:** Some creators can tag products directly, and eligible US creators can connect an Amazon account for this. It is not open to everyone, so check if you qualify.
 - **Always test your link.** Open your video as a viewer, on a phone and a computer, and click it. A broken or half-copied affiliate link means you get no credit.
 
@@ -103,7 +103,7 @@ Most viewers swipe off because of a weak opening.
 
 The pattern: the best openers break an expectation, promise a solution, or call out a mistake. The worst ones often sounds like a lecture.
 
-## How Often Should You Post?
+## How Often You Should Post?
 
 Consistency is important, but really do not post multiple times in starting otherwise yt algorithm will set your channel as a bot and equally don’t make lazy posting.
 
@@ -226,5 +226,5 @@ YouTube is not a shortcut but definitely a good entry. It maybe slow, but an hon
 
 
 
-Was this helpful? Feel free to send us a mail @ support@leadvaultshub.com. Would be glad to engage further with you.
+Was this helpful? Feel free to send us a mail @ support@leadvaultshub.com. Would be glad to assist further with you.
 
