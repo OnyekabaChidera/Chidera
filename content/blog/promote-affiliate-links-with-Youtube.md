@@ -216,39 +216,12 @@ About AI and faceless channels: they are not banned by default. Not showing your
 - Copy other creators' videos
 - Promise income you can't prove
 
-## 5 YouTube Video Ideas To Start With
-
-These are built for beginners, phone-only creators, and people starting with $0.
 
 ### 1. ClickBank vs Digistore24 vs WarriorPlus: Which Is Best for Beginners?
 
 Best for beginners choosing their first affiliate network.
-Hook: "If you have $0 and no followers, picking the wrong affiliate network can cost you weeks. Here's how I'd choose."
-Why it works: It is a comparison, so people searching "vs" are close to making a decision.
+Hook: "If you have $0 and no followers, picking the wrong affiliate network can cost you weeks. 
 
-### 2. I Tested YouTube Affiliate Marketing for 30 Days With $0
-
-Best for beginners who are tired of hype and want real numbers.
-Hook: "I tried this for 30 days with zero subscribers and zero dollars. Here's every click, every mistake, and what I'd change."
-Why it works: It uses the "I tested this" opener that holds attention. Only publish real numbers, good or bad.
-
-### 3. 5 YouTube Mistakes That Can Get Your Affiliate Channel Banned
-
-Best for new creators who are scared of losing their channel.
-Hook: "These five things look harmless, but they can get your channel shut down. Number three surprised me."
-Why it works: It calls out a mistake and solves a problem, the exact pattern of a strong opener.
-
-### 4. Why Your Affiliate Link Isn't Clickable in YouTube Shorts (and How to Fix It)
-
-Best for beginners posting Shorts and getting zero clicks.
-Hook: "If you put your link in a Short's description, nobody can click it. Here's what to do instead."
-Why it works: It solves a very specific problem that many beginners hit.
-
-### 5. How to Make Affiliate Review Videos Without Showing Your Face (Phone Only)
-
-Best for shy beginners, and people starting with only a phone.
-Hook: "No face, no laptop, no fancy mic. Just your phone. Here's the exact way I'd make my first review video."
-Why it works: It removes the biggest fear, "I don't want to be on camera", and a common excuse, "I have no equipment".
 
 ## Bottom Line
 
@@ -256,5 +229,5 @@ YouTube is not a shortcut but definitely a good entry. It maybe slow, but an hon
 
 
 
-Was this helpful? feel free to send us a mail @ support@leadavaultshub.com. Would be glad to engage further with you.
+Was this helpful? Feel free to send us a mail @ support@leadvaultshub.com. Would be glad to engage further with you.
 
