@@ -8,7 +8,7 @@ badge: "AFFILIATE TIPS"
 
 ![Learn how to Start Affiliate Marketing With $0](/blog/how-to-start-affiliate-marketing-with-$0.jpg)
 
-You don't need a paid website, paid ads, or premium tools to start affiliate marketing.
+Emphasize on “you don't need a paid website, paid ads, or premium tools to start affiliate marketing”.
 
 You can start with $0. I know this because most beginners waste money on tools before they even get their first click.
 
@@ -38,9 +38,11 @@ Ask yourself: What problem have I solved myself? That's your best niche.
 Joining an affiliate program should always be free. If they ask you to pay to join, walk away.
 
 Look for programs like:
+-AffiliateFix; Best for beginners
+-r/ClickBank on Reddit
 - Amazon Associates for physical products
 - Software tools that have affiliate programs - search "[tool name] affiliate program"
-- Networks like Impact or PartnerStack to browse offers
+- Networks like Impact or PartnerStack also to browse offers
 
 Start with 1 or 2 programs. Don't join 20 at once.
 
@@ -59,7 +61,7 @@ Content Title | Affiliate Program | Link | Where Published | Clicks
 
 This keeps you from getting lost.
 
-### 3. Canva Free - For Design
+### 3. Canva Free/Carrd - For Design
 Use the free plan to make Pinterest pins, Instagram posts, blog images, and YouTube thumbnails. Keep designs simple and clean.
 
 ### 4. Google Search + AnswerThePublic - For Research
@@ -68,7 +70,8 @@ Type your niche into Google. Look at "People also ask" and related searches. Tho
 ### 5. Free Publishing Platform - For Content
 You have two options with $0:
 Option A: Free blog - Blogger, Medium, or Substack
-Option B: One social platform - YouTube, TikTok, Pinterest, or Instagram. Pick ONE, not four.
+Option B: A blog like Leadvaultshub 
+Option C: One social platform - YouTube, TikTok, Pinterest, or Instagram. Pick ONE, not four.
 
 Check the platform's rules about affiliate links. Some allow direct links, others prefer you link to a blog post first.
 
@@ -76,7 +79,7 @@ Check the platform's rules about affiliate links. Some allow direct links, other
 Put all your important links on one page. Easy to share on social profiles.
 
 ### 7. Google Search Console + Analytics - For Growth
-If you have a blog, these two free tools show you what people search to find you, which pages get clicks, and what content works. No guessing.
+If you have a blog or intending to, these two free tools shows you what people search to find you, which pages get clicks, and what content works. No guessing.
 
 ## Step 4: Create Helpful Content First
 
@@ -118,7 +121,7 @@ Week 4: Check your numbers and create more of your best-performing topic
 2. Promoting 10 products at once. Focus on 1-2 you understand at first.
 3. Not listening to comments. Comments tell you what to write next.
 
-## Final Thoughts
+## Conclusion 
 
 You can absolutely start affiliate marketing with $0. The tools are free, the platforms are free, the programs are free.
 
