@@ -20,18 +20,18 @@ export default function Header() {
 
         {/* DESKTOP */}
         <nav className="hidden md:flex items-center gap-7">
-          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 300 }} className="text-[15px] text-neutral-300 hover:text-white">Blog</Link>
-          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 300 }} className="text-[15px] text-neutral-300 hover:text-white">Home</Link>
+          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] text-neutral-300 hover:text-white">Blog</Link>
+          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] text-neutral-300 hover:text-white">Home</Link>
           <Link href="/networks" className="text-[15px] font-normal text-neutral-300 hover:text-white">Networks</Link>
           <Link href="/shop" className="text-[15px] font-normal text-neutral-300 hover:text-white">Shop</Link>
-          <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 400 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers →</Link>
+          <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers →</Link>
         </nav>
 
-        {/* MOBILE - SAME FONT AS SHOP LANDERS, LIGHTER, PUSHED RIGHT */}
+        {/* MOBILE - SMALLER, SLIGHTLY THICK, MODERN, RIGHT TO HAMBURGER */}
         <div className="flex md:hidden items-center gap-4 ml-auto">
-          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 300 }} className="text-[17px] tracking-[-0.01em] text-neutral-200 leading-none flex items-center h-8">Blog</Link>
-          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 300 }} className="text-[17px] tracking-[-0.01em] text-neutral-200 leading-none flex items-center h-8">Home</Link>
-          <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[24px] leading-none text-white ml-1">{open ? "✕" : "☰"}</button>
+          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Blog</Link>
+          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Home</Link>
+          <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white ml-1">{open ? "✕" : "☰"}</button>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ export default function Header() {
         <nav className="md:hidden border-t border-white/10 px-6 py-5 flex flex-col gap-5 bg-[#030a05]">
           <Link href="/networks" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Networks</Link>
           <Link href="/shop" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Shop</Link>
-          <Link href="/shop" onClick={() => setOpen(false)} style={{ fontFamily: shopFont, fontWeight: 400 }} className="bg-white text-black text-center text-[15px] tracking-[-0.01em] px-6 py-3.5 rounded-full">Shop Landers →</Link>
+          <Link href="/shop" onClick={() => setOpen(false)} style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-center text-[15px] tracking-[-0.01em] px-6 py-3.5 rounded-full">Shop Landers →</Link>
         </nav>
       )}
     </header>
