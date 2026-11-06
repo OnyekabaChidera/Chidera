@@ -8,7 +8,7 @@ tags: ["pinterest affiliate marketing for beginners", "how to get free traffic f
 ---
 ![How to Get Free Traffic from Pinterest for Affiliate Links](/blog/pinterest-free-traffic-affiliate.jpg)
 
-I wasted money on fb ads when I started affiliate marketing. Got zero clicks,  I lost had $5 and felt stupid. Then I found Pinterest. Someone in a social group had said "try Pinterest" and I thought it was just for recipes. But I tried it anyway.
+When I start affiliate marketing, I wasted money on fb ads, and we all k ow how costly fb ads. Got zero clicks,  I lost had $5 and felt stupid. Then I found Pinterest. Someone in a social group said something, "try Pinterest" and I had thought it was just for recipes. But I tried it anyway.
 
 Keypoint; most people think Pinterest is just for recipes and home decor. But it's actually a visual search engine. People go there to find ideas and they are ready to buy something.
 
@@ -16,7 +16,7 @@ The best part? You can start for free and a pin you post today can still bring c
 
 Here is how I used Pinterest to get free traffic for my affiliate links as a complete beginner.
 
-## What Is Pinterest Affiliate Marketing Anyway?
+## What Is Pinterest Affiliate Marketing In Real Sense?
 
 It is simple. You use Pinterest to promote content that contains your affiliate links.
 
@@ -27,7 +27,7 @@ But here is what most beginners get wrong. They just drop their affiliate link d
 That is stark, and does not work anymore! People don't trust it and some affiliate programs don't even allow direct linking.
 
 The smarter way is:
-**Pinterest Pin -> Helpful Blog Post -> Affiliate Link**
+**Pinterest Pin -> Helpful Blog Post -> Affiliate Designed Link**
 
 Your pin sends people to your blog post. Your blog post helps them solve a problem and then recommends the product with your affiliate link inside. More trust, more clicks, more sales.
 
@@ -67,7 +67,7 @@ Write down 10-15 of them. That is your content plan for the next month. Don't gu
 
 Your pin design is what stops the scroll.
 
-You don't need expensive software. I use Canva free version for everything.
+You don't need expensive software. I used Canva free version for everything.
 
 My simple rules:
 
@@ -129,4 +129,4 @@ If you are new here, start with these:
 
 ## Your Next Step
 
-You really don't need thousands of followers to start on Pinterest. Pick one blog post, make 3 pins for it using Canva today, and post them. That one action is enough to start.
+You really don't need thousands of followers to start on Pinterest. Pick one blog post, make 3 pins for it using Canva today, and post them. That one action is basically enough to start.
