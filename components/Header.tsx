@@ -1,10 +1,15 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import { Manrope } from "next/font/google";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+});
 
 export default function Header() {
   const [open, setOpen] = useState(false);
-  const shopFont = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
   return (
     <header className="sticky top-0 z-50 bg-[#030a05] border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -20,17 +25,17 @@ export default function Header() {
 
         {/* DESKTOP */}
         <nav className="hidden md:flex items-center gap-7">
-          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] text-neutral-300 hover:text-white">Blog</Link>
-          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] text-neutral-300 hover:text-white">Home</Link>
+          <Link href="/blog" className={`${manrope.className} text-[15px] font-medium text-neutral-300 hover:text-white`}>Blog</Link>
+          <Link href="/" className={`${manrope.className} text-[15px] font-medium text-neutral-300 hover:text-white`}>Home</Link>
           <Link href="/networks" className="text-[15px] font-normal text-neutral-300 hover:text-white">Networks</Link>
           <Link href="/shop" className="text-[15px] font-normal text-neutral-300 hover:text-white">Shop</Link>
-          <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers →</Link>
+          <Link href="/shop" className={`${manrope.className} bg-white text-black text-[14px] font-semibold px-4 py-2 rounded-full`}>Shop Landers →</Link>
         </nav>
 
-        {/* MOBILE - SMALLER, SLIGHTLY THICK, MODERN, RIGHT TO HAMBURGER */}
+        {/* MOBILE - SAME SIZE YOU LIKE, BUT REAL MODERN FONT NOW */}
         <div className="flex md:hidden items-center gap-4 ml-auto">
-          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Blog</Link>
-          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Home</Link>
+          <Link href="/blog" className={`${manrope.className} text-[15px] font-medium tracking-[-0.01em] text-white leading-none flex items-center h-8`}>Blog</Link>
+          <Link href="/" className={`${manrope.className} text-[15px] font-medium tracking-[-0.01em] text-white leading-none flex items-center h-8`}>Home</Link>
           <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white ml-1">{open ? "✕" : "☰"}</button>
         </div>
       </div>
@@ -40,7 +45,7 @@ export default function Header() {
         <nav className="md:hidden border-t border-white/10 px-6 py-5 flex flex-col gap-5 bg-[#030a05]">
           <Link href="/networks" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Networks</Link>
           <Link href="/shop" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Shop</Link>
-          <Link href="/shop" onClick={() => setOpen(false)} style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-center text-[15px] tracking-[-0.01em] px-6 py-3.5 rounded-full">Shop Landers →</Link>
+          <Link href="/shop" onClick={() => setOpen(false)} className={`${manrope.className} bg-white text-black text-center text-[15px] font-semibold tracking-[-0.01em] px-6 py-3.5 rounded-full`}>Shop Landers →</Link>
         </nav>
       )}
     </header>
