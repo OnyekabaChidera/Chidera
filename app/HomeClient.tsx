@@ -41,7 +41,6 @@ export default function HomeClient() {
       <div className="fixed top-[-15%] left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-[radial-gradient(ellipse,rgba(34,197,94,0.1)_0%,transparent_70%)] pointer-events-none z-0" />
       <nav className="sticky top-0 z-50 bg-[#030a05]/90 backdrop-blur-xl border-b border-white/5">
         <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
-          {/* 15% GLOW ONLY - LOGO KEPT */}
           <a href="/" className="relative flex items-center gap-2.5 no-underline">
             <img src="/logo.png.jpg" alt="LeadVaultsHub" className="w-8 h-8 rounded-lg object-cover relative z-10" />
             <span className="text-lg font-bold tracking-tight relative z-10">
@@ -52,6 +51,7 @@ export default function HomeClient() {
           </a>
           <div className="flex items-center gap-6">
             <a href="/blog" className="text-sm font-medium text-slate-300 hover:text-white transition">Blog</a>
+            <a href="/networks" className="text-sm font-medium text-slate-300 hover:text-white transition">Networks</a>
             <a href="/" className="text-sm font-medium text-slate-300 hover:text-white transition">Home</a>
           </div>
         </div>
@@ -148,12 +148,13 @@ export default function HomeClient() {
       </article>
 
       <footer className="border-t border-white/5 py-10 text-center text-slate-500 text-sm">
-        <div className="flex justify-center gap-6 mb-4">
+        <div className="flex justify-center gap-6 mb-4 flex-wrap">
           <a href="/about" className="hover:text-white">About</a>
           <a href="/privacy" className="hover:text-white">Privacy</a>
           <a href="/contact" className="hover:text-white">Contact</a>
           <a href="/disclaimer" className="hover:text-white">Disclaimer</a>
           <a href="/blog" className="hover:text-white">Blog</a>
+          <a href="/networks" className="hover:text-white">Networks</a>
         </div>
         <p>© 2026 LeadVaultsHub.com · Educational content only. Results vary based on effort and execution.</p>
       </footer>
