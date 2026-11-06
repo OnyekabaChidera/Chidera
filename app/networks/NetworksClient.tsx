@@ -25,38 +25,40 @@ export default function NetworksClient() {
   const filtered = filter === "All" ? all : all.filter((i) => i.region === filter || i.bestFor.toLowerCase().includes(filter.toLowerCase()));
 
   return (
-    <main className="min-h-screen bg-[#12161c] text-white px-4 py-10 max-w-6xl mx-auto">
-      <h1 className="text-3xl md:text-4xl font-bold font-[var(--font-roboto-slab)] text-center">Join Affiliate Networks & Forums</h1>
-      <p className="text-center text-gray-400 mt-3">Step 1: Join a network to get a product. Step 2: Buy a lander. Step 3: Post your link.</p>
+    <main className="min-h-screen bg-black text-white">
+      <div className="px-4 py-10 max-w-6xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-bold font-[var(--font-roboto-slab)] text-center">Join Affiliate Networks & Forums</h1>
+        <p className="text-center text-gray-400 mt-3">Step 1: Join a network to get a product. Step 2: Buy a lander. Step 3: Post your link.</p>
 
-      <div className="flex flex-wrap justify-center gap-2 mt-8">
-        {["All", "Global", "Nigeria", "AI Tools", "Weight Loss"].map((f) => (
-          <button key={f} onClick={() => setFilter(f)} className={`px-4 py-2 rounded-full text-sm ${filter === f ? "bg-white text-black" : "bg-white/10 text-white"}`}>{f}</button>
-        ))}
-      </div>
+        <div className="flex flex-wrap justify-center gap-2 mt-8">
+          {["All", "Global", "Nigeria", "AI Tools", "Weight Loss"].map((f) => (
+            <button key={f} onClick={() => setFilter(f)} className={`px-4 py-2 rounded-full text-sm ${filter === f ? "bg-white text-black" : "bg-white/10 text-white"}`}>{f}</button>
+          ))}
+        </div>
 
-      <h2 className="text-2xl font-bold mt-12 mb-4">Affiliate Networks</h2>
-      <div className="grid md:grid-cols-3 gap-4">
-        {filtered.filter((i) => i.type === "Network").map((n) => (
-          <div key={n.name} className="bg-white/5 border border-white/10 rounded-2xl p-5">
-            <h3 className="font-bold text-lg">{n.name}</h3>
-            <p className="text-sm text-gray-400 mt-1">{n.bestFor}</p>
-            <p className="text-sm mt-2">Payout: <span className="text-green-400">{n.payout}</span> • {n.region}</p>
-            <a href={n.link} target="_blank" className="block text-center bg-white text-black font-bold py-2 rounded-full mt-4">Join Free →</a>
-          </div>
-        ))}
-      </div>
+        <h2 className="text-2xl font-bold mt-12 mb-4">Affiliate Networks</h2>
+        <div className="grid md:grid-cols-3 gap-4">
+          {filtered.filter((i) => i.type === "Network").map((n) => (
+            <div key={n.name} className="bg-white/5 border border-white/10 rounded-2xl p-5">
+              <h3 className="font-bold text-lg">{n.name}</h3>
+              <p className="text-sm text-gray-400 mt-1">{n.bestFor}</p>
+              <p className="text-sm mt-2">Payout: <span className="text-green-400">{n.payout}</span> • {n.region}</p>
+              <a href={n.link} target="_blank" className="block text-center bg-white text-black font-bold py-2 rounded-full mt-4">Join Free →</a>
+            </div>
+          ))}
+        </div>
 
-      <h2 className="text-2xl font-bold mt-12 mb-4">Affiliate Forums</h2>
-      <div className="grid md:grid-cols-3 gap-4">
-        {filtered.filter((i) => i.type === "Forum").map((n) => (
-          <div key={n.name} className="bg-white/5 border border-white/10 rounded-2xl p-5">
-            <h3 className="font-bold text-lg">{n.name}</h3>
-            <p className="text-sm text-gray-400 mt-1">{n.bestFor}</p>
-            <p className="text-sm mt-2">Cost: <span className="text-green-400">{n.payout}</span></p>
-            <a href={n.link} target="_blank" className="block text-center bg-white text-black font-bold py-2 rounded-full mt-4">Join Forum →</a>
-          </div>
-        ))}
+        <h2 className="text-2xl font-bold mt-12 mb-4">Affiliate Forums</h2>
+        <div className="grid md:grid-cols-3 gap-4">
+          {filtered.filter((i) => i.type === "Forum").map((n) => (
+            <div key={n.name} className="bg-white/5 border border-white/10 rounded-2xl p-5">
+              <h3 className="font-bold text-lg">{n.name}</h3>
+              <p className="text-sm text-gray-400 mt-1">{n.bestFor}</p>
+              <p className="text-sm mt-2">Cost: <span className="text-green-400">{n.payout}</span></p>
+              <a href={n.link} target="_blank" className="block text-center bg-white text-black font-bold py-2 rounded-full mt-4">Join Forum →</a>
+            </div>
+          ))}
+        </div>
       </div>
     </main>
   );
