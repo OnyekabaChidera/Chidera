@@ -4,6 +4,7 @@ import { Roboto_Slab, Roboto } from "next/font/google";
 import Script from "next/script";
 import './globals.css';
 import CookieBanner from "./components/CookieBanner";
+import Header from "../components/Header";
 
 const robotoSlab = Roboto_Slab({
   subsets: ['latin'],
@@ -66,6 +67,7 @@ export default function RootLayout({
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1879277088078387" crossOrigin="anonymous"></script>
       </head>
       <body className="antialiased">
+        <Header />
         {children}
         <footer className="text-center text-sm text-gray-400 py-6 border-t border-white/10">
           <p>© {new Date().getFullYear()} LeadVaultsHub. All Rights Reserved.</p>
