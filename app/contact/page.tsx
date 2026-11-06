@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "Do you provide financial advice?",
-    answer: "No, not the moment. LeadVaultsHub is for educational purposes only. We share marketing strategies, not financial or investment advice."
+    answer: "No, not at the moment. LeadVaultsHub is for educational purposes only. We share marketing strategies, not financial or investment advice."
   }
 ];
 
