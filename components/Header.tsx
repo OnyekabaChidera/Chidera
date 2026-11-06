@@ -28,7 +28,7 @@ export default function Header() {
         </nav>
 
         {/* MOBILE - SMALLER, SLIGHTLY THICK, MODERN, RIGHT TO HAMBURGER */}
-        <div className="flex md:hidden items-center gap-3 ml-auto">
+        <div className="flex md:hidden items-center gap-4 ml-auto">
           <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Blog</Link>
           <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Home</Link>
           <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white ml-1">{open ? "✕" : "☰"}</button>
