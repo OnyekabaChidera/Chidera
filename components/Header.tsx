@@ -28,7 +28,7 @@ export default function Header() {
         </nav>
 
         {/* MOBILE - FIXED SPACING + ALIGNMENT */}
-        <div className="flex md:hidden items-center gap-5 ml-auto">
+        <div className="flex md:hidden items-center gap-4 ml-auto">
           <Link href="/blog" className="text-sm font-medium text-white leading-none flex items-center h-8">Blog</Link>
           <Link href="/" className="text-sm font-medium text-slate-300 hover:text-white leading-none flex items-center h-8">Home</Link>
           <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white">{open ? "✕" : "☰"}</button>
