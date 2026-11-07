@@ -75,7 +75,7 @@ export default function HomeClient() {
             Before I create anything, I run every offer through a simple filter. This saves weeks of wasted effort.
           </p>
           <p>
-            First, Look at clarity. Can I explain what the user gets in one sentence? If I can’t, cold traffic won’t understand it either. Second, I look at friction. Does it require a credit card, a long form, or a sales call? Lower friction offers are more forgiving when you’re still learning traffic.
+            First, I look at clarity. Can I explain what the user gets in one sentence? If I can’t, cold traffic won’t understand it either. Second, I look at friction. Does it require a credit card, a long form, or a sales call? Lower friction offers are more forgiving when you’re still learning traffic.
           </p>
           <p>
             Third, check the journey. What happens after the click? Is the landing page clean, fast, and mobile-friendly? If the end page looks dated or confusing, no amount of good traffic will fix it. I only promote what I would be comfortable sending a friend to.
