@@ -19,18 +19,18 @@ export default function Header() {
         </Link>
 
         {/* DESKTOP */}
-        <nav className="hidden md:flex items-center gap-7">
-          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] text-neutral-300 hover:text-white">Blog</Link>
-          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] text-neutral-300 hover:text-white">Home</Link>
+        <nav className="hidden md:flex items-center gap-6">
+          <Link href="/blog" className="text-sm font-medium text-white">Blog</Link>
+          <Link href="/" className="text-sm font-medium text-slate-300 hover:text-white">Home</Link>
           <Link href="/networks" className="text-[15px] font-normal text-neutral-300 hover:text-white">Networks</Link>
           <Link href="/shop" className="text-[15px] font-normal text-neutral-300 hover:text-white">Shop</Link>
           <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers →</Link>
         </nav>
 
         {/* MOBILE - SMALLER, SLIGHTLY THICK, MODERN, RIGHT TO HAMBURGER */}
-        <div className="flex md:hidden items-center gap-4 ml-auto">
-          <Link href="/blog" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Blog</Link>
-          <Link href="/" style={{ fontFamily: shopFont, fontWeight: 500 }} className="text-[15px] tracking-[-0.01em] text-white leading-none flex items-center h-8">Home</Link>
+        <div className="flex md:hidden items-center gap-6 ml-auto">
+          <Link href="/blog" className="text-sm font-medium text-white leading-none flex items-center h-8">Blog</Link>
+          <Link href="/" className="text-sm font-medium text-slate-300 hover:text-white leading-none flex items-center h-8">Home</Link>
           <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white ml-1">{open ? "✕" : "☰"}</button>
         </div>
       </div>
