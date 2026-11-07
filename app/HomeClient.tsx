@@ -130,6 +130,18 @@ export default function HomeClient() {
         </div>
       </article>
 
+      {/* FOOTER - FIXED BACK TO ORIGINAL */}
+      <footer className="border-t border-white/5 py-10 text-center text-slate-500 text-sm">
+        <div className="flex justify-center gap-6 mb-4">
+          <a href="/about" className="hover:text-white">About</a>
+          <a href="/privacy" className="hover:text-white">Privacy</a>
+          <a href="/contact" className="hover:text-white">Contact</a>
+          <a href="/disclaimer" className="hover:text-white">Disclaimer</a>
+          <a href="/blog" className="hover:text-white">Blog</a>
+        </div>
+        <p>© 2026 LeadVaultsHub.com · Educational content only. Results vary based on effort and execution.</p>
+      </footer>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
     </main>
   );
