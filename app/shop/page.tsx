@@ -13,7 +13,7 @@ export default function ShopPage() {
         </p>
 
         <div className="mt-10 inline-block bg-white/5 border border-white/10 rounded-2xl px-8 py-6">
-          <p className="text-lg font-medium">First landers dropping soon</p>
+          <p className="text-lg font-medium">First landers dropping soon🚨</p>
           <p className="text-sm text-gray-400 mt-1">No fake listings. We only list landers we&apos;ve actually built and tested.</p>
         </div>
 
