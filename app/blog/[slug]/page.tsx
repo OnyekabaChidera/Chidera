@@ -42,24 +42,6 @@ export default async function PostPage({
 
   return (
     <main className="min-h-screen bg-[#030a05] text-white">
-      <nav className="sticky top-0 z-50 bg-[#030a05]/90 backdrop-blur-xl border-b border-white/5">
-        <div className="max-w-[780px] mx-auto px-6 py-3.5 flex items-center justify-between">
-          {/* FIXED - LOGO KEPT + HUB GREEN SOFT GLOW */}
-          <a href="/" className="relative flex items-center gap-2.5 no-underline">
-            <img src="/logo.png.jpg" alt="LeadVaultsHub" className="w-8 h-8 rounded-lg object-cover relative z-10" />
-            <span className="text-[18px] font-bold tracking-tight relative z-10">
-              <span className="text-white">LeadVaults</span>
-              <span className="text-[#86efac]">Hub</span>
-            </span>
-            <span className="pointer-events-none absolute left-[82%] top-[75%] h-[20px] w-[40px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#22c55e]/25 blur-[10px] z-0" />
-          </a>
-          <div className="flex items-center gap-6">
-            <a href="/" className="text-sm font-medium text-slate-300 hover:text-white">Home</a>
-            <a href="/blog" className="text-sm font-medium text-white">Blog</a>
-          </div>
-        </div>
-      </nav>
-
       <div className="max-w-[780px] mx-auto px-6 pt-14 pb-20">
         <div className="text-green-400 text-xs font-semibold tracking-widest uppercase mb-3">{post.date}</div>
         <h1 className="font-serif text-3xl font-bold mb-4 leading-tight">{post.title}</h1>
