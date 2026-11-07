@@ -18,7 +18,7 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* DESKTOP */}
+        {/* DESKTOP - UNTOUCHED FROM LAST VERSION */}
         <nav className="hidden md:flex items-center gap-5">
           <Link href="/blog" className="text-sm font-medium text-white">Blog</Link>
           <Link href="/" className="text-sm font-medium text-slate-300 hover:text-white">Home</Link>
@@ -27,15 +27,15 @@ export default function Header() {
           <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers →</Link>
         </nav>
 
-        {/* MOBILE - SMALLER, SLIGHTLY THICK, MODERN, RIGHT TO HAMBURGER */}
-        <div className="flex md:hidden items-center gap-4 ml-auto">
+        {/* MOBILE - FIXED SPACING + ALIGNMENT */}
+        <div className="flex md:hidden items-center gap-3 ml-auto">
           <Link href="/blog" className="text-sm font-medium text-white leading-none flex items-center h-8">Blog</Link>
           <Link href="/" className="text-sm font-medium text-slate-300 hover:text-white leading-none flex items-center h-8">Home</Link>
-          <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white ml-1">{open ? "✕" : "☰"}</button>
+          <button onClick={() => setOpen(!open)} className="w-8 h-8 flex items-center justify-center text-[22px] leading-none text-white">{open ? "✕" : "☰"}</button>
         </div>
       </div>
 
-      {/* MOBILE DROPDOWN */}
+      {/* MOBILE DROPDOWN - UNTOUCHED */}
       {open && (
         <nav className="md:hidden border-t border-white/10 px-6 py-5 flex flex-col gap-5 bg-[#030a05]">
           <Link href="/networks" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Networks</Link>
