@@ -16,9 +16,9 @@ If you have time, consistency, and the right free tools, you can start today.
 
 This is the exact stack I would use if I had to start over with nothing.
 
-## What Is Affiliate Marketing After All In Plain English?
+## What Is Affiliate Marketing In Plain English?
 
-You recommend a product. Someone buys through your special link. The company pays you a small commission.
+You recommend a product. Someone buys through your special link. The company pays you a commission.
 
 You don't create the product. You don't handle shipping. Your job is to help someone make a decision.
 
