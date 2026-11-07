@@ -139,7 +139,7 @@ export default function HomeClient() {
           <a href="/disclaimer" className="hover:text-white">Disclaimer</a>
           <a href="/blog" className="hover:text-white">Blog</a>
         </div>
-        <p>© 2026 LeadVaultsHub.com · Educational content only. Results vary based on effort and execution.</p>
+        <p>© 2026 LeadVaultsHub.com · Educational content and digital templates only. Results vary based on effort and execution.</p>
       </footer>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
