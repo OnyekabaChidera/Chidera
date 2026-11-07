@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "Are your tools and templates really free?",
-    answer: "Yes. All traffic strategies, checklists, and landing page templates in the vault are 100% free. We earn a small commission if you buy through our affiliate links."
+    answer: "Yes. When the vault opens, all traffic strategies, checklists, and landing page templates in the vault will be 100% free. We earn a small commission if you buy through our affiliate links at no extra cost to you."
   },
   {
     question: "Can I submit a guest post or tool?",
