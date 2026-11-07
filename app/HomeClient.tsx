@@ -139,7 +139,7 @@ export default function HomeClient() {
           <a href="/disclaimer" className="hover:text-white">Disclaimer</a>
           <a href="/blog" className="hover:text-white">Blog</a>
         </div>
-        <p>Educational content and digital templates. Results vary based on effort and execution.</p>
+        <p> Educational content and digital templates. Results vary based on effort and execution.</p>
       </footer>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
