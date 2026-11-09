@@ -9,7 +9,7 @@ export default function AboutPage() {
         </p>
         
         <p className="text-slate-300 leading-relaxed mb-4">
-          I started this site in 2025 because i was tired of paid courses that don't work. I lost money on affilate networks, and fake mentors. I have read in several outlets about Clickbanks, warriorPlus and the rest and thus decided to emerge this site.
+          I started this site in 2025 because i was tired of paid courses that don't work. I lost money on affilate networks, and fake mentors. I have made this site for beginners or aspirers who intend to make money online. I have strictly read in several outlets about Clickbanks, WarriorPlus, Selar and the rest and thus decided to emerge this site.
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-3">What You’ll Find Here</h2>
