@@ -12,36 +12,24 @@ export default function HomeClient() {
     if (!name.trim() || !email.trim()) return;
     setLoading(true);
 
-    // 1. Send to Brevo via server -> Brevo Automation sends vault link
     try {
-      await fetch("/api/subscribe", {
+      const res = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email }),
+        body: JSON.stringify({ email: email, firstName: name }),
       });
+
+      if (res.ok) {
+        setSuccess(true);
+      } else {
+        alert("Something went wrong, please try again.");
+      }
     } catch (err) {
       console.log("Subscribe failed:", err);
-    }
-
-    // 2. Backup copy to you via FormSubmit
-    try {
-      await fetch("https://formsubmit.co/ajax/admin@leadvaultshub.com", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "Accept": "application/json" },
-        body: JSON.stringify({
-          name: name,
-          email: email,
-          _subject: "New Lead - LeadVaultsHub Vault",
-          _template: "table",
-          _captcha: "false",
-        }),
-      });
-    } catch (err) {
-      console.log("FormSubmit failed:", err);
+      alert("Something went wrong, please try again.");
     }
 
     setLoading(false);
-    setSuccess(true);
   };
 
   const articleSchema = {
