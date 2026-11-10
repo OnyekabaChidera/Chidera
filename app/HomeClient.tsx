@@ -12,7 +12,18 @@ export default function HomeClient() {
     if (!name.trim() || !email.trim()) return;
     setLoading(true);
 
-    // 1. Send lead to FormSubmit -> admin@leadvaultshub.com
+    // 1. Send to Brevo via server -> Brevo Automation sends vault link
+    try {
+      await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email }),
+      });
+    } catch (err) {
+      console.log("Subscribe failed:", err);
+    }
+
+    // 2. Backup copy to you via FormSubmit
     try {
       await fetch("https://formsubmit.co/ajax/admin@leadvaultshub.com", {
         method: "POST",
@@ -26,15 +37,11 @@ export default function HomeClient() {
         }),
       });
     } catch (err) {
-      console.log("FormSubmit failed, still continuing:", err);
+      console.log("FormSubmit failed:", err);
     }
 
-    // === ADSENSE REVIEW MODE (SAFE) - USE THIS NOW ===
     setLoading(false);
     setSuccess(true);
-
-    // === MONEY MODE - UNCOMMENT AFTER ADSENSE APPROVAL ===
-    // window.location.href = `/vault?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}`;
   };
 
   const articleSchema = {
@@ -143,7 +150,6 @@ export default function HomeClient() {
         </div>
       </article>
 
-      {/* FOOTER - FIXED BACK TO ORIGINAL */}
       <footer className="border-t border-white/5 py-10 text-center text-slate-500 text-sm">
         <div className="flex justify-center gap-6 mb-4">
           <a href="/about" className="hover:text-white">About</a>
