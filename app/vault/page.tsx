@@ -5,27 +5,27 @@ export const metadata = {
 
 export default function VaultPage() {
   return (
-    <main className="min-h-screen bg-[#0a1f14] text-white flex items-center justify-center px-4 py-16">
-      <div className="max-w-md w-full bg-[#122a1d] border border-green-800/50 rounded-2xl p-8 text-center shadow-2xl">
+    <main className="min-h-screen bg-[#07130D] text-white flex items-center justify-center px-4 py-16">
+      <div className="max-w-md w-full bg-[#0E241A] border border-white/10 rounded-2xl p-8 text-center">
         <div className="text-4xl mb-3">🔒</div>
         <h1 className="text-2xl font-bold mb-2">Your Vault Is Ready</h1>
-        <p className="text-green-200/80 text-sm mb-6">
-          You signed up for the Training Vault — templates, checklists & walkthrough to start affiliate marketing.
+        <p className="text-white/70 text-sm mb-6">
+          You signed up for the Training Vault — templates, checklists & detailed walkthroughs to start affiliate marketing.
         </p>
 
-        <div className="bg-black/30 rounded-xl p-4 text-left text-sm space-y-2 mb-6">
-          <p>✅ What's inside: 7 starter templates</p>
+        <div className="bg-black/30 rounded-xl p-4 text-left text-sm space-y-2 mb-6 text-white/80">
+          <p>✅ What's inside: templates</p>
           <p>✅ Price: Free</p>
           <p>✅ Why locked: To stop bots from stealing it</p>
         </div>
 
-        <p className="text-xs text-white/60 mb-4">
+        <p className="text-xs text-white/50 mb-4">
           Complete one quick verification step to unlock instant access. Takes ~30 seconds.
         </p>
 
         <a
           href="https://saveapp.store/cl/i/j7nqqp"
-          className="block w-full bg-green-500 hover:bg-green-400 text-black font-bold py-3.5 rounded-xl text-center"
+          className="block w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 rounded-xl text-center"
         >
           Unlock My Vault →
         </a>
