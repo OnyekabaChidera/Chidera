@@ -1,35 +1,63 @@
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
-  const { email, name } = await req.json();
+  try {
+    const { email, firstName } = await req.json();
 
-  if (!email) {
-    return NextResponse.json({ error: 'Email required' }, { status: 400 });
-  }
-
-  const res = await fetch('https://api.brevo.com/v3/contacts', {
-    method: 'POST',
-    headers: {
-      'api-key': process.env.BREVO_API_KEY!,
-      'Content-Type': 'application/json',
-      'accept': 'application/json',
-    },
-    body: JSON.stringify({
-      email,
-      attributes: { FIRSTNAME: name || '' },
-      listIds: [Number(process.env.BREVO_LIST_ID || 2)],
-      updateEnabled: true,
-    }),
-  });
-
-  if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    // If already exists, treat as success
-    if (res.status === 400) {
-      return NextResponse.json({ ok: true, already: true });
+    if (!email || !email.includes("@")) {
+      return NextResponse.json({ error: "Invalid email" }, { status: 400 });
     }
-    return NextResponse.json({ error: err }, { status: 500 });
-  }
 
-  return NextResponse.json({ ok: true });
+    const apiKey = process.env.BREVO_API_KEY;
+    const name = firstName || "there";
+
+    // 1. SAVE TO BREVO LIST 2 - for updates later
+    await fetch("https://api.brevo.com/v3/contacts", {
+      method: "POST",
+      headers: {
+        "api-key": apiKey!,
+        "Content-Type": "application/json",
+        accept: "application/json",
+      },
+      body: JSON.stringify({
+        email: email,
+        attributes: { FIRSTNAME: name },
+        listIds: [2],
+        updateEnabled: true,
+      }),
+    });
+
+    // 2. SEND VAULT EMAIL IMMEDIATELY
+    await fetch("https://api.brevo.com/v3/smtp/email", {
+      method: "POST",
+      headers: {
+        "api-key": apiKey!,
+        "Content-Type": "application/json",
+        accept: "application/json",
+      },
+      body: JSON.stringify({
+        sender: { name: "LeadVaultsHub", email: "admin@leadvaultshub.com" },
+        to: [{ email: email, name: name }],
+        subject: "Your Vault Access - LeadVaultsHub",
+        htmlContent: `
+          <div style="font-family: Arial; max-width: 600px; margin: 0 auto; padding: 20px;">
+            <h2>Hi ${name},</h2>
+            <p>Thanks for joining LeadVaultsHub.</p>
+            <p>Here is your access to the Training Vault:</p>
+            <p style="text-align:center; margin: 30px 0;">
+              <a href="https://leadvaultshub.com/vault" style="background: #000; color: #fff; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold;">Access The Vault →</a>
+            </p>
+            <p>Inside you will find templates, checklists and detailed walkthroughs.</p>
+            <p>No spam, unsubscribe anytime.</p>
+            <p>— Sandy<br>LeadVaultsHub</p>
+          </div>
+        `,
+      }),
+    });
+
+    return NextResponse.json({ success: true });
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json({ error: "Failed" }, { status: 500 });
+  }
 }
