@@ -125,7 +125,7 @@ export default function HomeClient() {
 
         <div className="mt-16 bg-gradient-to-b from-[#0f1c15] to-[#0a130e] border border-green-500/20 rounded-2xl p-8">
           <h3 className="font-serif text-xl font-bold text-white mb-2 text-center">Get Access To The Training Vault</h3>
-          <p className="text-slate-400 text-[14.5px] mb-6 text-center leading-relaxed">A curated collection of templates, checklists, and walkthroughs I use to test new campaigns. Free to access.</p>
+          <p className="text-slate-400 text-[14.5px] mb-6 text-center leading-relaxed">A curated collection of templates, checklists, and walkthroughs practically used for new campaigns. Free to access.</p>
           <form onSubmit={handleSubmit} className="max-w-md mx-auto space-y-3">
             <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your first name" required className="w-full px-4 py-3.5 rounded-xl bg-black/40 border border-white/10 text-white placeholder:text-slate-500 outline-none focus:border-green-500 transition" />
             <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Your best email" required className="w-full px-4 py-3.5 rounded-xl bg-black/40 border border-white/10 text-white placeholder:text-slate-500 outline-none focus:border-green-500 transition" />
