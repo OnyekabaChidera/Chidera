@@ -7,21 +7,34 @@ export default function HomeClient() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name.trim() || !email.trim()) return;
     setLoading(true);
-    
+
+    // 1. Send lead to FormSubmit -> admin@leadvaultshub.com
+    try {
+      await fetch("https://formsubmit.co/ajax/admin@leadvaultshub.com", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          name: name,
+          email: email,
+          _subject: "New Lead - LeadVaultsHub Vault",
+          _template: "table",
+          _captcha: "false",
+        }),
+      });
+    } catch (err) {
+      console.log("FormSubmit failed, still continuing:", err);
+    }
+
     // === ADSENSE REVIEW MODE (SAFE) - USE THIS NOW ===
-    setTimeout(() => {
-      setLoading(false);
-      setSuccess(true);
-    }, 600);
+    setLoading(false);
+    setSuccess(true);
 
     // === MONEY MODE - UNCOMMENT AFTER ADSENSE APPROVAL ===
-    // setTimeout(() => {
-    //   window.location.href = "https://saveapp.store/cl/i/j7nqqp";
-    // }, 600);
+    // window.location.href = `/vault?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}`;
   };
 
   const articleSchema = {
