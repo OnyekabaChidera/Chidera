@@ -50,6 +50,14 @@ export async function POST(req: Request) {
             <p>Inside you will find templates, checklists and detailed walkthroughs.</p>
             <p>No spam, unsubscribe anytime.</p>
             <p>— Sandy<br>LeadVaultsHub</p>
+
+            <!-- FOOTER UNDERNEATH - ONLY WORKING LINKS -->
+            <br><br>
+            <hr style="border:none; border-top:1px solid #eeeeee; margin:20px 0;">
+            <p style="font-size:12px; color:#888888; text-align:center; line-height:1.8;">
+              LeadVaultsHub · FCT, Abuja, Nigeria<br><br>
+              <a href="{{ unsubscribe }}" style="color:#888888;">update your preferences</a> or <a href="{{ unsubscribe }}" style="color:#888888;">unsubscribe</a>
+            </p>
           </div>
         `,
       }),
