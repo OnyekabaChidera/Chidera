@@ -1,32 +1,62 @@
-export const metadata = {
-  title: "Shop Landers | LeadVaultsHub",
-  description: "High-converting landing page templates for affiliate marketers. Coming soon.",
-};
-
-export default function ShopPage() {
-  return (
-    <main className="min-h-screen bg-black text-white">
-      <div className="px-4 py-16 max-w-6xl mx-auto text-center">
-        <h1 className="text-3xl md:text-4xl font-bold font-[var(--font-roboto-slab)]">Shop Landers</h1>
-        <p className="text-gray-400 mt-3 max-w-xl mx-auto">
-          High-converting landing page templates for Weight Loss, Health, AI Tools and Make Money offers. We&apos;re building the first set now.
-        </p>
-
-        <div className="mt-10 inline-block bg-white/5 border border-white/10 rounded-2xl px-8 py-6">
-          <p className="text-lg font-medium">First landers dropping soon🚨</p>
-          <p className="text-sm text-gray-400 mt-1">No fake listings. We only list landers we&apos;ve actually built and tested.</p>
-        </div>
-
-        <div className="mt-8">
-          <a href="/networks" className="inline-block bg-white text-black font-medium px-6 py-3 rounded-full text-[15px]">
-            Start with Step 1: Join a Network →
-          </a>
-        </div>
-
-        <p className="text-sm text-gray-500 mt-8">
-          Want to be notified? Check back here or follow our Blog for launch updates.
-        </p>
-      </div>
-    </main>
-  );
-}
+export const landers = [
+  {
+    slug: "slim-fit",
+    name: "Slim Fit",
+    category: "Weight Loss",
+    tag: "Weight Loss",
+    headline: "A Simple Daily Routine For Weight Loss Beginners",
+    desc: "Simple page for weight loss offers. Clean headline, 1 clear next step, mobile-first.",
+    image: "/images/slim-fit.jpg",
+    demoLink: "/sugar-balance",
+    packages: [
+      { name: "Starter", price: 5 },
+      { name: "Premium", price: 15 },
+      { name: "Exclusive", price: 30 },
+    ]
+  },
+  {
+    slug: "sugar-balance",
+    name: "Sugar Balance",
+    category: "Health / Diabetes",
+    tag: "Health",
+    headline: "Support Healthy Blood Sugar With A Simple Daily Routine",
+    desc: "Trust-based page for health offers. Explains the offer, answers objection, 1 clear next step.",
+    image: "/images/sugar-balance.jpg",
+    demoLink: "/sugar-balance",
+    packages: [
+      { name: "Starter", price: 5 },
+      { name: "Premium", price: 15 },
+      { name: "Exclusive", price: 30 },
+    ]
+  },
+  {
+    slug: "ai-studio",
+    name: "AI Studio",
+    category: "AI Tools / Softwares",
+    tag: "AI Tools",
+    headline: "A Simple AI Tool To Help You Write Emails Faster",
+    desc: "Clean page for AI tools and software offers. Shows benefit in 1 sentence.",
+    image: "/images/ai-studio.jpg",
+    demoLink: "/sugar-balance",
+    packages: [
+      { name: "Starter", price: 5 },
+      { name: "Premium", price: 15 },
+      { name: "Exclusive", price: 30 },
+    ]
+  },
+  {
+    slug: "love-back",
+    name: "Love Back",
+    category: "Relationship / Dating",
+    tag: "Relationship",
+    headline: "A Simple Guide To Rebuild Connection And Trust",
+    desc: "Simple page for relationship offers. Value first, no hype.",
+    image: "/images/love-back.jpg",
+    demoLink: "/sugar-balance",
+    packages: [
+      { name: "Starter", price: 5 },
+      { name: "Premium", price: 15 },
+      { name: "Exclusive", price: 30 },
+    ]
+  },
+];
