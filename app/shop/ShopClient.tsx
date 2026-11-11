@@ -29,12 +29,12 @@ export default function ShopClient() {
             <p className="text-sm mt-3">Price: <span className="text-green-400">Free Preview</span></p>
             <p className="text-sm mt-1">Starter: <span className="font-bold text-white">$5</span> <span className="text-pink-400 font-semibold italic">- discounted</span></p>
 
-            {/* SLOTS - PINK TEXT ONLY, NO PLACARD, NO BACKGROUND */}
+            {/* SLOTS - SAME FONT AS HOME PAGE (ROBOTO), JUST TINIER, NO PLACARD */}
             {l.premiumSlots && (
-              <div className="mt-2 space-y-1">
-                <p className="text-sm font-bold text-pink-400 tracking-wide">Starter - Unlimited</p>
-                <p className="text-sm font-bold text-pink-400 tracking-wide">Premium - Only 5 slots</p>
-                <p className="text-sm font-bold text-pink-400 tracking-wide">Exclusive - Only 2 slots</p>
+              <div className="mt-2 space-y-0.5" style={{ fontFamily: "var(--font-roboto), system-ui, sans-serif" }}>
+                <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Starter - Unlimited</p>
+                <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Premium - Only 5 slots</p>
+                <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Exclusive - Only 2 slots</p>
               </div>
             )}
 
