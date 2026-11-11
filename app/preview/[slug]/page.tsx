@@ -2,7 +2,6 @@ import { landers } from "@/data/landers";
 import Link from "next/link";
 import Image from "next/image";
 
-// This tells Google: don't index preview pages
 export const metadata = {
   robots: "noindex, nofollow",
 };
@@ -14,7 +13,6 @@ export default async function PreviewPage({ params }: { params: Promise<{ slug: 
 
   const isReady = lander.slug === "sugar-balance";
 
-  // If it's NOT ready — Coming Soon
   if (!isReady) {
     return (
       <div className="min-h-screen bg-black text-white p-6 text-center flex flex-col justify-center items-center">
@@ -26,38 +24,45 @@ export default async function PreviewPage({ params }: { params: Promise<{ slug: 
     );
   }
 
-  // If it IS Sugar Balance — Partial Blurred Image Preview
   return (
     <div className="min-h-screen bg-zinc-950 text-white p-4 md:p-8">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-3xl font-bold">{lander.name} — Preview</h1>
         <p className="text-gray-400 mt-2">{lander.headline}</p>
 
-        {/* PREVIEW BOX - Top clear, Bottom blurred */}
+        {/* PREVIEW BOX */}
         <div className="relative w-full mt-6 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '700px' }}>
           <Image
-            src="/previews/sugar-balance.jpg"
-            alt="Sugar Balance Preview"
+            src={`/previews/${lander.slug}.jpg`}
+            alt={`${lander.name} Preview`}
             fill
             style={{ objectFit: 'top', objectPosition: 'top' }}
             priority
           />
 
-          {/* Watermark in middle */}
+          {/* Watermark */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <p className="text-black/20 font-black text-4xl rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur for bottom 50% */}
+          {/* Blur + 3 Buttons INSIDE */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[50%] flex flex-col items-center justify-center"
+            className="absolute bottom-0 left-0 w-full h-[55%] flex flex-col items-center justify-center px-4"
             style={{
               backdropFilter: 'blur(14px)',
-              background: 'linear-gradient(to top, rgba(255,255,255,0.95), rgba(255,255,255,0))',
+              background: 'linear-gradient(to top, rgba(255,255,255,0.97), rgba(255,255,255,0))',
             }}
           >
             <p className="text-black font-bold text-lg bg-white px-4 py-2 rounded-full shadow">Buy To Unlock Full Page</p>
-            <Link href="/shop" className="bg-black text-white rounded-full px-6 py-3 mt-4">Buy For $5 →</Link>
+            <p className="text-zinc-600 text-sm mt-2 font-medium">Choose your plan:</p>
+
+            <div className="flex flex-col sm:flex-row gap-2 mt-3 w-full sm:w-auto">
+              <Link href="/shop" className="bg-black text-white rounded-full px-5 py-3 font-bold text-sm">Starter $5 →</Link>
+              <Link href="/shop" className="bg-zinc-800 text-white rounded-full px-5 py-3 font-bold text-sm">Premium $15 →</Link>
+              <Link href="/shop" className="bg-white text-black border-2 border-black rounded-full px-5 py-3 font-bold text-sm">Exclusive $30 →</Link>
+            </div>
+
+            <p className="text-zinc-500 text-xs mt-3">Starter = Download Only • Premium = We Set It Up For You • Exclusive = Only For You</p>
           </div>
         </div>
 
