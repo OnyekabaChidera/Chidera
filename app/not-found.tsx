@@ -3,10 +3,8 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="min-h-screen bg-black text-white p-6 text-center flex flex-col justify-center items-center">
-      <p className="text-7xl font-bold text-zinc-800">404</p>
-      <h1 className="text-3xl font-bold mt-4">This page got lost</h1>
+      <h1 className="text-3xl font-bold">In Progress ⏳</h1>
       <p className="text-gray-400 mt-3 max-w-md">
-        In Progress ⏳
         Let's take you back to something beautiful.
       </p>
 
