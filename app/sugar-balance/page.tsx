@@ -23,7 +23,18 @@ export default function SugarBalance() {
         A simple 3-step daily routine busy people use to support balanced energy and healthier habits at home.
       </p>
 
-      <img src="/images/sugar-balance.jpg" alt="Woman in kitchen with healthy vegetables" className="w-full mt-6" />
+      {/* FIXED IMAGE - tries your photo, if it fails shows backup, never shows broken icon */}
+      <img
+        src="/images/sugar-balance.jpg?v=2"
+        alt="Woman in kitchen with healthy vegetables"
+        className="w-full mt-6 rounded-lg object-cover"
+        onError={(e) => {
+          const img = e.currentTarget as HTMLImageElement;
+          if (!img.src.includes("unsplash")) {
+            img.src = "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80&auto=format&fit=crop";
+          }
+        }}
+      />
 
       <a href="https://YOUR-AFFILIATE-LINK-HERE" target="_blank" className="block text-center bg-[#0E7C74] text-white text-[14px] font-medium py-3.5 px-4 rounded-full mt-5 mx-2">
         Get My Sugar Balance Plan —&gt;
@@ -75,7 +86,7 @@ export default function SugarBalance() {
         <li>•Helps you stay consistent everyday.</li>
       </ul>
 
-      {/* FINAL CTA - EXACT AS YOUR LAST SCREENSHOT */}
+      {/* FINAL CTA */}
       <div className="bg-[#EAF6F5] px-5 py-5 mt-8 text-center">
         <p className="font-bold text-[14px] leading-snug">Ready To Check If Sugar Balance Is Right For You?</p>
       </div>
@@ -84,7 +95,7 @@ export default function SugarBalance() {
         Get My Sugar Balance Plan —&gt;
       </a>
 
-      {/* FOOTER - EXACT AS YOUR SCREENSHOT */}
+      {/* FOOTER */}
       <div className="bg-black text-white text-center px-4 py-3 mt-5 mb-4">
         <p className="text-[12px]">©Sugar Balance | All Rights Reserved.</p>
         <p className="text-[12px] mt-1">This isn’t a Medical Advice. Results May Vary.</p>
