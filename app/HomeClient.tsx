@@ -139,12 +139,17 @@ export default function HomeClient() {
       </article>
 
       <footer className="border-t border-white/5 py-10 text-center text-slate-500 text-sm">
-        <div className="flex justify-center gap-6 mb-4">
+        <div className="flex flex-wrap justify-center gap-6 mb-4">
           <a href="/about" className="hover:text-white">About</a>
           <a href="/privacy" className="hover:text-white">Privacy</a>
           <a href="/contact" className="hover:text-white">Contact</a>
           <a href="/disclaimer" className="hover:text-white">Disclaimer</a>
           <a href="/blog" className="hover:text-white">Blog</a>
+        </div>
+        <div className="flex justify-center gap-4 mb-4 text-[12px] text-slate-500">
+          <a href="/terms" className="hover:text-white">Terms</a>
+          <span>•</span>
+          <a href="/refund-policy" className="hover:text-white">Refund Policy</a>
         </div>
         <p> Educational content and digital templates. Results vary based on effort and execution.</p>
       </footer>
