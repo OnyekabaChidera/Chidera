@@ -24,7 +24,7 @@ export default function LanderPage({ params }: { params: { slug: string } }) {
   const isReady = lander.slug === "sugar-balance";
 
   return (
-    <main className="min-h-screen bg-[#12161c] text-white px-4 py-10 max-w-3xl mx-auto">
+    <main className="min-h-screen bg-[#171b22] text-white px-4 py-10 max-w-3xl mx-auto">
       <Link href="/shop" className="text-sm text-gray-400">← Back to Shop</Link>
 
       <div className="mt-6 bg-white/5 border border-white/10 rounded-2xl p-6">
