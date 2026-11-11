@@ -1,3 +1,11 @@
+// ============================================
+// SUGAR BALANCE - LANDING PAGE TEMPLATE
+// HOW TO USE:
+// 1. Replace YOUR-AFFILIATE-LINK-HERE with your own link - 2 places
+// 2. Replace image in public/images/sugar-balance.jpg with your own
+// That's it. Save and publish.
+// ============================================
+
 export const metadata = {
   title: "Support Healthy Blood Sugar Levels With A Simple Daily Routine",
   description: "A simple 3-step daily routine busy people use to support balanced energy and healthier habits at home.",
@@ -23,18 +31,7 @@ export default function SugarBalance() {
         A simple 3-step daily routine busy people use to support balanced energy and healthier habits at home.
       </p>
 
-      {/* FIXED IMAGE - tries your photo, if it fails shows backup, never shows broken icon */}
-      <img
-        src="/images/sugar-balance.jpg?v=2"
-        alt="Woman in kitchen with healthy vegetables"
-        className="w-full mt-6 rounded-lg object-cover"
-        onError={(e) => {
-          const img = e.currentTarget as HTMLImageElement;
-          if (!img.src.includes("unsplash")) {
-            img.src = "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80&auto=format&fit=crop";
-          }
-        }}
-      />
+      <img src="/images/sugar-balance.jpg" alt="Woman in kitchen with healthy vegetables" className="w-full mt-6 rounded-lg object-cover" />
 
       <a href="https://YOUR-AFFILIATE-LINK-HERE" target="_blank" className="block text-center bg-[#0E7C74] text-white text-[14px] font-medium py-3.5 px-4 rounded-full mt-5 mx-2">
         Get My Sugar Balance Plan —&gt;
@@ -95,9 +92,9 @@ export default function SugarBalance() {
         Get My Sugar Balance Plan —&gt;
       </a>
 
-      {/* FOOTER */}
+      {/* FOOTER - No brand name, clean for any buyer */}
       <div className="bg-black text-white text-center px-4 py-3 mt-5 mb-4">
-        <p className="text-[12px]">©Sugar Balance | All Rights Reserved.</p>
+        <p className="text-[12px]">© All Rights Reserved.</p>
         <p className="text-[12px] mt-1">This isn’t a Medical Advice. Results May Vary.</p>
       </div>
     </main>
