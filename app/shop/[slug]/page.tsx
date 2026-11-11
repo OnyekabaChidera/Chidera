@@ -42,10 +42,10 @@ export default function LanderPage({ params }: { params: { slug: string } }) {
 
       {/* SLOTS - ONLY FOR SUGAR BALANCE, NOT FOR OTHER TEMPLATES */}
       {isReady && (
-        <div className="mt-4 space-y-0.5 text-center" style={{ fontFamily: "var(--font-roboto), system-ui, sans-serif" }}>
-          <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Starter - $5 Unlimited</p>
-          <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Premium - Only 5 slots</p>
-          <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Exclusive - Only 2 slots</p>
+        <div className="mt-4 space-y-1 text-center" style={{ fontFamily: "'Manrope', 'Inter', system-ui, sans-serif" }}>
+          <p className="text-[12px] font-medium tracking-[0.02em] text-pink-400 leading-relaxed">Starter - $5 Unlimited</p>
+          <p className="text-[12px] font-medium tracking-[0.02em] text-pink-400 leading-relaxed">Premium - Only 5 slots</p>
+          <p className="text-[12px] font-medium tracking-[0.02em] text-pink-400 leading-relaxed">Exclusive - Only 2 slots</p>
         </div>
       )}
 
