@@ -5,7 +5,7 @@ export const landers = [
     tag: "Health",
     headline: "Support Healthy Blood Sugar With A Simple Daily Routine",
     desc: "Trust-based page for health offers. Explains the offer, answers objection, 1 clear next step.",
-    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800",
+    image: "/images/sugar-balance.jpg",
     demoLink: "/sugar-balance",
     price: 5,
     starter: 5,
