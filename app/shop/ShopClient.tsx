@@ -18,7 +18,7 @@ export default function ShopClient() {
       </div>
 
       <div className="grid md:grid-cols-2 gap-4 mt-10">
-        {filtered.map((l) => (
+        {filtered.map((l: any) => (
           <div key={l.slug} className="bg-white/5 border border-white/10 rounded-2xl p-6">
             <img src={l.image} alt={l.name} className="w-full h-48 object-cover rounded-xl" />
             <span className="text-xs bg-green-500/20 text-green-300 px-3 py-1 rounded-full inline-block mt-4">{l.tag}</span>
@@ -26,6 +26,17 @@ export default function ShopClient() {
             <p className="text-sm text-gray-300 mt-1">{l.headline}</p>
             <p className="text-sm text-gray-400 mt-2 leading-relaxed">{l.desc}</p>
             <p className="text-sm mt-3">Price: <span className="text-green-400">Free Preview</span></p>
+
+            {/* PINK SLOTS - Only shows if lander has slots in landers.ts */}
+            {l.premiumSlots && (
+              <div className="flex flex-wrap gap-2 mt-3">
+                <span className="text-xs font-bold bg-pink-300 text-black px-3 py-1 rounded-full">PREMIUM - {l.premiumSlots}</span>
+                {l.exclusiveSlots && (
+                  <span className="text-xs font-bold bg-pink-300 text-black px-3 py-1 rounded-full">EXCLUSIVE - {l.exclusiveSlots}</span>
+                )}
+              </div>
+            )}
+
             <a href={`/shop/${l.slug}`} className="block text-center bg-white text-black font-bold py-2.5 rounded-full mt-3">View Details - $5 / $15 / $30 →</a>
             <a href={l.demoLink} target="_blank" className="block text-center bg-white/10 border border-white/20 font-bold py-2.5 rounded-full mt-2">Live Preview →</a>
             <a href="/blog/affiliate-marketing-for-beginners-with-no-money" className="block text-center bg-white/10 border border-white/20 font-bold py-2.5 rounded-full mt-2">See How It Works →</a>
