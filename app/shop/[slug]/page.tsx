@@ -37,11 +37,26 @@ export default function LanderPage({ params }: { params: { slug: string } }) {
       <h2 className="font-bold text-2xl mt-10 text-center">Choose Your Package</h2>
       <p className="text-center text-gray-400 text-sm mt-2">Preview the style, then learn how to use it with your own offer.</p>
 
+      {/* SLOTS - PINK TEXT ONLY, NO PLACARD, NO BACKGROUND */}
+      <div className="mt-4 space-y-1 text-center">
+        <p className="text-sm font-bold text-pink-400 tracking-wide">Starter - Unlimited</p>
+        <p className="text-sm font-bold text-pink-400 tracking-wide">Premium - Only 5 slots</p>
+        <p className="text-sm font-bold text-pink-400 tracking-wide">Exclusive - Only 2 slots</p>
+      </div>
+
       <div className="grid md:grid-cols-3 gap-4 mt-6">
         {lander.packages.map((p) => (
           <div key={p.name} className="bg-white/5 border border-white/10 rounded-2xl p-5 text-center">
             <h3 className="font-bold text-lg">{p.name}</h3>
             <p className="text-2xl font-bold mt-2">${p.price}</p>
+
+            {/* STARTER $5 - DISCOUNTED - CLOSE TO IT */}
+            {p.name === "Starter" && (
+              <p className="text-sm mt-1">
+                <span className="text-pink-400 font-semibold italic">- discounted</span>
+              </p>
+            )}
+
             <p className="text-xs text-gray-400 mt-3 leading-relaxed">
               {p.name === "Starter" && "Code file only. You set it up yourself."}
               {p.name === "Premium" && "We set it up for you with your link + photo."}
@@ -50,6 +65,11 @@ export default function LanderPage({ params }: { params: { slug: string } }) {
             <a href="/blog/affiliate-marketing-for-beginners-with-no-money" className="block text-center bg-white text-black font-bold py-2.5 rounded-full mt-4 text-sm">See How It Works →</a>
           </div>
         ))}
+      </div>
+
+      <div className="mt-8 text-center space-y-1">
+        <p className="text-sm text-gray-400">Exclusive includes Email Pack — 3 ready follow-up emails + steps to send them.</p>
+        <p className="text-sm text-gray-400">If you need help, you may message us.</p>
       </div>
 
       <p className="text-center text-xs text-gray-500 mt-10">Educational templates. Results vary based on effort and execution.</p>
