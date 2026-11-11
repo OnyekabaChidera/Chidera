@@ -31,7 +31,7 @@ export default function SugarBalance() {
         A simple 3-step daily routine busy people use to support balanced energy and healthier habits at home.
       </p>
 
-      <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800" alt="Woman in kitchen with healthy vegetables" className="w-full mt-6 rounded-lg object-cover" />
+      <img src="/images/sugar-balance.jpg" alt="Woman in kitchen with healthy vegetables" className="w-full mt-6 rounded-lg object-cover" />
 
       <a href="https://YOUR-AFFILIATE-LINK-HERE" target="_blank" className="block text-center bg-[#0E7C74] text-white text-[14px] font-medium py-3.5 px-4 rounded-full mt-5 mx-2">
         Get My Sugar Balance Plan —&gt;
