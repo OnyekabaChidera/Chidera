@@ -26,12 +26,27 @@ export default async function PreviewPage({ params }: { params: Promise<{ slug: 
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white p-4 md:p-8">
-      <div className="max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl font-bold">{lander.name} — Preview</h1>
-        <p className="text-gray-400 mt-2">{lander.headline}</p>
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-2xl font-bold text-left">{lander.name} — Preview</h1>
+        <p className="text-gray-400 mt-1 text-left text-[14px]">{lander.headline}</p>
 
-        {/* PREVIEW BOX */}
-        <div className="relative w-full mt-6 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '700px' }}>
+        {/* VIDEO */}
+        <div className="mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-black">
+          <video
+            src={`/previews/${lander.slug}.mp4`}
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls
+            poster={`/previews/${lander.slug}.jpg`}
+            className="w-full max-h-[500px] object-cover"
+          />
+          <p className="text-gray-400 text-xs py-2 px-3">▶ Watch it in action - 20 sec demo</p>
+        </div>
+
+        {/* PICTURE PREVIEW BOX */}
+        <div className="relative w-full mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '700px' }}>
           <Image
             src={`/previews/${lander.slug}.jpg`}
             alt={`${lander.name} Preview`}
@@ -45,24 +60,38 @@ export default async function PreviewPage({ params }: { params: Promise<{ slug: 
             <p className="text-black/20 font-black text-4xl rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur + 3 Buttons INSIDE */}
+          {/* Blur - LEFT CORNER, SMALL, COMPACT - YOUR VERSION */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[55%] flex flex-col items-center justify-center px-4"
+            className="absolute bottom-0 left-0 w-full h-[58%] flex flex-col items-start justify-end pb-6 pl-4 pr-4"
             style={{
               backdropFilter: 'blur(14px)',
               background: 'linear-gradient(to top, rgba(255,255,255,0.97), rgba(255,255,255,0))',
             }}
           >
-            <p className="text-black font-bold text-lg bg-white px-4 py-2 rounded-full shadow">Buy To Unlock Full Page</p>
-            <p className="text-zinc-600 text-sm mt-2 font-medium">Choose your plan:</p>
+            {/* CTA - SMALL, NOT BROAD */}
+            <p className="text-zinc-800 font-medium text-[13px] bg-white px-3 py-1.5 rounded-full shadow-sm inline-block">
+              Buy To Unlock Full Page
+            </p>
 
-            <div className="flex flex-col sm:flex-row gap-2 mt-3 w-full sm:w-auto">
-              <Link href="/shop" className="bg-black text-white rounded-full px-5 py-3 font-bold text-sm">Starter $5 →</Link>
-              <Link href="/shop" className="bg-zinc-800 text-white rounded-full px-5 py-3 font-bold text-sm">Premium $15 →</Link>
-              <Link href="/shop" className="bg-white text-black border-2 border-black rounded-full px-5 py-3 font-bold text-sm">Exclusive $30 →</Link>
+            <p className="text-zinc-500 text-[12px] mt-2">Choose your plan:</p>
+
+            {/* OPTIONS - SMALL TEXT NOW */}
+            <div className="flex flex-col gap-1.5 mt-1.5 items-start">
+              <Link href="/shop" className="bg-black text-white rounded-full px-4 py-2 text-[12px] font-medium w-[180px] text-center">
+                Starter $5 →
+              </Link>
+              <Link href="/shop" className="bg-zinc-800 text-white rounded-full px-4 py-2 text-[12px] font-medium w-[180px] text-center">
+                Premium $15 →
+              </Link>
+              {/* EXCLUSIVE - 2 SLOTS */}
+              <Link href="/shop" className="bg-white text-black border border-black rounded-full px-4 py-2 text-[12px] font-medium w-[180px] text-center">
+                Exclusive $30 • 2 Slots →
+              </Link>
             </div>
 
-            <p className="text-zinc-500 text-xs mt-3">Starter = Download Only • Premium = We Set It Up For You • Exclusive = Only For You</p>
+            <p className="text-zinc-500 text-[10px] leading-snug mt-2 text-left max-w-[250px]">
+              Starter = Download Only • Premium = We Set It Up For You • Exclusive = Only 2 Slots Available
+            </p>
           </div>
         </div>
 
