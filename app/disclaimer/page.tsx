@@ -14,7 +14,7 @@ export default function DisclaimerPage() {
         <p><strong>Last updated: November 5, 2026</strong></p>
 
         <p>
-          LeadVaultsHub (leadvaultshub.com) is a personal site that shares information about affiliate marketing, tools, online business, and ways to earn money online in Nigeria and diaspora.
+          LeadVaultsHub (leadvaultshub.com) is a personal site that shares information about affiliate marketing, digital tools, online business, and ways to earn money online in Nigeria and diaspora.
         </p>
 
         <h2 className="text-xl font-bold pt-4">Affiliate Disclosure</h2>
