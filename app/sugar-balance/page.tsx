@@ -1,9 +1,25 @@
 // ============================================
 // SUGAR BALANCE - LANDING PAGE TEMPLATE
-// HOW TO USE:
-// 1. Replace YOUR-AFFILIATE-LINK-HERE with your own link - 2 places
-// 2. Replace image in public/images/sugar-balance.jpg with your own
-// That's it. Save and publish.
+// FOR BEGINNERS - READ THIS FIRST:
+// ============================================
+// YOU ONLY NEED TO CHANGE 1 THING TO START EARNING:
+//
+// 1. YOUR AFFILIATE LINK (2 places)
+//    Search for: YOUR-AFFILIATE-LINK-HERE
+//    Replace it with your own link.
+//    Example: https://your-affiliate-network.com/your-link
+//
+// THAT'S IT. YOU ARE DONE.
+//
+// DO NOT CHANGE THE PICTURE.
+// The picture is already inside and already works.
+// If you need help, you may message us. We will show you what to do.
+//
+// OPTIONAL - LATER:
+// Search for: [PASTE 2-3 TESTIMONIALS...]
+// Replace it with 2-3 reviews from your product page.
+//
+// SAVE AND PUBLISH. DONE.
 // ============================================
 
 export const metadata = {
