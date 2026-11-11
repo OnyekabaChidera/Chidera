@@ -25,15 +25,16 @@ export default function ShopClient() {
             <h3 className="font-bold text-xl mt-3">{l.name}</h3>
             <p className="text-sm text-gray-300 mt-1">{l.headline}</p>
             <p className="text-sm text-gray-400 mt-2 leading-relaxed">{l.desc}</p>
-            <p className="text-sm mt-3">Price: <span className="text-green-400">Free Preview</span></p>
 
-            {/* PINK SLOTS - Only shows if lander has slots in landers.ts */}
+            <p className="text-sm mt-3">Price: <span className="text-green-400">Free Preview</span></p>
+            <p className="text-sm mt-1">Starter: <span className="font-bold text-white">$5</span> <span className="text-pink-400 font-semibold italic">- discounted</span></p>
+
+            {/* SLOTS - PINK TEXT ONLY, NO PLACARD, NO BACKGROUND */}
             {l.premiumSlots && (
-              <div className="flex flex-wrap gap-2 mt-3">
-                <span className="text-xs font-bold bg-pink-300 text-black px-3 py-1 rounded-full">PREMIUM - {l.premiumSlots}</span>
-                {l.exclusiveSlots && (
-                  <span className="text-xs font-bold bg-pink-300 text-black px-3 py-1 rounded-full">EXCLUSIVE - {l.exclusiveSlots}</span>
-                )}
+              <div className="mt-2 space-y-1">
+                <p className="text-sm font-bold text-pink-400 tracking-wide">Starter - Unlimited</p>
+                <p className="text-sm font-bold text-pink-400 tracking-wide">Premium - Only 5 slots</p>
+                <p className="text-sm font-bold text-pink-400 tracking-wide">Exclusive - Only 2 slots</p>
               </div>
             )}
 
