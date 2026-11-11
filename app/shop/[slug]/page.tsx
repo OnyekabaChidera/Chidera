@@ -37,11 +37,11 @@ export default function LanderPage({ params }: { params: { slug: string } }) {
       <h2 className="font-bold text-2xl mt-10 text-center">Choose Your Package</h2>
       <p className="text-center text-gray-400 text-sm mt-2">Preview the style, then learn how to use it with your own offer.</p>
 
-      {/* SLOTS - PINK TEXT ONLY, NO PLACARD, NO BACKGROUND */}
-      <div className="mt-4 space-y-1 text-center">
-        <p className="text-sm font-bold text-pink-400 tracking-wide">Starter - Unlimited</p>
-        <p className="text-sm font-bold text-pink-400 tracking-wide">Premium - Only 5 slots</p>
-        <p className="text-sm font-bold text-pink-400 tracking-wide">Exclusive - Only 2 slots</p>
+      {/* SLOTS - SAME FONT AS HOME PAGE (ROBOTO), JUST TINIER, NO PLACARD */}
+      <div className="mt-4 space-y-0.5 text-center" style={{ fontFamily: "var(--font-roboto), system-ui, sans-serif" }}>
+        <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Starter - Unlimited</p>
+        <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Premium - Only 5 slots</p>
+        <p className="text-[11px] font-normal text-pink-400 leading-relaxed">Exclusive - Only 2 slots</p>
       </div>
 
       <div className="grid md:grid-cols-3 gap-4 mt-6">
