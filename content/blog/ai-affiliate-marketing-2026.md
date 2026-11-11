@@ -29,7 +29,7 @@ Yes, you can start without paying for expensive software. You need internet acce
 
 It saves time. That is all.
 
-**And what AI can't do:**
+**What AI can't do:**
 - It can't build trust with your readers
 - It can't try a product for you
 - It can't make people buy
@@ -48,7 +48,7 @@ For exploring what people are searching for.
 For publishing blog posts without paying for website hosting.
 
 **Canva:**
-Canva has a free plan that includes the editor, free templates, and a limited number of AI uses. I use it for simple images.
+Canva has a free plan that includes the editor, free templates, and a limited number of AI uses. Best used for simple images.
 
 **Google Drive:**
 Completely free to use. I keep my drafts and notes there.
