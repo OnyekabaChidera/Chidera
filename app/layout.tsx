@@ -52,7 +52,7 @@ export default function RootLayout({
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1879277088078387" crossOrigin="anonymous"></script>
       </head>
-      <body className="antialiased" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
+      <body className="antialiased" style={{ fontFamily: "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" }}>
         <Header />
         {children}
         <footer className="text-center text-sm text-gray-400 py-6 border-t border-white/10">
