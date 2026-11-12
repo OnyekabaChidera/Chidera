@@ -34,7 +34,7 @@ export default function LanderPage({ params }: { params: { slug: string } }) {
         <p className="text-gray-300 mt-2 text-lg">{lander.headline}</p>
         <p className="text-gray-400 mt-3 leading-relaxed">{lander.desc}</p>
 
-        <a href={lander.demoLink} target="_blank" className="block text-center bg-white/10 border border-white/20 font-bold py-3 rounded-full mt-6">Live Preview →</a>
+        <a href={lander.demoLink} className="block text-center bg-white/10 border border-white/20 font-bold py-3 rounded-full mt-6">Live Preview →</a>
       </div>
 
       <h2 className="font-bold text-2xl mt-10 text-center">Choose Your Package</h2>
