@@ -53,7 +53,7 @@ export default function ShopClient() {
                 </>
               )}
 
-              <a href={l.demoLink} target="_blank" className="block text-center bg-white/10 border border-white/20 font-bold py-2.5 rounded-full mt-2">Live Preview →</a>
+              <a href={l.demoLink} className="block text-center bg-white/10 border border-white/20 font-bold py-2.5 rounded-full mt-2">Live Preview →</a>
               <a href="/blog/affiliate-marketing-for-beginners-with-no-money" className="block text-center bg-white/10 border border-white/20 font-bold py-2.5 rounded-full mt-2">See How It Works →</a>
             </div>
           );
