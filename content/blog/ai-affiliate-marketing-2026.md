@@ -39,7 +39,7 @@ Many creators already use it. Impact's report found that 96% of creators have ad
 ### Free AI Tools You Can Start With
 
 **ChatGPT:**
-ChatGPT has a free plan and works well for content and SEO tasks. I use it for topic ideas and rough outlines.
+ChatGPT has a free plan and works well for content and SEO tasks. Best used for topic ideas and rough outlines.
 
 **Google Trends:**
 For exploring what people are searching for.
@@ -48,7 +48,7 @@ For exploring what people are searching for.
 For publishing blog posts without paying for website hosting.
 
 **Canva:**
-Canva has a free plan that includes the editor, free templates, and a limited number of AI uses. Best used for simple images.
+Canva has a free plan that includes the editor, free templates, and a limited number of AI uses. I use it for simple images.
 
 **Google Drive:**
 Completely free to use. I keep my drafts and notes there.
