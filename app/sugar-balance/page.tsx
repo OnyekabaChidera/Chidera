@@ -19,35 +19,34 @@ export default function SugarBalancePage() {
             loop
             playsInline
             controls
-            // Poster removed - na this poster be the woman wey dey pop up on long-tap
+            poster={`/previews/sugar-balance.jpg`}
             className="w-full h-[190px] object-cover"
           />
           <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch teaser - 8 sec preview</p>
         </div>
 
-        {/* PREVIEW - WOMAN NO GO SHOW ON LONG-TAP */}
+        {/* PREVIEW - CANNOT LONG-PRESS TO SAVE ANYMORE */}
         <div
           className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white select-none"
-          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any, touchAction: 'pan-y' }}
+          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any, touchAction: 'pan-y' as any }}
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
         >
-          {/* Image as BACKGROUND */}
+          {/* Image as BACKGROUND, not <img> - iPhone can't Save to Photos this */}
           <div
-            className="absolute inset-0 pointer-events-none"
+            className="absolute inset-0"
             style={{
               backgroundImage: `url(/previews/sugar-balance.jpg)`,
               backgroundSize: 'cover',
               backgroundPosition: 'top',
               backgroundRepeat: 'no-repeat',
-              WebkitTouchCallout: 'none' as any,
             }}
           />
 
-          {/* Shield - blocks long-tap, but allows scroll */}
+          {/* Invisible shield - catches the tap / long-press - NOW WITH pan-y SO SCROLL WORKS */}
           <div 
             className="absolute inset-0" 
-            style={{ WebkitTouchCallout: 'none' as any, touchAction: 'pan-y' }}
+            style={{ WebkitTouchCallout: 'none' as any, touchAction: 'pan-y' as any }}
             onContextMenu={(e) => e.preventDefault()} 
           />
 
@@ -56,12 +55,11 @@ export default function SugarBalancePage() {
             <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - TAKEN UP BY 1x: 34% -> 42% */}
+          {/* Blur - SHIFTED UP: 34% -> 42% */}
           <div
             className="absolute bottom-0 left-0 w-full h-[42%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
             style={{
               backdropFilter: 'blur(14px)',
-              WebkitBackdropFilter: 'blur(14px)',
               background: 'linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0))',
             }}
           >
