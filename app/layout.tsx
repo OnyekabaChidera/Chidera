@@ -1,9 +1,23 @@
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata, Viewport } from "next";
+import { Roboto_Slab, Roboto } from "next/font/google";
 import Script from "next/script";
 import './globals.css';
 import CookieBanner from "./components/CookieBanner";
 import Header from "../components/Header";
+
+const robotoSlab = Roboto_Slab({
+  subsets: ['latin'],
+  variable: '--font-roboto-slab',
+  display: 'swap',
+});
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://leadvaultshub.com'),
@@ -48,11 +62,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark bg-[#12161c]" style={{ '--font-roboto': "'Roboto', sans-serif", '--font-roboto-slab': "'Roboto Slab', serif" } as React.CSSProperties}>
+    <html lang="en" className={`${robotoSlab.variable} ${roboto.variable} dark bg-[#12161c]`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab&display=swap" rel="stylesheet" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1879277088078387" crossOrigin="anonymous"></script>
       </head>
       <body className="antialiased">
