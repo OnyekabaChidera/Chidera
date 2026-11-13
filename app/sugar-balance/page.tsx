@@ -12,7 +12,7 @@ export default function SugarBalancePage() {
         <h1 className="text-xl font-bold">Sugar Balance — Preview</h1>
         <p className="text-gray-400 mt-1 text-[12px]">Your clean sugar balance landing page</p>
 
-        {/* VIDEO - SMALL, NOT TALL, NOT BROAD */}
+        {/* VIDEO - keep as is, will show when you upload mp4 */}
         <div className="mt-3 mx-auto w-full max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
@@ -27,13 +27,14 @@ export default function SugarBalancePage() {
           <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch it in action - 20 sec demo</p>
         </div>
 
-        {/* PREVIEW BOX - NOT STRETCHED ANYMORE */}
-        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white" style={{ height: '520px' }}>
+        {/* PREVIEW BOX - FULL IMAGE, NO STRETCH, NO CUT */}
+        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white">
           <Image
             src={`/previews/sugar-balance.jpg`}
             alt={`Sugar Balance Preview`}
-            fill
-            style={{ objectFit: 'cover', objectPosition: 'top' }}
+            width={680}
+            height={1400}
+            className="w-full h-auto block"
             priority
           />
 
@@ -44,7 +45,7 @@ export default function SugarBalancePage() {
 
           {/* Blur - LEFT SIDE, SMALL */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[55%] flex flex-col items-start justify-center pl-4"
+            className="absolute bottom-0 left-0 w-full h-[42%] flex flex-col items-start justify-center pl-4"
             style={{
               backdropFilter: 'blur(14px)',
               background: 'linear-gradient(to top, rgba(255,255,255,0.97), rgba(255,255,255,0))',
