@@ -25,13 +25,13 @@ export default async function PreviewPage({ params }: { params: Promise<{ slug: 
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-white p-4 md:p-8">
-      <div className="max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl font-bold">{lander.name} — Preview</h1>
-        <p className="text-gray-400 mt-2">{lander.headline}</p>
+    <div className="min-h-screen bg-zinc-950 text-white px-3 py-4">
+      <div className="max-w-[480px] mx-auto text-center w-full">
+        <h1 className="text-2xl font-bold">{lander.name} — Preview</h1>
+        <p className="text-gray-400 mt-1 text-[13px]">{lander.headline}</p>
 
         {/* VIDEO */}
-        <div className="mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-black">
+        <div className="mt-3 mx-auto w-full max-w-[440px] overflow-hidden rounded-2xl border border-zinc-800 bg-black">
           <video
             src={`/previews/${lander.slug}.mp4`}
             autoPlay
@@ -40,13 +40,13 @@ export default async function PreviewPage({ params }: { params: Promise<{ slug: 
             playsInline
             controls
             poster={`/previews/${lander.slug}.jpg`}
-            className="w-full max-h-[500px] object-cover"
+            className="w-full aspect-[4/3] max-h-[300px] object-cover"
           />
-          <p className="text-gray-400 text-xs py-2 px-3">▶ Watch it in action - 20 sec demo</p>
+          <p className="text-gray-400 text-xs py-2 px-3 text-center">▶ Watch it in action - 20 sec demo</p>
         </div>
 
         {/* PREVIEW BOX */}
-        <div className="relative w-full mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '700px' }}>
+        <div className="relative w-full mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '600px' }}>
           <Image
             src={`/previews/${lander.slug}.jpg`}
             alt={`${lander.name} Preview`}
