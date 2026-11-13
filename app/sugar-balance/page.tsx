@@ -7,13 +7,13 @@ export const metadata = {
 
 export default function SugarBalancePage() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white px-3 py-4">
-      <div className="max-w-[480px] mx-auto text-center w-full">
-        <h1 className="text-2xl font-bold">Sugar Balance — Preview</h1>
-        <p className="text-gray-400 mt-1 text-[13px]">Your clean sugar balance landing page</p>
+    <div className="min-h-screen bg-zinc-950 text-white px-2 py-3">
+      <div className="max-w-[360px] mx-auto text-center w-full">
+        <h1 className="text-xl font-bold">Sugar Balance — Preview</h1>
+        <p className="text-gray-400 mt-1 text-[12px]">Your clean sugar balance landing page</p>
 
-        {/* VIDEO - NARROWER, CENTRED, NOT BROAD */}
-        <div className="mt-3 mx-auto w-full max-w-[440px] overflow-hidden rounded-2xl border border-zinc-800 bg-black">
+        {/* VIDEO - SMALL, NOT TALL, NOT BROAD */}
+        <div className="mt-3 mx-auto w-full max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
             autoPlay
@@ -22,27 +22,27 @@ export default function SugarBalancePage() {
             playsInline
             controls
             poster={`/previews/sugar-balance.jpg`}
-            className="w-full aspect-[4/3] max-h-[300px] object-cover"
+            className="w-full h-[190px] object-cover"
           />
-          <p className="text-gray-400 text-xs py-2 px-3 text-center">▶ Watch it in action - 20 sec demo</p>
+          <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch it in action - 20 sec demo</p>
         </div>
 
-        {/* PREVIEW BOX */}
-        <div className="relative w-full mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '600px' }}>
+        {/* PREVIEW BOX - NOT STRETCHED ANYMORE */}
+        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white" style={{ height: '520px' }}>
           <Image
             src={`/previews/sugar-balance.jpg`}
             alt={`Sugar Balance Preview`}
             fill
-            style={{ objectFit: 'top', objectPosition: 'top' }}
+            style={{ objectFit: 'cover', objectPosition: 'top' }}
             priority
           />
 
           {/* Watermark */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <p className="text-black/20 font-black text-4xl rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
+            <p className="text-black/20 font-black text-3xl rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - LEFT SIDE, SMALL, ORIGINAL COLOURS */}
+          {/* Blur - LEFT SIDE, SMALL */}
           <div
             className="absolute bottom-0 left-0 w-full h-[55%] flex flex-col items-start justify-center pl-4"
             style={{
@@ -71,7 +71,7 @@ export default function SugarBalancePage() {
           </div>
         </div>
 
-        <Link href="/shop" className="inline-block text-gray-400 mt-6">← Back to Shop</Link>
+        <Link href="/shop" className="inline-block text-gray-400 mt-5 text-sm">← Back to Shop</Link>
       </div>
     </div>
   );
