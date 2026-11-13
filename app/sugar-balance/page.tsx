@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export const metadata = {
   robots: "noindex, nofollow",
@@ -12,7 +11,6 @@ export default function SugarBalancePage() {
         <h1 className="text-xl font-bold">Sugar Balance — Preview</h1>
         <p className="text-gray-400 mt-1 text-[12px]">Your clean sugar balance landing page</p>
 
-        {/* VIDEO - TEASER ONLY */}
         <div className="mt-3 mx-auto w-full max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
@@ -27,24 +25,35 @@ export default function SugarBalancePage() {
           <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch teaser - 8 sec preview</p>
         </div>
 
-        {/* PREVIEW BOX - WOMAN SHOWS MORE NOW */}
-        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white" style={{ height: '680px' }}>
-          <Image
-            src={`/previews/sugar-balance.jpg`}
-            alt={`Sugar Balance Preview`}
-            fill
-            style={{ objectFit: 'cover', objectPosition: 'top' }}
-            priority
+        {/* PREVIEW - CANNOT LONG-PRESS TO SAVE ANYMORE */}
+        <div
+          className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white select-none"
+          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any }}
+          onContextMenu={(e) => e.preventDefault()}
+          onDragStart={(e) => e.preventDefault()}
+        >
+          {/* Image as BACKGROUND, not <img> - iPhone can't Save to Photos this */}
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url(/previews/sugar-balance.jpg)`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'top',
+              backgroundRepeat: 'no-repeat',
+            }}
           />
+
+          {/* Invisible shield - catches the tap / long-press */}
+          <div className="absolute inset-0" onContextMenu={(e) => e.preventDefault()} />
 
           {/* Watermark - SMALL */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - PUSHED DOWN, SMALLER */}
+          {/* Blur - 34% as you wanted */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[30%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
+            className="absolute bottom-0 left-0 w-full h-[34%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
             style={{
               backdropFilter: 'blur(14px)',
               background: 'linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0))',
