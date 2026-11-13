@@ -151,7 +151,7 @@ export default function HomeClient() {
           <span>•</span>
           <a href="/refund-policy" className="hover:text-white">Refund Policy</a>
         </div>
-        <p> Educational content and digital templates. Results vary based on effort and execution.</p>
+        <p> Educational and digital content. Results vary based on effort and execution.</p>
       </footer>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
