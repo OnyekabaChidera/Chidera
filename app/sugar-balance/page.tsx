@@ -12,7 +12,7 @@ export default function SugarBalancePage() {
         <h1 className="text-xl font-bold">Sugar Balance — Preview</h1>
         <p className="text-gray-400 mt-1 text-[12px]">Your clean sugar balance landing page</p>
 
-        {/* VIDEO */}
+        {/* VIDEO - TEASER ONLY, NOT FULL */}
         <div className="mt-3 mx-auto w-full max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
@@ -24,11 +24,11 @@ export default function SugarBalancePage() {
             poster={`/previews/sugar-balance.jpg`}
             className="w-full h-[190px] object-cover"
           />
-          <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch it in action - 20 sec demo</p>
+          <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch teaser - 8 sec preview</p>
         </div>
 
         {/* PREVIEW BOX - CUT AFTER WOMAN, BLUR STARTS THERE */}
-        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white" style={{ height: '620px' }}>
+        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white" style={{ height: '640px' }}>
           <Image
             src={`/previews/sugar-balance.jpg`}
             alt={`Sugar Balance Preview`}
@@ -37,23 +37,23 @@ export default function SugarBalancePage() {
             priority
           />
 
-          {/* Watermark */}
+          {/* Watermark - SMALLER, LIGHTER, NOT BOLD */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <p className="text-black/20 font-black text-3xl rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
+            <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - STARTS CLOSE TO WOMAN, COVERS REST */}
+          {/* Blur - TALLER SO INSTRUCTION SHOWS FULLY */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[32%] flex flex-col items-start justify-center pl-4"
+            className="absolute bottom-0 left-0 w-full h-[38%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
             style={{
               backdropFilter: 'blur(14px)',
               background: 'linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0))',
             }}
           >
-            <p className="text-black font-medium text-[13px] bg-white px-3 py-1.5 rounded-full shadow">Buy To Unlock Full Page</p>
+            <p className="text-black font-medium text-[13px] bg-white px-3 py-1.5 rounded-full shadow">Own This Page</p>
             <p className="text-zinc-600 text-[12px] mt-2 font-medium">Choose your plan:</p>
 
-            <div className="flex flex-col gap-1.5 mt-1.5 items-start">
+            <div className="flex flex-col gap-1.5 mt-1.5 items-start w-full">
               <Link href="/shop" className="bg-black text-white rounded-full px-4 py-2 text-[12px] font-medium w-[180px] text-center whitespace-nowrap">
                 Starter $5 →
               </Link>
@@ -65,8 +65,11 @@ export default function SugarBalancePage() {
               </Link>
             </div>
 
-            <p className="text-zinc-500 text-[10px] leading-snug mt-2 text-left max-w-[250px]">
-              Starter = Download Only • Premium = We Set It Up For You • Exclusive = Only For You • 2 Slots Only
+            {/* Instruction - NOW WRAPS TO 2 LINES, NOT CUT OFF */}
+            <p className="text-zinc-500 text-[10px] leading-relaxed mt-2 text-left w-full">
+              Starter = Download Only<br />
+              Premium = We Set It Up For You<br />
+              Exclusive = Only For You • 2 Slots Only
             </p>
           </div>
         </div>
