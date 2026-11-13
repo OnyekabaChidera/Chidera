@@ -25,14 +25,14 @@ export default function SugarBalancePage() {
           <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch teaser - 8 sec preview</p>
         </div>
 
-        {/* PREVIEW - CANNOT LONG-PRESS TO SAVE ANYMORE */}
+        {/* PREVIEW */}
         <div
           className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white select-none"
-          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any }}
+          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any, touchAction: 'pan-y' as any }}
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
         >
-          {/* Image as BACKGROUND, not <img> - iPhone can't Save to Photos this */}
+          {/* Image as BACKGROUND */}
           <div
             className="absolute inset-0"
             style={{
@@ -43,20 +43,19 @@ export default function SugarBalancePage() {
             }}
           />
 
-          {/* Invisible shield - catches the tap / long-press */}
-          <div className="absolute inset-0" onContextMenu={(e) => e.preventDefault()} />
+          {/* SHIELD REMOVED - na e dey block blur and block scroll */}
 
           {/* Watermark - SMALL */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - 34% as you wanted - SAME, NO CHANGE TO HEIGHT OR BLUR */}
-          {/* ONLY CHANGE: added onContextMenu + WebkitTouchCallout to THIS div so long-tap no go peek full image */}
+          {/* Blur - 34% SAME AS YOUR GOOD CODE, but with WebkitBackdropFilter so iPhone go show am */}
           <div
             className="absolute bottom-0 left-0 w-full h-[34%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
             style={{
               backdropFilter: 'blur(14px)',
+              WebkitBackdropFilter: 'blur(14px)' as any,
               background: 'linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0))',
               WebkitTouchCallout: 'none' as any,
             }}
