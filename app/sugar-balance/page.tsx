@@ -12,7 +12,7 @@ export default function SugarBalancePage() {
         <h1 className="text-xl font-bold">Sugar Balance — Preview</h1>
         <p className="text-gray-400 mt-1 text-[12px]">Your clean sugar balance landing page</p>
 
-        {/* VIDEO - keep as is, will show when you upload mp4 */}
+        {/* VIDEO */}
         <div className="mt-3 mx-auto w-full max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
@@ -27,14 +27,13 @@ export default function SugarBalancePage() {
           <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch it in action - 20 sec demo</p>
         </div>
 
-        {/* PREVIEW BOX - FULL IMAGE, NO STRETCH, NO CUT */}
-        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white">
+        {/* PREVIEW BOX - CUT AFTER WOMAN, BLUR STARTS THERE */}
+        <div className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white" style={{ height: '620px' }}>
           <Image
             src={`/previews/sugar-balance.jpg`}
             alt={`Sugar Balance Preview`}
-            width={680}
-            height={1400}
-            className="w-full h-auto block"
+            fill
+            style={{ objectFit: 'cover', objectPosition: 'top' }}
             priority
           />
 
@@ -43,12 +42,12 @@ export default function SugarBalancePage() {
             <p className="text-black/20 font-black text-3xl rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - LEFT SIDE, SMALL */}
+          {/* Blur - STARTS CLOSE TO WOMAN, COVERS REST */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[42%] flex flex-col items-start justify-center pl-4"
+            className="absolute bottom-0 left-0 w-full h-[32%] flex flex-col items-start justify-center pl-4"
             style={{
               backdropFilter: 'blur(14px)',
-              background: 'linear-gradient(to top, rgba(255,255,255,0.97), rgba(255,255,255,0))',
+              background: 'linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0))',
             }}
           >
             <p className="text-black font-medium text-[13px] bg-white px-3 py-1.5 rounded-full shadow">Buy To Unlock Full Page</p>
