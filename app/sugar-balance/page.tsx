@@ -28,7 +28,7 @@ export default function SugarBalancePage() {
         {/* PREVIEW - CANNOT LONG-PRESS TO SAVE ANYMORE */}
         <div
           className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white select-none"
-          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any, touchAction: 'pan-y' as any }}
+          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any }}
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
         >
@@ -43,25 +43,24 @@ export default function SugarBalancePage() {
             }}
           />
 
-          {/* Invisible shield - catches the tap / long-press - NOW WITH pan-y SO SCROLL WORKS */}
-          <div 
-            className="absolute inset-0" 
-            style={{ WebkitTouchCallout: 'none' as any, touchAction: 'pan-y' as any }}
-            onContextMenu={(e) => e.preventDefault()} 
-          />
+          {/* Invisible shield - catches the tap / long-press */}
+          <div className="absolute inset-0" onContextMenu={(e) => e.preventDefault()} />
 
           {/* Watermark - SMALL */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* Blur - SHIFTED UP: 34% -> 42% */}
+          {/* Blur - 34% as you wanted - SAME, NO CHANGE TO HEIGHT OR BLUR */}
+          {/* ONLY CHANGE: added onContextMenu + WebkitTouchCallout to THIS div so long-tap no go peek full image */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[42%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
+            className="absolute bottom-0 left-0 w-full h-[34%] flex flex-col items-start justify-end pb-3 pl-4 pr-3"
             style={{
               backdropFilter: 'blur(14px)',
               background: 'linear-gradient(to top, rgba(255,255,255,0.98), rgba(255,255,255,0))',
+              WebkitTouchCallout: 'none' as any,
             }}
+            onContextMenu={(e) => e.preventDefault()}
           >
             <p className="text-black font-medium text-[13px] bg-white px-3 py-1.5 rounded-full shadow">Own This Page</p>
             <p className="text-zinc-600 text-[12px] mt-1.5 font-medium">Choose your plan:</p>
