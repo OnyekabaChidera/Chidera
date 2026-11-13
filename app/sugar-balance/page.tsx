@@ -7,11 +7,11 @@ export const metadata = {
 export default function SugarBalancePage() {
   return (
     <div className="min-h-screen bg-zinc-950 text-white px-2 py-3">
-      <div className="max-w-[360px] mx-auto text-center w-full">
+      <div className="max-w-[375px] mx-auto text-center w-full">
         <h1 className="text-xl font-bold">Sugar Balance — Preview</h1>
         <p className="text-gray-400 mt-1 text-[12px]">Your clean sugar balance landing page</p>
 
-        <div className="mt-3 mx-auto w-full max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
+        <div className="mt-3 mx-auto w-full max-w-[350px] overflow-hidden rounded-xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
             autoPlay
@@ -25,10 +25,10 @@ export default function SugarBalancePage() {
           <p className="text-gray-400 text-[11px] py-2 px-2 text-center">▶ Watch teaser - 8 sec preview</p>
         </div>
 
-        {/* PREVIEW - NO onContextMenu AGAIN, SO VERCEL GO BUILD */}
+        {/* PREVIEW - BIGGER BY 1 STEP, STILL VERCEL-SAFE */}
         <div
-          className="relative w-full mt-3 mx-auto max-w-[340px] overflow-hidden rounded-xl border border-zinc-800 bg-white select-none"
-          style={{ height: '680px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any }}
+          className="relative w-full mt-3 mx-auto max-w-[350px] overflow-hidden rounded-xl border border-zinc-800 bg-white select-none"
+          style={{ height: '700px', WebkitTouchCallout: 'none' as any, WebkitUserSelect: 'none' as any }}
         >
           {/* Top image - clear */}
           <div
@@ -46,7 +46,7 @@ export default function SugarBalancePage() {
             <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* BOTTOM 34% - REAL BLUR, NO backdropFilter */}
+          {/* BOTTOM 34% - SAME PERFECT BLUR */}
           <div
             className="absolute bottom-0 left-0 w-full h-[34%] overflow-hidden"
             style={{ WebkitTouchCallout: 'none' as any }}
