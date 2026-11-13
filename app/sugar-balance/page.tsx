@@ -46,9 +46,9 @@ export default function SugarBalancePage() {
             <p className="text-black/10 font-medium text-[11px] tracking-widest rotate-[-20deg]">LEADVAULTSHUB DEMO</p>
           </div>
 
-          {/* BOTTOM 34% - REAL BLUR, NO backdropFilter */}
+          {/* BOTTOM - BLUR COME DOWN A BIT: 34% -> 28% */}
           <div
-            className="absolute bottom-0 left-0 w-full h-[34%] overflow-hidden"
+            className="absolute bottom-0 left-0 w-full h-[28%] overflow-hidden"
             style={{ WebkitTouchCallout: 'none' as any }}
           >
             {/* Same image, blurred by itself */}
