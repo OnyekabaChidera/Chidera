@@ -24,7 +24,7 @@ export default function Header() {
           <Link href="/" className="text-sm font-medium text-slate-300 hover:text-white">Home</Link>
           <Link href="/networks" className="text-[15px] font-normal text-neutral-300 hover:text-white">Networks</Link>
           <Link href="/shop" className="text-[15px] font-normal text-neutral-300 hover:text-white">Shop</Link>
-          <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers <span className="text-pink-500">→</span></Link>
+          <Link href="/shop" style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-[14px] px-4 py-2 rounded-full">Shop Landers <span style={{ color: '#FF2E9A' }}>→</span></Link>
         </nav>
 
         {/* MOBILE - FIXED SPACING + ALIGNMENT */}
@@ -40,7 +40,7 @@ export default function Header() {
         <nav className="md:hidden border-t border-white/10 px-6 py-5 flex flex-col gap-5 bg-[#030a05]">
           <Link href="/networks" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Networks</Link>
           <Link href="/shop" onClick={() => setOpen(false)} className="text-[16px] font-normal text-neutral-200">Shop</Link>
-          <Link href="/shop" onClick={() => setOpen(false)} style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-center text-[15px] tracking-[-0.01em] px-6 py-3.5 rounded-full">Shop Landers <span className="text-pink-500">→</span></Link>
+          <Link href="/shop" onClick={() => setOpen(false)} style={{ fontFamily: shopFont, fontWeight: 500 }} className="bg-white text-black text-center text-[15px] tracking-[-0.01em] px-6 py-3.5 rounded-full">Shop Landers <span style={{ color: '#FF2E9A' }}>→</span></Link>
         </nav>
       )}
     </header>
