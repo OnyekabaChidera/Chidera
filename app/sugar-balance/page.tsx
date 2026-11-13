@@ -7,13 +7,13 @@ export const metadata = {
 
 export default function SugarBalancePage() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-white p-4 md:p-8">
-      <div className="max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl font-bold">Sugar Balance — Preview</h1>
-        <p className="text-gray-400 mt-2">Your clean sugar balance landing page</p>
+    <div className="min-h-screen bg-zinc-950 text-white px-3 py-4">
+      <div className="max-w-[480px] mx-auto text-center w-full">
+        <h1 className="text-2xl font-bold">Sugar Balance — Preview</h1>
+        <p className="text-gray-400 mt-1 text-[13px]">Your clean sugar balance landing page</p>
 
         {/* VIDEO - NARROWER, CENTRED, NOT BROAD */}
-        <div className="mt-4 mx-auto w-full max-w-[520px] overflow-hidden rounded-2xl border border-zinc-800 bg-black">
+        <div className="mt-3 mx-auto w-full max-w-[440px] overflow-hidden rounded-2xl border border-zinc-800 bg-black">
           <video
             src={`/previews/sugar-balance.mp4`}
             autoPlay
@@ -22,13 +22,13 @@ export default function SugarBalancePage() {
             playsInline
             controls
             poster={`/previews/sugar-balance.jpg`}
-            className="w-full aspect-[4/3] max-h-[340px] object-cover"
+            className="w-full aspect-[4/3] max-h-[300px] object-cover"
           />
           <p className="text-gray-400 text-xs py-2 px-3 text-center">▶ Watch it in action - 20 sec demo</p>
         </div>
 
         {/* PREVIEW BOX */}
-        <div className="relative w-full mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '700px' }}>
+        <div className="relative w-full mt-4 overflow-hidden rounded-2xl border border-zinc-800 bg-white" style={{ height: '600px' }}>
           <Image
             src={`/previews/sugar-balance.jpg`}
             alt={`Sugar Balance Preview`}
