@@ -9,9 +9,9 @@ adsense_safe: true
 ---
 ![Email Marketing for Beginners 2026 LeadVaultsHub](/blog/email-marketing-for-beginners-2026..webp)
 
-Building email list isn’t a big deal, with the right infos and softwares.When I started affiliate marketing, I ignored email list for 2 months. Everyone said "the money is in the list" and I thought it was guru talk.
+Building email list isn’t a big deal, with the right infos and softwares. When I started affiliate marketing business, I ignored email list for 2 months. Everyone said "the money is in the list" and I thought it was guru talk.
 
-Then my Pinterest unfortunately got shadowbanned for 2 weeks. Traffic dropped to zero overnight. That was the day I understood Pinterest, TikTok, Google can take your traffic anytime. Your email list is the only traffic you own.
+Then my Pinterest unfortunately got shadowbanned for weeks. Traffic dropped to zero overnight. That was the day I understood Pinterest, TikTok, Google can take your traffic anytime. Your email list is the only traffic you own.
 
 You don't need 10,000 people. I started with 4 subscribers. 2 were my friends living nearby.
 
@@ -37,11 +37,11 @@ Don't pay $29/month when you have 0 subscribers.
 
 I use these 3, all works in Nigeria and everywhere else:
 
-- **Systeme.io** - Free up to 2,000 contacts, landing page + email in one place. This is what I use now.
+- **Systeme.io** - Free up to 2,000 contacts, landing page + email in one place. 
 - **MailerLite** - Free up to 1,000 subscribers, very simple
 - **Brevo** - Free up to 300 emails per day
 
-Pick ONE and stay 6 months. I started with MailerLite, switched to Systeme.io because it's all-in-one.
+Pick ONE and stay 6 months. I started with MailerLite, switched to Systeme.io.
 
 ## Step 2: Create a Freebie People Actually Want
 
@@ -67,7 +67,7 @@ Now I put it in 3 places:
 
 2. **WhatsApp Status / Facebook Groups** - I answer a question properly, then say "I made a checklist for this, want it?"
 
-3. **Popup after 40 seconds** - I hate popups but it brings a few extra weekly.
+3. **Popup after 40 seconds** - I actually hate popups but it brings a few extra weekly.
 
 Just ask for email. Don't ask for name, phone. Every extra field kills signups.
 
