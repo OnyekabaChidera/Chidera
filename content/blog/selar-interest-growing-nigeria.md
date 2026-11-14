@@ -64,11 +64,11 @@ Good starters: small business guides, CV templates, exam prep.
 
 ### Step 3: Get Your Affiliate Link
 
-Copy your unique link and save it in your Notes app or anywhere safe for you. This is your shop.
+Copy your unique link and save it in your Notes app or anywhere safe for you. Buy or build landing pages for better conversion. That is your shop.
 
 ### Step 4: Create Content That Rides The Trend
 
-Don't spam your link. Answer what people are already searching for:
+Don't spam your link. Answer relevant questions. Answer what people are already searching for:
 
 Post title ideas:
 - "Is Selar Legit in Nigeria? I Tried It For 7 Days"
